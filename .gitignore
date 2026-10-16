@@ -11,6 +11,7 @@ previa-3d/node_modules/
 previa-3d/dist/
 previa-3d/.vite/
 previa-3d/validacao/arraste-video/
+previa-3d/validacao/portfolio-video/
 
 # Local research downloads; source URLs and response metadata remain versioned.
 evidencias/arquitetura/*.pdf

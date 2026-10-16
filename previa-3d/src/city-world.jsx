@@ -32,25 +32,32 @@ function HospitalLabels({world,activeId,onHospital}){
     </Html>;
   });
 }
-function CityCars({world,paused}){
+function CityCars({world,paused,activeSite}){
   const mesh=useRef(),clock=useRef(0);
-  const routes=useMemo(()=>Array.from({length:44},(_,i)=>({horizontal:i%2===0,
-    lane:i%2===0?world.rows[(i*7)%(world.rows.length-1)]+BLOCK/2:world.cols[(i*7)%(world.cols.length-1)]+BLOCK/2,
-    phase:(i*.61803398875)%1,speed:2.4+(i%4)*.5,color:['#438bdc','#e5b74c','#e07c76','#f4f5ec','#579f95'][i%5]})),[world]);
+  const routes=useMemo(()=>[...Array.from({length:132},(_,i)=>({horizontal:i%2===0,
+    lane:i%2===0?world.rows[Math.floor(i/2)%(world.rows.length-1)]+BLOCK/2:world.cols[Math.floor(i/2)%(world.cols.length-1)]+BLOCK/2,
+    ambulance:i%9===0,direction:i%4<2?1:-1,
+    phase:(i*.61803398875)%1,speed:2.4+(i%4)*.5,color:['#438bdc','#e5b74c','#e07c76','#f4f5ec','#579f95'][i%5]})),...Array.from({length:20},(_,i)=>({horizontal:i%2===0,lane:(i%2===0?activeSite.z:activeSite.x)+(i%4<2?-BLOCK/2:BLOCK/2),phase:(i*.61803398875)%1,speed:2.8+(i%3)*.4,direction:i%3===0?-1:1,ambulance:i%5===0,color:['#438bdc','#e5b74c','#e07c76','#f4f5ec','#579f95'][i%5],local:true}))],[world,activeSite.x,activeSite.z]);
   const parts=[{at:[0,.5,0],size:[1.25,.5,2.6]},{at:[0,.91,-.1],size:[1.05,.5,1.25]},
     {at:[0,.96,.55],size:[.9,.3,.04],color:'#5486a2'},
+    {at:[-.3,1.55,-.1],size:[.25,.14,.3],color:'#ef4c59',emergency:true},
+    {at:[.3,1.55,-.1],size:[.25,.14,.3],color:'#468fff',emergency:true},
+    {at:[.64,1,-.3],size:[.04,.48,.14],color:'#d84c59',emergency:true},
+    {at:[.64,1,-.3],size:[.04,.14,.48],color:'#d84c59',emergency:true},
     ...[-.65,.65].flatMap(x=>[-.8,.8].map(z=>({at:[x,.28,z],size:[.18,.4,.4],color:'#3d5262'})))];
   useFrame((_,delta)=>{
     if(!paused)clock.current+=Math.min(delta,.1);
     const obj=new THREE.Object3D(),color=new THREE.Color();
     routes.forEach((r,i)=>{
-      const length=r.horizontal?world.width:world.depth;
-      const t=(r.phase*length+clock.current*r.speed)%length;
-      const x=r.horizontal?world.minX+t:r.lane+.9,z=r.horizontal?r.lane-.9:world.minZ+t;
+      const length=r.local?BLOCK*3:r.horizontal?world.width:world.depth;
+      const originX=r.local?activeSite.x-BLOCK*1.5:world.minX,originZ=r.local?activeSite.z-BLOCK*1.5:world.minZ;
+      const t=((r.phase*length+clock.current*r.speed*r.direction)%length+length)%length;
+      const x=r.horizontal?originX+t:r.lane+.9*r.direction,z=r.horizontal?r.lane-.9*r.direction:originZ+t;
       parts.forEach((p,j)=>{
-        obj.position.set(x+(r.horizontal?p.at[2]:p.at[0]),p.at[1],z+(r.horizontal?-p.at[0]:p.at[2]));
-        obj.scale.set(...p.size);obj.rotation.set(0,r.horizontal?Math.PI/2:0,0);obj.updateMatrix();
-        const index=i*parts.length+j;mesh.current.setMatrixAt(index,obj.matrix);mesh.current.setColorAt(index,color.set(p.color||r.color));
+        const angle=(r.horizontal?Math.PI/2:0)+(r.direction<0?Math.PI:0);
+        obj.position.set(x+p.at[0]*Math.cos(angle)+p.at[2]*Math.sin(angle),r.ambulance&&j===1?1.02:p.at[1],z-p.at[0]*Math.sin(angle)+p.at[2]*Math.cos(angle));
+        obj.scale.set(...(p.emergency&&!r.ambulance?[0,0,0]:r.ambulance&&j===1?[1.18,1.05,1.9]:p.size));obj.rotation.set(0,angle,0);obj.updateMatrix();
+        const index=i*parts.length+j;mesh.current.setMatrixAt(index,obj.matrix);mesh.current.setColorAt(index,color.set(p.color||(r.ambulance?'#f8fafc':r.color)));
       });
     });
     mesh.current.instanceMatrix.needsUpdate=true;if(mesh.current.instanceColor)mesh.current.instanceColor.needsUpdate=true;
@@ -70,6 +77,7 @@ export default function CityWorld({world,activeId,onHospital,detail,paused}){
   });
   const geometry=useMemo(()=>buildCityGeometry(world,detail,region),[world,detail,region]);
   const h=world.sites.find(h=>h.cnes===activeId)||world.sites[0];
+  const pedestrianSites=useMemo(()=>world.sites.filter(site=>site.cnes===activeId||Math.hypot(site.x-region.x,site.z-region.z)<Math.min(region.radius,126)).sort((a,b)=>Math.hypot(a.x-region.x,a.z-region.z)-Math.hypot(b.x-region.x,b.z-region.z)).slice(0,14),[world,region,activeId]);
   return <group>
     <Box at={[world.center[0],-.2,world.center[2]]} size={[world.width+BLOCK,.3,world.depth+BLOCK]} color="#bad09b"/>
     <Instances items={geometry.streets}/><Instances items={geometry.buildings}/><Instances items={geometry.foliage} round/>
@@ -78,8 +86,8 @@ export default function CityWorld({world,activeId,onHospital,detail,paused}){
     </group>
     <Box at={[h.x,.37,h.z]} size={[34,.1,32]} color="#89b8e9"/>
     <Sign text={h.shortName} at={[h.x,Math.max(3,h.height*.6),h.z+10]} size={[12,1]} color="#2369b2"/>
-    <group position={[h.x,0,h.z+12]}><Person walk paused={paused} color="#3a9fba"/><Person walk paused={paused} phase={8} color="#d7a45c"/></group>
+    {pedestrianSites.map(site=><group key={site.cnes} position={[site.x,0,site.z+16.5]}>{Array.from({length:5},(_,i)=><group key={i} position={[(i%2)*.5,0,(i%3)*.5]}><Person walk walkDepth={2.4} paused={paused} phase={i*4+Number(site.cnes)%13} color={['#3a9fba','#d7a45c','#bc779b','#e8eef6','#659d75'][i]}/></group>)}</group>)}
     <HospitalLabels world={world} activeId={activeId} onHospital={onHospital}/>
-    <CityCars world={world} paused={paused}/>
+    <CityCars world={world} paused={paused} activeSite={h}/>
   </group>;
 }

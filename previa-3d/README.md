@@ -115,3 +115,12 @@ npm run build
 - A transformação atual foi gravada a partir da prévia em `validacao/abertura-hospital.gif`; as capturas `hospital-montado.png`, `hospital-abrindo.png` e `hospital-aberto.png` registram as etapas. A gravação é apenas documentação: no site, a transformação acontece na cena Three.js interativa.
 - Não verificados: distribuição física por andar, planta interior, correspondência com leitos físicos e desempenho em celulares reais. Nenhum site remoto foi publicado ou modificado.
 - As ruas, praças, volumes e distâncias visuais da cidade ampliada são ilustrativos; apenas as referências cadastrais de localização e os dados assistenciais indicados vêm das fontes coletadas. Nenhuma nova coleta de ocupação foi feita nesta ampliação: permanece o snapshot de 15/10/2026 às 20h13.
+
+
+## Cards de informações do hospital
+
+A cidade inclui 152 veículos decorativos, sendo 19 ambulâncias, com circulação nos dois sentidos e tráfego adicional próximo ao hospital selecionado. Pedestres caminham nas áreas frontais de até 14 hospitais próximos à câmera. O botão de pausa controla esses movimentos. Não representam GPS, equipes ou deslocamentos reais.
+
+O botão “Dados e localização”, na ficha do mapa e na barra do interior, abre cards com ocupação percentual e por clínica, permanência até/acima de 24h quando disponível, endereço e link de mapa pelas coordenadas CNES. A aba Cadastro e fontes apresenta capacidade, registros SUS, competência e links oficiais. O card do interior também exibe o percentual total; a legenda dos leitos mostra o percentual da vista filtrada.
+
+A média de permanência em horas não é calculável pelas duas faixas fornecidas na API consultada e aparece como não disponível. Os indicadores continuam usando o snapshot salvo, sem atualização automática. Ausência de cobertura permanece distinta de zero.

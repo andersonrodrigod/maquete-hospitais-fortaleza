@@ -7,6 +7,7 @@ import {createSceneHospital,bedCounts} from './scene-data';
 import {createCityLayout} from './city-layout';
 import CityDirectory from './city-directory';
 import EmergencyPanel from './emergency-panel';
+import HospitalInfo,{occupancyPercent} from './hospital-info';
 import './style.css';
 
 class SceneBoundary extends Component {
@@ -26,6 +27,7 @@ function App(){
   const [floorId,setFloorId]=useState(null);
   const [dataMode,setDataMode]=useState('monitoring');
   const [emergencyOpen,setEmergencyOpen]=useState(false);
+  const [infoOpen,setInfoOpen]=useState(false);
   const [cityDirectory,setCityDirectory]=useState(()=>window.innerWidth>650);
   const [assembly,setAssembly]=useState({mode:'open',serial:0}),[assemblyStage,setAssemblyStage]=useState(0);
   const transforming=assembly.mode==='opening'||assembly.mode==='closing',interiorOpen=assembly.mode==='open';
@@ -95,6 +97,7 @@ function App(){
         <h2>{rawHospital.name}</h2>
         <p className="city-address">{rawHospital.location?.street}, {rawHospital.location?.number}</p>
         {rawHospital.monitoring?<div className="city-card-counts"><b>{rawHospital.monitoring.occupied}<small>ocupados</small></b><b>{rawHospital.monitoring.free}<small>livres na coleta</small></b><span>{rawHospital.monitoring.total} no recorte IntegraSUS<br/>{dateTime(data.monitoringConsultedAt)}</span></div>:<p>{rawHospital.total} registros CNES · ocupação desconhecida.</p>}
+        <button className="emergency-open" onClick={()=>setInfoOpen(true)}>Dados e localização ↗</button>
         <button className="primary-button" onClick={()=>enter()}>Entrar neste hospital ↗</button>
         <button className="emergency-open" onClick={()=>setEmergencyOpen(true)}>Emergência{rawHospital.emergency?.available?` · ${rawHospital.emergency.total} no recorte`:' · consultar cobertura'} ↗</button>
         <div className="detail-note">Prédio e andares ilustrativos. Pessoas deitadas e camas vazias seguem o recorte publicado, quando disponível. Posições não identificam leitos físicos.</div>
@@ -104,6 +107,7 @@ function App(){
           <button className="soft-button" onClick={select}>↙ Cidade</button>
           <button className="soft-button" onClick={()=>setDirectory(v=>!v)} disabled={!interiorOpen} aria-expanded={directory&&interiorOpen} aria-controls="floor-directory">☷ Hospitais e categorias</button>
           <button className="soft-button" onClick={()=>setEmergencyOpen(true)}>✚ Emergência</button>
+          <button className="soft-button" onClick={()=>setInfoOpen(true)}>ⓘ Dados e localização</button>
           <span className="missing-floors">Planta ilustrativa · {monitored?'recorte IntegraSUS':'cadastro CNES'}</span>
         </div>
         {directory&&interiorOpen&&<aside className="floor-directory data-directory" id="floor-directory">
@@ -126,9 +130,9 @@ function App(){
             {hospital.monitoring?<><p><b>Outro recorte · IntegraSUS</b></p><p>{hospital.monitoring.total} monitorados: {hospital.monitoring.occupied} ocupados e {hospital.monitoring.free} livres na coleta de {dateTime(data.monitoringConsultedAt)}. Não é o total cadastrado e não foi somado ao CNES.</p><a href={data.monitoringUrl} target="_blank" rel="noreferrer">API IntegraSUS ↗</a></>:<p>Sem dados de ocupação confirmados no recorte IntegraSUS consultado.</p>}
           </details>
         </aside>}
-        <div className="source-ribbon"><strong>{hospital.name}</strong><span><b>{interiorOpen?layout.beds.length:hospital.total}</b> {interiorOpen?'leitos 3D nesta vista':'leitos na maquete'} · <b>{hospital.total}</b> {monitored?'no recorte monitorado':'no cadastro'}{interiorOpen&&<> · {floor?`andar ilustrativo ${floor.number}`:type?type.label:'todos os andares'}</>}</span>
+        <div className="source-ribbon"><strong>{hospital.name}</strong><span><b>{interiorOpen?layout.beds.length:hospital.total}</b> {interiorOpen?'leitos 3D nesta vista':'leitos na maquete'} · <b>{hospital.total}</b> {monitored?'no recorte monitorado':'no cadastro'}{monitored&&<> · <b>{occupancyPercent(hospital.monitoring.occupied,hospital.monitoring.total)}</b> de ocupação no recorte</>}{interiorOpen&&<> · {floor?`andar ilustrativo ${floor.number}`:type?type.label:'todos os andares'}</>}</span>
           {interiorOpen&&<div className="data-mode"><div className="mode-buttons" role="group" aria-label="Fonte dos leitos"><button className={monitored?'active':''} disabled={!rawHospital.monitoring} onClick={()=>changeDataMode('monitoring')}>Ocupação monitorada{rawHospital.monitoring?` · ${rawHospital.monitoring.total}`:''}</button><button className={!monitored?'active':''} onClick={()=>changeDataMode('cnes')}>Cadastro CNES · {rawHospital.total}</button></div>
-            {monitored?<><div className="occupancy-legend"><span className="occupied-count">● {counts.occupied} com pessoas</span><button className="free-count" onClick={nextFree} disabled={!counts.free} title="Aproximar a próxima cama vazia">● {counts.free} vazios ↗</button></div><small>Coleta {dateTime(data.monitoringConsultedAt)} · posições ilustrativas · sem atualização automática</small></>:<small className="unknown-count">● Ocupação desconhecida · camas sem pessoas não significam vagas livres{!rawHospital.monitoring?' · sem recorte monitorado para este hospital':''}</small>}
+            {monitored?<><div className="occupancy-legend"><span className="occupancy-percent">{occupancyPercent(counts.occupied,counts.occupied+counts.free)} ocupados nesta vista</span><span className="occupied-count">● {counts.occupied} com pessoas</span><button className="free-count" onClick={nextFree} disabled={!counts.free} title="Aproximar a próxima cama vazia">● {counts.free} vazios ↗</button></div><small>Coleta {dateTime(data.monitoringConsultedAt)} · posições ilustrativas · sem atualização automática</small></>:<small className="unknown-count">● Ocupação desconhecida · camas sem pessoas não significam vagas livres{!rawHospital.monitoring?' · sem recorte monitorado para este hospital':''}</small>}
           </div>}
           {interiorOpen&&<div className="floor-strip"><button className={floorId===null?'active':''} onClick={()=>viewAll()}>Todos · {hospital.total}</button>{inventoryLayout.floors.map(f=><button key={f.id} className={floorId===f.id?'active':''} onClick={()=>chooseFloor(f.id)}>A{f.number} · {f.count}</button>)}</div>}
           {wing&&interiorOpen&&<div className="wing-navigation"><button onClick={()=>nextWing(-1)} aria-label="Ala anterior">←</button><span>Andar {wing.floorNumber} · {wing.label} · Ala {wing.number} · {wing.count} leitos</span><button onClick={()=>nextWing(1)} aria-label="Próxima ala">→</button></div>}
@@ -166,6 +170,7 @@ function App(){
       </nav><button className="detail-toggle" onClick={()=>setDetail(d=>!d)} aria-pressed={detail} aria-label="Construções do entorno">{detail?'◉':'○'} <span>Construções do entorno</span></button></div>}
       <div className="map-footnote">{inside?(monitored?'Pessoas deitadas = ocupados · camas turquesa vazias = livres · posição ilustrativa · equipe decorativa':'Cadastro CNES · ocupação desconhecida · arquitetura ilustrativa'):'78 hospitais · coordenadas CNES com espaçamento ajustado · ruas e fachadas ilustrativas'}</div>
     </section>
+    {infoOpen&&<HospitalInfo hospital={rawHospital} consultedAt={data.monitoringConsultedAt} competence={competence} onClose={()=>setInfoOpen(false)} onEmergency={()=>{setInfoOpen(false);setEmergencyOpen(true);}}/>}
     {emergencyOpen&&<EmergencyPanel hospital={rawHospital} hospitals={data.hospitals} onHospital={goToHospital} onClose={()=>setEmergencyOpen(false)}/>}
     <footer><span><b>Esquerdo</b> arrasta <i>·</i> <b>Direito</b> gira <i>·</i> <b>Scroll</b> aproxima</span><span className="touch-help">Um dedo gira · dois dedos aproximam e arrastam</span><span>{inside?(monitored?'Contagens IntegraSUS · dados da coleta':`Cadastro CNES · ${competence}`):'Fortaleza em cores · maquete 3D'}</span></footer>
   </main>;
