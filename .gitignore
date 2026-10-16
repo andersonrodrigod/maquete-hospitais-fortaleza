@@ -1,0 +1,22 @@
+__pycache__/
+*.py[cod]
+.venv/
+.tools/
+.env
+.env.*
+!.env.example
+*.log
+.referencias/
+previa-3d/node_modules/
+previa-3d/dist/
+previa-3d/.vite/
+previa-3d/validacao/arraste-video/
+
+# Local research downloads; source URLs and response metadata remain versioned.
+evidencias/arquitetura/*.pdf
+evidencias/arquitetura/anexo-*.png
+evidencias/arquitetura/ufc-nava-2007.txt
+evidencias/upas/pesquisa/*.js
+evidencias/upas/pesquisa/*.html
+evidencias/upas/pesquisa/coronavirus.txt
+evidencias/upas/app-espera/*.html

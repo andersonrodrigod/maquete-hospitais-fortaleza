@@ -1,0 +1,36 @@
+Pesquisa de referências arquitetônicas do HGF — 15/10/2026
+
+Unidade: Hospital Geral de Fortaleza, Papicu, CNES 2497654.
+Resultado: não foi localizada uma planta interna utilizável e verificável nesta pesquisa. A réplica física dos andares permanece pendente. Nenhuma geometria do aplicativo foi alterada a partir destas referências.
+
+1. Nasser Hissa — projeto de reforma e ampliação, ano 2001, parceria MHA, 42.984,41 m².
+https://nasserhissa.com.br/hospital-geral-de-fortaleza/
+Texto acessível pela busca. As três imagens não puderam ser verificadas; navegador sinalizou certificado inválido. Não foi contornado. Não se pode afirmar que as imagens sejam plantas.
+
+2. UFC — Nava Júnior, 2007, Programa de gestão da manutenção predial para edificações hospitalares da rede de atendimento no município de Fortaleza.
+https://repositorio.ufc.br/handle/riufc/19348
+https://repositorio.ufc.br/bitstream/riufc/19348/1/2007_dis_mmhnavaj%C3%BAnior.pdf
+Cópia local: ufc-nava-2007.pdf (307 páginas). Texto extraído para pesquisa em ufc-nava-2007.txt.
+Página 301 do arquivo: capa do Anexo G, Esquemas dos projetos/plantas dos hospitais pesquisados.
+Página 302: organograma do HGF, não planta arquitetônica. Páginas renderizadas para conferir visualmente.
+O registro da UFC lista apenas este PDF; não foi encontrado arquivo separado com os desenhos. Mesmo uma planta de 2007 precisaria de confirmação das reformas posteriores.
+
+3. Assistência do HGF — página institucional.
+https://www.ce.gov.br/hgf/assistencia/
+Confirma a Unidade de Cuidados Prolongados no 5º andar. Não apresenta posições dos quartos, dimensões, nem contagem atual por quarto/andar.
+
+4. Plano Operativo HGF — SESA/Funsaúde, 2022, 41 páginas.
+https://www.funsaude.ce.gov.br/wp-content/uploads/sites/137/2022/05/Plano-Operativo-HGF.pdf
+Tabelas de capacidade e serviços, sem planta localizada. A página 2 do PDF explica uma sobreposição histórica de habilitações de UTI neonatal: cadastro 32 versus 20 leitos descritos pela instituição. Isso NÃO autoriza subtrair automaticamente 12 dos dados de 2026; exige reconciliação atual. A soma de registros CNES não prova número de camas físicas distintas ou capacidade operacional atual.
+
+5. Carta de Serviço — página institucional.
+https://www.ce.gov.br/hgf/assistencia/carta-de-servico/
+O PDF antigo redireciona à página inicial. O link atual encontrado aponta a https://ww16.ce.gov.br/hgf/wp-content/uploads/sites/26/2023/08/Carta-de-Servico-HGF-2022.pdf e retornou 403 na ferramenta. Conteúdo desse arquivo não validado.
+
+6. Referências descartadas por identidade incorreta:
+- Hospital Geral de Fortaleza do Exército (HGeF), na Av. Desembargador Moreira: instituição diferente.
+- Hospital Gustavo Fricke (Chile), também abreviado HGF: instituição diferente.
+- Plantas do SARAH Fortaleza e Hospital da Mulher: instituições diferentes; não usar como se fossem do HGF.
+
+Próximo documento necessário: planta simplificada atualizada por pavimento/bloco, com data de revisão, quartos/enfermarias/circulação e quadro de leitos físicos por ambiente. Confirmar quais plantas representam a construção executada e quais representam apenas projetos de reforma.
+Canal indicado pelo próprio site: Ceará Transparente (https://cearatransparente.ce.gov.br/) / HGF-SESA. Pedido preparado separadamente, não enviado.

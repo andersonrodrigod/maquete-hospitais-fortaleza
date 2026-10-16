@@ -1,0 +1,74 @@
+{
+  "url": "https://integrasus.saude.ce.gov.br/api/acompanhamento-casos-upas/unidade?dataInicio=2026-10-09&dataFim=2026-10-15&tipo=&upa=&cid=&classificacaoRisco=",
+  "consultado_em_utc": "2026-10-16T00:48:44.035324+00:00",
+  "http_status": 200,
+  "content_type": "application/json;charset=UTF-8",
+  "dados": [
+    {
+      "unidade": "UPA JOSE WALTER",
+      "tipoAtendimento": "Atendimento",
+      "quantidade": 59
+    },
+    {
+      "unidade": "UPA AUTRAN NUNES",
+      "tipoAtendimento": "Atendimento",
+      "quantidade": 89
+    },
+    {
+      "unidade": "UPA PRAIA DO FUTURO",
+      "tipoAtendimento": "Atendimento",
+      "quantidade": 81
+    },
+    {
+      "unidade": "UPA CANINDEZINHO",
+      "tipoAtendimento": "Atendimento",
+      "quantidade": 80
+    },
+    {
+      "unidade": "UPA CONJUNTO CEARÁ",
+      "tipoAtendimento": "Atendimento",
+      "quantidade": 74
+    },
+    {
+      "unidade": "UPA MESSEJANA",
+      "tipoAtendimento": "Atendimento",
+      "quantidade": 30
+    },
+    {
+      "unidade": "UPA MESSEJANA",
+      "tipoAtendimento": "Óbito",
+      "quantidade": 1
+    },
+    {
+      "unidade": "UPA CANINDEZINHO",
+      "tipoAtendimento": "Óbito",
+      "quantidade": 1
+    },
+    {
+      "unidade": "UPA CONJUNTO CEARÁ",
+      "tipoAtendimento": "Transferência",
+      "quantidade": 2
+    },
+    {
+      "unidade": "UPA JOSE WALTER",
+      "tipoAtendimento": "Transferência",
+      "quantidade": 2
+    },
+    {
+      "unidade": "UPA PRAIA DO FUTURO",
+      "tipoAtendimento": "Transferência",
+      "quantidade": 1
+    },
+    {
+      "unidade": "UPA AUTRAN NUNES",
+      "tipoAtendimento": "Transferência",
+      "quantidade": 1
+    },
+    {
+      "unidade": "UPA CANINDEZINHO",
+      "tipoAtendimento": "Transferência",
+      "quantidade": 1
+    }
+  ],
+  "ok": true
+}

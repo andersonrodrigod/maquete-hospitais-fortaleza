@@ -1,0 +1,23 @@
+{
+  "name": "fortaleza-saude-previa-3d",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test src/bed-layout.test.js src/building-animation.test.js src/scene-data.test.js src/city-layout.test.js src/city-camera.test.js src/emergency-data.test.js",
+    "prepare-data": "node scripts/prepare-data.mjs",
+    "dev": "vite --host 127.0.0.1 --port 4173 --strictPort",
+    "build": "vite build",
+    "preview": "vite preview --host 127.0.0.1 --port 4173 --strictPort"
+  },
+  "dependencies": {
+    "@react-three/drei": "10.7.9",
+    "@react-three/fiber": "9.8.2",
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "three": "0.186.1"
+  },
+  "devDependencies": {
+    "vite": "8.3.4"
+  }
+}

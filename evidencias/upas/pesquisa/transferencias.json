@@ -1,0 +1,11 @@
+{
+  "url": "https://integrasus.saude.ce.gov.br/api/acompanhamento-casos-upas/transferencias?dataInicio=2026-10-09&dataFim=2026-10-15&tipo=&upa=&cid=&classificacaoRisco=",
+  "consultado_em_utc": "2026-10-16T00:46:01.573794+00:00",
+  "http_status": 200,
+  "content_type": "application/json;charset=UTF-8",
+  "dados": {
+    "quantidade": 7,
+    "media": 1.17
+  },
+  "ok": true
+}

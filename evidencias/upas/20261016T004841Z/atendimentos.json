@@ -1,0 +1,11 @@
+{
+  "url": "https://integrasus.saude.ce.gov.br/api/acompanhamento-casos-upas/atendimentos?dataInicio=2026-10-09&dataFim=2026-10-15&tipo=&upa=&cid=&classificacaoRisco=",
+  "consultado_em_utc": "2026-10-16T00:48:43.749978+00:00",
+  "http_status": 200,
+  "content_type": "application/json;charset=UTF-8",
+  "dados": {
+    "quantidade": 413,
+    "media": 59.0
+  },
+  "ok": true
+}

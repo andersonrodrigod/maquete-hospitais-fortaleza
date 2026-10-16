@@ -1,0 +1,7130 @@
+{
+  "competence": 202607,
+  "scope": "Hospitais gerais (05) e especializados (07), consultados com status=1 no CNES. Não inclui todas as clínicas, UPAs e hospitais-dia.",
+  "monitoringConsultedAt": "2026-10-16T00:34:35.430277+00:00",
+  "monitoringUrl": "https://integrasus.saude.ce.gov.br/api/perspectiva-central-hospitalar/informacoes-hospitalares",
+  "hospitals": [
+    {
+      "cnes": "0086673",
+      "name": "HOSPITAL ESTADUAL LEONARDO DA VINCI",
+      "types": [
+        {
+          "id": "1  - ESPEC - CIRURGICO",
+          "label": "ESPEC - CIRURGICO",
+          "count": 62,
+          "sus": 62,
+          "complementary": false,
+          "details": [
+            {
+              "label": "03 - CIRURGIA GERAL",
+              "count": 50,
+              "sus": 50
+            },
+            {
+              "label": "13 - ORTOPEDIATRAUMATOLOGIA",
+              "count": 12,
+              "sus": 12
+            }
+          ]
+        },
+        {
+          "id": "2  - ESPEC - CLINICO",
+          "label": "ESPEC - CLINICO",
+          "count": 114,
+          "sus": 114,
+          "complementary": false,
+          "details": [
+            {
+              "label": "33 - CLINICA GERAL",
+              "count": 114,
+              "sus": 114
+            }
+          ]
+        },
+        {
+          "id": "3  - COMPLEMENTAR",
+          "label": "COMPLEMENTAR",
+          "count": 59,
+          "sus": 29,
+          "complementary": true,
+          "details": [
+            {
+              "label": "75 - UTI-A TIPO II",
+              "count": 59,
+              "sus": 29
+            }
+          ]
+        }
+      ],
+      "total": 235,
+      "ordinary": 176,
+      "complementary": 59,
+      "sourceUrl": "https://apidadosabertos.saude.gov.br/assistencia-a-saude/cnes-leitos?co_ibge=230440&co_cnes=0086673&nu_comp=202607&limit=1000&offset=0",
+      "consultedAt": "2026-10-15T21:47:35.837342+00:00",
+      "location": {
+        "latitude": -3.7399924,
+        "longitude": -38.510255824335914,
+        "neighborhood": "ALDEOTA",
+        "street": "RUA ROCHA LIMA",
+        "number": "1563",
+        "registryUpdatedAt": "2025-09-03"
+      },
+      "monitoring": {
+        "total": 151,
+        "occupied": 146,
+        "free": 5,
+        "clinics": [
+          {
+            "unidade": "HELV - Hospital Estadual Leonardo da Vinci",
+            "clinica": "UTI",
+            "quantidadeOcupada": 39,
+            "quantidadeLivre": 0,
+            "total": 39
+          },
+          {
+            "unidade": "HELV - Hospital Estadual Leonardo da Vinci",
+            "clinica": "CLÍNICA CIRÚRGICA",
+            "quantidadeOcupada": 45,
+            "quantidadeLivre": 5,
+            "total": 50
+          },
+          {
+            "unidade": "HELV - Hospital Estadual Leonardo da Vinci",
+            "clinica": "CLÍNICA MÉDICA",
+            "quantidadeOcupada": 62,
+            "quantidadeLivre": 0,
+            "total": 62
+          }
+        ]
+      },
+      "emergency": null
+    },
+    {
+      "cnes": "0905623",
+      "name": "HOSPITAL DOUTOR OSWALDO CRUZ",
+      "types": [
+        {
+          "id": "1  - ESPEC - CIRURGICO",
+          "label": "ESPEC - CIRURGICO",
+          "count": 22,
+          "sus": 14,
+          "complementary": false,
+          "details": [
+            {
+              "label": "03 - CIRURGIA GERAL",
+              "count": 8,
+              "sus": 3
+            },
+            {
+              "label": "06 - GINECOLOGIA",
+              "count": 2,
+              "sus": 1
+            },
+            {
+              "label": "13 - ORTOPEDIATRAUMATOLOGIA",
+              "count": 12,
+              "sus": 10
+            }
+          ]
+        },
+        {
+          "id": "2  - ESPEC - CLINICO",
+          "label": "ESPEC - CLINICO",
+          "count": 11,
+          "sus": 0,
+          "complementary": false,
+          "details": [
+            {
+              "label": "33 - CLINICA GERAL",
+              "count": 11,
+              "sus": 0
+            }
+          ]
+        }
+      ],
+      "total": 33,
+      "ordinary": 33,
+      "complementary": 0,
+      "sourceUrl": "https://apidadosabertos.saude.gov.br/assistencia-a-saude/cnes-leitos?co_ibge=230440&co_cnes=0905623&nu_comp=202607&limit=1000&offset=0",
+      "consultedAt": "2026-10-15T21:47:38.601368+00:00",
+      "location": {
+        "latitude": -3.7365,
+        "longitude": -38.52198,
+        "neighborhood": "CENTRO",
+        "street": "RUA ROCHA LIMA",
+        "number": "231",
+        "registryUpdatedAt": "2025-09-03"
+      },
+      "monitoring": null,
+      "emergency": null
+    },
+    {
+      "cnes": "2373971",
+      "name": "CENTRO DE NEURORREABILITACAO SARAH FORTALEZA",
+      "types": [
+        {
+          "id": "6  - OUTRAS ESPECIALIDADES",
+          "label": "OUTRAS ESPECIALIDADES",
+          "count": 86,
+          "sus": 86,
+          "complementary": false,
+          "details": [
+            {
+              "label": "48 - REABILITACAO",
+              "count": 86,
+              "sus": 86
+            }
+          ]
+        }
+      ],
+      "total": 86,
+      "ordinary": 86,
+      "complementary": 0,
+      "sourceUrl": "https://apidadosabertos.saude.gov.br/assistencia-a-saude/cnes-leitos?co_ibge=230440&co_cnes=2373971&nu_comp=202607&limit=1000&offset=0",
+      "consultedAt": "2026-10-15T21:47:41.376965+00:00",
+      "location": {
+        "latitude": -3.818458,
+        "longitude": -38.533989,
+        "neighborhood": "PASSARE",
+        "street": "AV PRESIDENTE JUSCELINO KUBITSCHEK",
+        "number": "4500",
+        "registryUpdatedAt": "2026-08-18"
+      },
+      "monitoring": null,
+      "emergency": null
+    },
+    {
+      "cnes": "2415631",
+      "name": "HOSPITAL ANTONIO PRUDENTE",
+      "types": [
+        {
+          "id": "1  - ESPEC - CIRURGICO",
+          "label": "ESPEC - CIRURGICO",
+          "count": 48,
+          "sus": 0,
+          "complementary": false,
+          "details": [
+            {
+              "label": "01 - BUCO MAXILO FACIAL",
+              "count": 5,
+              "sus": 0
+            },
+            {
+              "label": "02 - CARDIOLOGIA",
+              "count": 5,
+              "sus": 0
+            },
+            {
+              "label": "03 - CIRURGIA GERAL",
+              "count": 17,
+              "sus": 0
+            },
+            {
+              "label": "05 - GASTROENTEROLOGIA",
+              "count": 5,
+              "sus": 0
+            },
+            {
+              "label": "09 - NEUROCIRURGIA",
+              "count": 5,
+              "sus": 0
+            },
+            {
+              "label": "13 - ORTOPEDIATRAUMATOLOGIA",
+              "count": 5,
+              "sus": 0
+            },
+            {
+              "label": "67 - TRANSPLANTE",
+              "count": 6,
+              "sus": 0
+            }
+          ]
+        },
+        {
+          "id": "2  - ESPEC - CLINICO",
+          "label": "ESPEC - CLINICO",
+          "count": 102,
+          "sus": 0,
+          "complementary": false,
+          "details": [
+            {
+              "label": "32 - CARDIOLOGIA",
+              "count": 5,
+              "sus": 0
+            },
+            {
+              "label": "33 - CLINICA GERAL",
+              "count": 58,
+              "sus": 0
+            },
+            {
+              "label": "38 - HEMATOLOGIA",
+              "count": 6,
+              "sus": 0
+            },
+            {
+              "label": "40 - NEFROUROLOGIA",
+              "count": 10,
+              "sus": 0
+            },
+            {
+              "label": "42 - NEUROLOGIA",
+              "count": 5,
+              "sus": 0
+            },
+            {
+              "label": "44 - ONCOLOGIA",
+              "count": 8,
+              "sus": 0
+            },
+            {
+              "label": "46 - PNEUMOLOGIA",
+              "count": 10,
+              "sus": 0
+            }
+          ]
+        },
+        {
+          "id": "3  - COMPLEMENTAR",
+          "label": "COMPLEMENTAR",
+          "count": 52,
+          "sus": 2,
+          "complementary": true,
+          "details": [
+            {
+              "label": "75 - UTI-A TIPO II",
+              "count": 50,
+              "sus": 0
+            },
+            {
+              "label": "78 - UTI PEDIATRICA - TIPO II",
+              "count": 2,
+              "sus": 2
+            }
+          ]
+        }
+      ],
+      "total": 202,
+      "ordinary": 150,
+      "complementary": 52,
+      "sourceUrl": "https://apidadosabertos.saude.gov.br/assistencia-a-saude/cnes-leitos?co_ibge=230440&co_cnes=2415631&nu_comp=202607&limit=1000&offset=0",
+      "consultedAt": "2026-10-15T21:47:42.700150+00:00",
+      "location": {
+        "latitude": -3.753408,
+        "longitude": -38.523073,
+        "neighborhood": "FATIMA",
+        "street": "AV AGUANAMBI",
+        "number": "1827",
+        "registryUpdatedAt": "2026-05-29"
+      },
+      "monitoring": null,
+      "emergency": null
+    },
+    {
+      "cnes": "2479214",
+      "name": "HM HOSPITAL DE MESSEJANA DR CARLOS ALBERTO STUDART GOMES",
+      "types": [
+        {
+          "id": "1  - ESPEC - CIRURGICO",
+          "label": "ESPEC - CIRURGICO",
+          "count": 62,
+          "sus": 62,
+          "complementary": false,
+          "details": [
+            {
+              "label": "02 - CARDIOLOGIA",
+              "count": 38,
+              "sus": 38
+            },
+            {
+              "label": "03 - CIRURGIA GERAL",
+              "count": 2,
+              "sus": 2
+            },
+            {
+              "label": "16 - TORACICA",
+              "count": 19,
+              "sus": 19
+            },
+            {
+              "label": "67 - TRANSPLANTE",
+              "count": 3,
+              "sus": 3
+            }
+          ]
+        },
+        {
+          "id": "2  - ESPEC - CLINICO",
+          "label": "ESPEC - CLINICO",
+          "count": 289,
+          "sus": 289,
+          "complementary": false,
+          "details": [
+            {
+              "label": "32 - CARDIOLOGIA",
+              "count": 206,
+              "sus": 206
+            },
+            {
+              "label": "33 - CLINICA GERAL",
+              "count": 2,
+              "sus": 2
+            },
+            {
+              "label": "46 - PNEUMOLOGIA",
+              "count": 81,
+              "sus": 81
+            }
+          ]
+        },
+        {
+          "id": "3  - COMPLEMENTAR",
+          "label": "COMPLEMENTAR",
+          "count": 97,
+          "sus": 87,
+          "complementary": true,
+          "details": [
+            {
+              "label": "75 - UTI-A TIPO II",
+              "count": 39,
+              "sus": 29
+            },
+            {
+              "label": "78 - UTI PEDIATRICA - TIPO II",
+              "count": 17,
+              "sus": 17
+            },
+            {
+              "label": "85 - UCO TIPO II",
+              "count": 10,
+              "sus": 10
+            },
+            {
+              "label": "95 - UCI-A",
+              "count": 31,
+              "sus": 31
+            }
+          ]
+        },
+        {
+          "id": "5  - PEDIATRICO",
+          "label": "PEDIATRICO",
+          "count": 20,
+          "sus": 20,
+          "complementary": false,
+          "details": [
+            {
+              "label": "45 - PEDIATRIA CLINICA",
+              "count": 12,
+              "sus": 12
+            },
+            {
+              "label": "68 - PEDIATRIA CIRURGICA",
+              "count": 8,
+              "sus": 8
+            }
+          ]
+        },
+        {
+          "id": "6  - OUTRAS ESPECIALIDADES",
+          "label": "OUTRAS ESPECIALIDADES",
+          "count": 6,
+          "sus": 6,
+          "complementary": false,
+          "details": [
+            {
+              "label": "34 - CRONICOS",
+              "count": 2,
+              "sus": 2
+            },
+            {
+              "label": "49 - PNEUMOLOGIA SANITARIA",
+              "count": 4,
+              "sus": 4
+            }
+          ]
+        },
+        {
+          "id": "7  - HOSPITAL DIA",
+          "label": "HOSPITAL DIA",
+          "count": 2,
+          "sus": 2,
+          "complementary": false,
+          "details": [
+            {
+              "label": "71 - INTERCORRENCIA POS-TRANSPLANTE",
+              "count": 2,
+              "sus": 2
+            }
+          ]
+        }
+      ],
+      "total": 476,
+      "ordinary": 379,
+      "complementary": 97,
+      "sourceUrl": "https://apidadosabertos.saude.gov.br/assistencia-a-saude/cnes-leitos?co_ibge=230440&co_cnes=2479214&nu_comp=202607&limit=1000&offset=0",
+      "consultedAt": "2026-10-15T21:47:50.898244+00:00",
+      "location": {
+        "latitude": -3.8293557,
+        "longitude": -38.4937131,
+        "neighborhood": "CAJAZEIRAS",
+        "street": "AV FREI CIRILO",
+        "number": "3480",
+        "registryUpdatedAt": "2025-09-03"
+      },
+      "monitoring": {
+        "total": 87,
+        "occupied": 84,
+        "free": 3,
+        "clinics": [
+          {
+            "unidade": "HM - Hospital de Messejana Dr. Carlos Alberto Studart Gomes",
+            "clinica": "UTI EMERGÊNCIA (RISCO)",
+            "quantidadeOcupada": 15,
+            "quantidadeLivre": 0,
+            "total": 15
+          },
+          {
+            "unidade": "HM - Hospital de Messejana Dr. Carlos Alberto Studart Gomes",
+            "clinica": "UTI CORONARIANA",
+            "quantidadeOcupada": 8,
+            "quantidadeLivre": 0,
+            "total": 8
+          },
+          {
+            "unidade": "HM - Hospital de Messejana Dr. Carlos Alberto Studart Gomes",
+            "clinica": "SEMI-INTENSIVA",
+            "quantidadeOcupada": 14,
+            "quantidadeLivre": 0,
+            "total": 14
+          },
+          {
+            "unidade": "HM - Hospital de Messejana Dr. Carlos Alberto Studart Gomes",
+            "clinica": "UTI PNEUMO",
+            "quantidadeOcupada": 8,
+            "quantidadeLivre": 0,
+            "total": 8
+          },
+          {
+            "unidade": "HM - Hospital de Messejana Dr. Carlos Alberto Studart Gomes",
+            "clinica": "UTI CARDIO/PNEUMO",
+            "quantidadeOcupada": 6,
+            "quantidadeLivre": 1,
+            "total": 7
+          },
+          {
+            "unidade": "HM - Hospital de Messejana Dr. Carlos Alberto Studart Gomes",
+            "clinica": "ESTABILIZAÇÃO",
+            "quantidadeOcupada": 10,
+            "quantidadeLivre": 2,
+            "total": 12
+          },
+          {
+            "unidade": "HM - Hospital de Messejana Dr. Carlos Alberto Studart Gomes",
+            "clinica": "ENFERMARIA EMERGÊNCIA",
+            "quantidadeOcupada": 23,
+            "quantidadeLivre": 0,
+            "total": 23
+          }
+        ]
+      },
+      "emergency": {
+        "available": true,
+        "panelUrl": "https://integrasus.saude.ce.gov.br/#/indicadores/indicadores-hospitalares/pacientes-em-atendimento-emergencia-hm",
+        "upTo24h": 7,
+        "over24h": 0,
+        "total": 7,
+        "over24hPercent": 0,
+        "consultedAt": "2026-10-16T00:34:35.935450+00:00",
+        "sourceUrl": "https://integrasus.saude.ce.gov.br/api/hm-real-time-paciente-tempo-perm-maior-24/search/tempo-permanencia?isExtra=false&idClinica=&idMunicipio=&codCid="
+      }
+    },
+    {
+      "cnes": "2479907",
+      "name": "HOSPITAL DA POLICIA MILITAR DO CEARA",
+      "types": [
+        {
+          "id": "1  - ESPEC - CIRURGICO",
+          "label": "ESPEC - CIRURGICO",
+          "count": 40,
+          "sus": 40,
+          "complementary": false,
+          "details": [
+            {
+              "label": "01 - BUCO MAXILO FACIAL",
+              "count": 2,
+              "sus": 2
+            },
+            {
+              "label": "03 - CIRURGIA GERAL",
+              "count": 36,
+              "sus": 36
+            },
+            {
+              "label": "06 - GINECOLOGIA",
+              "count": 2,
+              "sus": 2
+            }
+          ]
+        },
+        {
+          "id": "2  - ESPEC - CLINICO",
+          "label": "ESPEC - CLINICO",
+          "count": 2,
+          "sus": 2,
+          "complementary": false,
+          "details": [
+            {
+              "label": "33 - CLINICA GERAL",
+              "count": 2,
+              "sus": 2
+            }
+          ]
+        },
+        {
+          "id": "3  - COMPLEMENTAR",
+          "label": "COMPLEMENTAR",
+          "count": 12,
+          "sus": 12,
+          "complementary": true,
+          "details": [
+            {
+              "label": "66 - UNIDADE ISOLAMENTO",
+              "count": 2,
+              "sus": 2
+            },
+            {
+              "label": "92 - UNIDADE DE CUIDADOS INTERMEDIARIOS NEONATAL CONVENCIONAL",
+              "count": 8,
+              "sus": 8
+            },
+            {
+              "label": "95 - UCI-A",
+              "count": 2,
+              "sus": 2
+            }
+          ]
+        },
+        {
+          "id": "4  - OBSTETRICO",
+          "label": "OBSTETRICO",
+          "count": 18,
+          "sus": 18,
+          "complementary": false,
+          "details": [
+            {
+              "label": "10 - OBSTETRICIA CIRURGICA",
+              "count": 16,
+              "sus": 16
+            },
+            {
+              "label": "43 - OBSTETRICIA CLINICA",
+              "count": 2,
+              "sus": 2
+            }
+          ]
+        },
+        {
+          "id": "5  - PEDIATRICO",
+          "label": "PEDIATRICO",
+          "count": 2,
+          "sus": 2,
+          "complementary": false,
+          "details": [
+            {
+              "label": "45 - PEDIATRIA CLINICA",
+              "count": 2,
+              "sus": 2
+            }
+          ]
+        }
+      ],
+      "total": 74,
+      "ordinary": 62,
+      "complementary": 12,
+      "sourceUrl": "https://apidadosabertos.saude.gov.br/assistencia-a-saude/cnes-leitos?co_ibge=230440&co_cnes=2479907&nu_comp=202607&limit=1000&offset=0",
+      "consultedAt": "2026-10-15T21:47:59.123075+00:00",
+      "location": {
+        "latitude": -3.7339794499999996,
+        "longitude": -38.53825188998516,
+        "neighborhood": "FARIAS BRITO",
+        "street": "RUA PRINCESA ISABEL",
+        "number": "1526",
+        "registryUpdatedAt": "2025-09-03"
+      },
+      "monitoring": null,
+      "emergency": null
+    },
+    {
+      "cnes": "2480026",
+      "name": "HOSPITAL DE SAUDE MENTAL DE MESSEJANA",
+      "types": [
+        {
+          "id": "6  - OUTRAS ESPECIALIDADES",
+          "label": "OUTRAS ESPECIALIDADES",
+          "count": 180,
+          "sus": 180,
+          "complementary": false,
+          "details": [
+            {
+              "label": "47 - PSIQUIATRIA",
+              "count": 180,
+              "sus": 180
+            }
+          ]
+        },
+        {
+          "id": "7  - HOSPITAL DIA",
+          "label": "HOSPITAL DIA",
+          "count": 60,
+          "sus": 60,
+          "complementary": false,
+          "details": [
+            {
+              "label": "73 - SAUDE MENTAL",
+              "count": 60,
+              "sus": 60
+            }
+          ]
+        }
+      ],
+      "total": 240,
+      "ordinary": 240,
+      "complementary": 0,
+      "sourceUrl": "https://apidadosabertos.saude.gov.br/assistencia-a-saude/cnes-leitos?co_ibge=230440&co_cnes=2480026&nu_comp=202607&limit=1000&offset=0",
+      "consultedAt": "2026-10-15T21:48:04.613177+00:00",
+      "location": {
+        "latitude": -3.821307302255777,
+        "longitude": -38.4835410118103,
+        "neighborhood": "MESSEJANA",
+        "street": "RUA VICENTE NOBRE DE MACEDO",
+        "number": "S/N",
+        "registryUpdatedAt": "2025-09-03"
+      },
+      "monitoring": {
+        "total": 168,
+        "occupied": 165,
+        "free": 3,
+        "clinics": [
+          {
+            "unidade": "HSM - Hospital de Saúde Mental Professor Frota Pinto",
+            "clinica": "PSIQUIATRIA (FEMININA)",
+            "quantidadeOcupada": 80,
+            "quantidadeLivre": 0,
+            "total": 80
+          },
+          {
+            "unidade": "HSM - Hospital de Saúde Mental Professor Frota Pinto",
+            "clinica": "UNIDADE CLÍNICA",
+            "quantidadeOcupada": 5,
+            "quantidadeLivre": 3,
+            "total": 8
+          },
+          {
+            "unidade": "HSM - Hospital de Saúde Mental Professor Frota Pinto",
+            "clinica": "PSIQUIATRIA (MASCULINA)",
+            "quantidadeOcupada": 80,
+            "quantidadeLivre": 0,
+            "total": 80
+          }
+        ]
+      },
+      "emergency": null
+    },
+    {
+      "cnes": "2480565",
+      "name": "INSTITUTO DE CEGOS DO CEARA",
+      "types": [
+        {
+          "id": "1  - ESPEC - CIRURGICO",
+          "label": "ESPEC - CIRURGICO",
+          "count": 8,
+          "sus": 6,
+          "complementary": false,
+          "details": [
+            {
+              "label": "11 - OFTALMOLOGIA",
+              "count": 8,
+              "sus": 6
+            }
+          ]
+        },
+        {
+          "id": "5  - PEDIATRICO",
+          "label": "PEDIATRICO",
+          "count": 1,
+          "sus": 1,
+          "complementary": false,
+          "details": [
+            {
+              "label": "68 - PEDIATRIA CIRURGICA",
+              "count": 1,
+              "sus": 1
+            }
+          ]
+        }
+      ],
+      "total": 9,
+      "ordinary": 9,
+      "complementary": 0,
+      "sourceUrl": "https://apidadosabertos.saude.gov.br/assistencia-a-saude/cnes-leitos?co_ibge=230440&co_cnes=2480565&nu_comp=202607&limit=1000&offset=0",
+      "consultedAt": "2026-10-15T21:48:06.582056+00:00",
+      "location": {
+        "latitude": -3.731884,
+        "longitude": -38.551843,
+        "neighborhood": "SAO GERARDO",
+        "street": "AV BEZERRA DE MENEZES",
+        "number": "892",
+        "registryUpdatedAt": "2025-09-03"
+      },
+      "monitoring": null,
+      "emergency": null
+    },
+    {
+      "cnes": "2480638",
+      "name": "HOSPITAL DE OLHOS LEIRIA DE ANDRADE",
+      "types": [
+        {
+          "id": "1  - ESPEC - CIRURGICO",
+          "label": "ESPEC - CIRURGICO",
+          "count": 5,
+          "sus": 5,
+          "complementary": false,
+          "details": [
+            {
+              "label": "11 - OFTALMOLOGIA",
+              "count": 5,
+              "sus": 5
+            }
+          ]
+        }
+      ],
+      "total": 5,
+      "ordinary": 5,
+      "complementary": 0,
+      "sourceUrl": "https://apidadosabertos.saude.gov.br/assistencia-a-saude/cnes-leitos?co_ibge=230440&co_cnes=2480638&nu_comp=202607&limit=1000&offset=0",
+      "consultedAt": "2026-10-15T21:48:08.320664+00:00",
+      "location": {
+        "latitude": -3.738915,
+        "longitude": -38.514297,
+        "neighborhood": "JOAQUIM TAVORA",
+        "street": "RUA ROCHA LIMA",
+        "number": "1140",
+        "registryUpdatedAt": "2025-09-03"
+      },
+      "monitoring": null,
+      "emergency": null
+    },
+    {
+      "cnes": "2481286",
+      "name": "MATERNIDADE ESCOLA ASSIS CHATEAUBRIAND",
+      "types": [
+        {
+          "id": "1  - ESPEC - CIRURGICO",
+          "label": "ESPEC - CIRURGICO",
+          "count": 20,
+          "sus": 20,
+          "complementary": false,
+          "details": [
+            {
+              "label": "03 - CIRURGIA GERAL",
+              "count": 2,
+              "sus": 2
+            },
+            {
+              "label": "06 - GINECOLOGIA",
+              "count": 18,
+              "sus": 18
+            }
+          ]
+        },
+        {
+          "id": "2  - ESPEC - CLINICO",
+          "label": "ESPEC - CLINICO",
+          "count": 26,
+          "sus": 26,
+          "complementary": false,
+          "details": [
+            {
+              "label": "33 - CLINICA GERAL",
+              "count": 2,
+              "sus": 2
+            },
+            {
+              "label": "41 - NEONATOLOGIA",
+              "count": 24,
+              "sus": 24
+            }
+          ]
+        },
+        {
+          "id": "3  - COMPLEMENTAR",
+          "label": "COMPLEMENTAR",
+          "count": 63,
+          "sus": 63,
+          "complementary": true,
+          "details": [
+            {
+              "label": "66 - UNIDADE ISOLAMENTO",
+              "count": 2,
+              "sus": 2
+            },
+            {
+              "label": "75 - UTI-A TIPO II",
+              "count": 5,
+              "sus": 5
+            },
+            {
+              "label": "81 - UTI NEONATAL - TIPO II",
+              "count": 21,
+              "sus": 21
+            },
+            {
+              "label": "92 - UNIDADE DE CUIDADOS INTERMEDIARIOS NEONATAL CONVENCIONAL",
+              "count": 30,
+              "sus": 30
+            },
+            {
+              "label": "93 - UNIDADE DE CUIDADOS INTERMEDIARIOS NEONATAL CANGURU",
+              "count": 5,
+              "sus": 5
+            }
+          ]
+        },
+        {
+          "id": "4  - OBSTETRICO",
+          "label": "OBSTETRICO",
+          "count": 94,
+          "sus": 94,
+          "complementary": false,
+          "details": [
+            {
+              "label": "10 - OBSTETRICIA CIRURGICA",
+              "count": 30,
+              "sus": 30
+            },
+            {
+              "label": "43 - OBSTETRICIA CLINICA",
+              "count": 64,
+              "sus": 64
+            }
+          ]
+        },
+        {
+          "id": "5  - PEDIATRICO",
+          "label": "PEDIATRICO",
+          "count": 6,
+          "sus": 6,
+          "complementary": false,
+          "details": [
+            {
+              "label": "45 - PEDIATRIA CLINICA",
+              "count": 6,
+              "sus": 6
+            }
+          ]
+        }
+      ],
+      "total": 209,
+      "ordinary": 146,
+      "complementary": 63,
+      "sourceUrl": "https://apidadosabertos.saude.gov.br/assistencia-a-saude/cnes-leitos?co_ibge=230440&co_cnes=2481286&nu_comp=202607&limit=1000&offset=0",
+      "consultedAt": "2026-10-15T21:48:09.712740+00:00",
+      "location": {
+        "latitude": -3.748159,
+        "longitude": -38.552392,
+        "neighborhood": "RODOLFO TEOFILO",
+        "street": "CORONEL NUNES DE MELO",
+        "number": "S/N",
+        "registryUpdatedAt": "2025-09-03"
+      },
+      "monitoring": null,
+      "emergency": null
+    },
+    {
+      "cnes": "2482339",
+      "name": "HOSPITAL DISTRITAL NOSSA SENHORA DA CONCEICAO",
+      "types": [
+        {
+          "id": "1  - ESPEC - CIRURGICO",
+          "label": "ESPEC - CIRURGICO",
+          "count": 36,
+          "sus": 36,
+          "complementary": false,
+          "details": [
+            {
+              "label": "03 - CIRURGIA GERAL",
+              "count": 24,
+              "sus": 24
+            },
+            {
+              "label": "06 - GINECOLOGIA",
+              "count": 12,
+              "sus": 12
+            }
+          ]
+        },
+        {
+          "id": "2  - ESPEC - CLINICO",
+          "label": "ESPEC - CLINICO",
+          "count": 35,
+          "sus": 35,
+          "complementary": false,
+          "details": [
+            {
+              "label": "33 - CLINICA GERAL",
+              "count": 35,
+              "sus": 35
+            }
+          ]
+        },
+        {
+          "id": "3  - COMPLEMENTAR",
+          "label": "COMPLEMENTAR",
+          "count": 23,
+          "sus": 11,
+          "complementary": true,
+          "details": [
+            {
+              "label": "66 - UNIDADE ISOLAMENTO",
+              "count": 3,
+              "sus": 3
+            },
+            {
+              "label": "75 - UTI-A TIPO II",
+              "count": 10,
+              "sus": 0
+            },
+            {
+              "label": "92 - UNIDADE DE CUIDADOS INTERMEDIARIOS NEONATAL CONVENCIONAL",
+              "count": 10,
+              "sus": 8
+            }
+          ]
+        },
+        {
+          "id": "4  - OBSTETRICO",
+          "label": "OBSTETRICO",
+          "count": 16,
+          "sus": 16,
+          "complementary": false,
+          "details": [
+            {
+              "label": "10 - OBSTETRICIA CIRURGICA",
+              "count": 10,
+              "sus": 10
+            },
+            {
+              "label": "43 - OBSTETRICIA CLINICA",
+              "count": 6,
+              "sus": 6
+            }
+          ]
+        },
+        {
+          "id": "5  - PEDIATRICO",
+          "label": "PEDIATRICO",
+          "count": 2,
+          "sus": 2,
+          "complementary": false,
+          "details": [
+            {
+              "label": "45 - PEDIATRIA CLINICA",
+              "count": 2,
+              "sus": 2
+            }
+          ]
+        }
+      ],
+      "total": 112,
+      "ordinary": 89,
+      "complementary": 23,
+      "sourceUrl": "https://apidadosabertos.saude.gov.br/assistencia-a-saude/cnes-leitos?co_ibge=230440&co_cnes=2482339&nu_comp=202607&limit=1000&offset=0",
+      "consultedAt": "2026-10-15T21:48:17.315937+00:00",
+      "location": {
+        "latitude": -3.770354,
+        "longitude": -38.615601,
+        "neighborhood": "CONJUNTO CEARA",
+        "street": "RUA 1018",
+        "number": "148",
+        "registryUpdatedAt": "2026-09-05"
+      },
+      "monitoring": null,
+      "emergency": null
+    },
+    {
+      "cnes": "2497654",
+      "name": "HGF HOSPITAL GERAL DE FORTALEZA",
+      "types": [
+        {
+          "id": "1  - ESPEC - CIRURGICO",
+          "label": "ESPEC - CIRURGICO",
+          "count": 220,
+          "sus": 220,
+          "complementary": false,
+          "details": [
+            {
+              "label": "01 - BUCO MAXILO FACIAL",
+              "count": 2,
+              "sus": 2
+            },
+            {
+              "label": "03 - CIRURGIA GERAL",
+              "count": 99,
+              "sus": 99
+            },
+            {
+              "label": "04 - ENDOCRINOLOGIA",
+              "count": 3,
+              "sus": 3
+            },
+            {
+              "label": "05 - GASTROENTEROLOGIA",
+              "count": 15,
+              "sus": 15
+            },
+            {
+              "label": "06 - GINECOLOGIA",
+              "count": 3,
+              "sus": 3
+            },
+            {
+              "label": "08 - NEFROLOGIAUROLOGIA",
+              "count": 15,
+              "sus": 15
+            },
+            {
+              "label": "09 - NEUROCIRURGIA",
+              "count": 37,
+              "sus": 37
+            },
+            {
+              "label": "11 - OFTALMOLOGIA",
+              "count": 1,
+              "sus": 1
+            },
+            {
+              "label": "12 - ONCOLOGIA",
+              "count": 1,
+              "sus": 1
+            },
+            {
+              "label": "13 - ORTOPEDIATRAUMATOLOGIA",
+              "count": 8,
+              "sus": 8
+            },
+            {
+              "label": "14 - OTORRINOLARINGOLOGIA",
+              "count": 2,
+              "sus": 2
+            },
+            {
+              "label": "15 - PLASTICA",
+              "count": 2,
+              "sus": 2
+            },
+            {
+              "label": "67 - TRANSPLANTE",
+              "count": 32,
+              "sus": 32
+            }
+          ]
+        },
+        {
+          "id": "2  - ESPEC - CLINICO",
+          "label": "ESPEC - CLINICO",
+          "count": 202,
+          "sus": 202,
+          "complementary": false,
+          "details": [
+            {
+              "label": "33 - CLINICA GERAL",
+              "count": 137,
+              "sus": 137
+            },
+            {
+              "label": "38 - HEMATOLOGIA",
+              "count": 13,
+              "sus": 13
+            },
+            {
+              "label": "40 - NEFROUROLOGIA",
+              "count": 10,
+              "sus": 10
+            },
+            {
+              "label": "41 - NEONATOLOGIA",
+              "count": 16,
+              "sus": 16
+            },
+            {
+              "label": "42 - NEUROLOGIA",
+              "count": 24,
+              "sus": 24
+            },
+            {
+              "label": "44 - ONCOLOGIA",
+              "count": 2,
+              "sus": 2
+            }
+          ]
+        },
+        {
+          "id": "3  - COMPLEMENTAR",
+          "label": "COMPLEMENTAR",
+          "count": 133,
+          "sus": 133,
+          "complementary": true,
+          "details": [
+            {
+              "label": "66 - UNIDADE ISOLAMENTO",
+              "count": 10,
+              "sus": 10
+            },
+            {
+              "label": "76 - UTI-A TIPO III",
+              "count": 46,
+              "sus": 46
+            },
+            {
+              "label": "81 - UTI NEONATAL - TIPO II",
+              "count": 32,
+              "sus": 32
+            },
+            {
+              "label": "92 - UNIDADE DE CUIDADOS INTERMEDIARIOS NEONATAL CONVENCIONAL",
+              "count": 20,
+              "sus": 20
+            },
+            {
+              "label": "93 - UNIDADE DE CUIDADOS INTERMEDIARIOS NEONATAL CANGURU",
+              "count": 5,
+              "sus": 5
+            },
+            {
+              "label": "95 - UCI-A",
+              "count": 20,
+              "sus": 20
+            }
+          ]
+        },
+        {
+          "id": "4  - OBSTETRICO",
+          "label": "OBSTETRICO",
+          "count": 31,
+          "sus": 31,
+          "complementary": false,
+          "details": [
+            {
+              "label": "10 - OBSTETRICIA CIRURGICA",
+              "count": 26,
+              "sus": 26
+            },
+            {
+              "label": "43 - OBSTETRICIA CLINICA",
+              "count": 5,
+              "sus": 5
+            }
+          ]
+        },
+        {
+          "id": "5  - PEDIATRICO",
+          "label": "PEDIATRICO",
+          "count": 12,
+          "sus": 12,
+          "complementary": false,
+          "details": [
+            {
+              "label": "45 - PEDIATRIA CLINICA",
+              "count": 8,
+              "sus": 8
+            },
+            {
+              "label": "68 - PEDIATRIA CIRURGICA",
+              "count": 4,
+              "sus": 4
+            }
+          ]
+        },
+        {
+          "id": "7  - HOSPITAL DIA",
+          "label": "HOSPITAL DIA",
+          "count": 4,
+          "sus": 4,
+          "complementary": false,
+          "details": [
+            {
+              "label": "07 - CIRURGICO/DIAGNOSTICO/TERAPEUTICO",
+              "count": 4,
+              "sus": 4
+            }
+          ]
+        }
+      ],
+      "total": 602,
+      "ordinary": 469,
+      "complementary": 133,
+      "sourceUrl": "https://apidadosabertos.saude.gov.br/assistencia-a-saude/cnes-leitos?co_ibge=230440&co_cnes=2497654&nu_comp=202607&limit=1000&offset=0",
+      "consultedAt": "2026-10-15T21:48:22.072956+00:00",
+      "location": {
+        "latitude": -3.7396458312179717,
+        "longitude": -38.476717472076416,
+        "neighborhood": "PAPICU",
+        "street": "RUA AVILA GOULART",
+        "number": "900",
+        "registryUpdatedAt": "2025-09-03"
+      },
+      "monitoring": {
+        "total": 313,
+        "occupied": 305,
+        "free": 8,
+        "clinics": [
+          {
+            "unidade": "HGF - Hospital Geral de Fortaleza",
+            "clinica": "UTI NEO",
+            "quantidadeOcupada": 20,
+            "quantidadeLivre": 0,
+            "total": 20
+          },
+          {
+            "unidade": "HGF - Hospital Geral de Fortaleza",
+            "clinica": "PEDIATRIA",
+            "quantidadeOcupada": 4,
+            "quantidadeLivre": 1,
+            "total": 5
+          },
+          {
+            "unidade": "HGF - Hospital Geral de Fortaleza",
+            "clinica": "UROLOGIA",
+            "quantidadeOcupada": 15,
+            "quantidadeLivre": 0,
+            "total": 15
+          },
+          {
+            "unidade": "HGF - Hospital Geral de Fortaleza",
+            "clinica": "NEUROLOGIA",
+            "quantidadeOcupada": 12,
+            "quantidadeLivre": 0,
+            "total": 12
+          },
+          {
+            "unidade": "HGF - Hospital Geral de Fortaleza",
+            "clinica": "ESTABILIZAÇÃO",
+            "quantidadeOcupada": 19,
+            "quantidadeLivre": 0,
+            "total": 19
+          },
+          {
+            "unidade": "HGF - Hospital Geral de Fortaleza",
+            "clinica": "UTI",
+            "quantidadeOcupada": 36,
+            "quantidadeLivre": 2,
+            "total": 38
+          },
+          {
+            "unidade": "HGF - Hospital Geral de Fortaleza",
+            "clinica": "UNIDADE AVC ISQUÊMICO",
+            "quantidadeOcupada": 18,
+            "quantidadeLivre": 2,
+            "total": 20
+          },
+          {
+            "unidade": "HGF - Hospital Geral de Fortaleza",
+            "clinica": "OBSTETRÍCIA",
+            "quantidadeOcupada": 29,
+            "quantidadeLivre": 1,
+            "total": 30
+          },
+          {
+            "unidade": "HGF - Hospital Geral de Fortaleza",
+            "clinica": "UCE",
+            "quantidadeOcupada": 30,
+            "quantidadeLivre": 0,
+            "total": 30
+          },
+          {
+            "unidade": "HGF - Hospital Geral de Fortaleza",
+            "clinica": "SALA CRÍTICA",
+            "quantidadeOcupada": 8,
+            "quantidadeLivre": 0,
+            "total": 8
+          },
+          {
+            "unidade": "HGF - Hospital Geral de Fortaleza",
+            "clinica": "CLÍNICA CIRÚRGICA",
+            "quantidadeOcupada": 29,
+            "quantidadeLivre": 1,
+            "total": 30
+          },
+          {
+            "unidade": "HGF - Hospital Geral de Fortaleza",
+            "clinica": "VASCULAR",
+            "quantidadeOcupada": 23,
+            "quantidadeLivre": 0,
+            "total": 23
+          },
+          {
+            "unidade": "HGF - Hospital Geral de Fortaleza",
+            "clinica": "CLÍNICA MÉDICA",
+            "quantidadeOcupada": 25,
+            "quantidadeLivre": 1,
+            "total": 26
+          },
+          {
+            "unidade": "HGF - Hospital Geral de Fortaleza",
+            "clinica": "ENF. EMERGÊNCIA",
+            "quantidadeOcupada": 37,
+            "quantidadeLivre": 0,
+            "total": 37
+          }
+        ]
+      },
+      "emergency": {
+        "available": true,
+        "panelUrl": "https://integrasus.saude.ce.gov.br/#/indicadores/indicadores-hospitalares/pacientes-em-atendimento-emergencia-hgf",
+        "upTo24h": 18,
+        "over24h": 2,
+        "total": 20,
+        "over24hPercent": 10,
+        "consultedAt": "2026-10-16T00:34:35.689361+00:00",
+        "sourceUrl": "https://integrasus.saude.ce.gov.br/api/real-time-paciente-tempo-perm-maior-24/search/tempo-permanencia?isExtra=false&idClinica=&idMunicipio=&codCid=&hospital=HGF"
+      }
+    },
+    {
+      "cnes": "2499363",
+      "name": "HGCC HOSPITAL GERAL DR CESAR CALS",
+      "types": [
+        {
+          "id": "1  - ESPEC - CIRURGICO",
+          "label": "ESPEC - CIRURGICO",
+          "count": 54,
+          "sus": 54,
+          "complementary": false,
+          "details": [
+            {
+              "label": "15 - PLASTICA",
+              "count": 2,
+              "sus": 2
+            },
+            {
+              "label": "16 - TORACICA",
+              "count": 2,
+              "sus": 2
+            },
+            {
+              "label": "03 - CIRURGIA GERAL",
+              "count": 24,
+              "sus": 24
+            },
+            {
+              "label": "05 - GASTROENTEROLOGIA",
+              "count": 2,
+              "sus": 2
+            },
+            {
+              "label": "06 - GINECOLOGIA",
+              "count": 8,
+              "sus": 8
+            },
+            {
+              "label": "08 - NEFROLOGIAUROLOGIA",
+              "count": 6,
+              "sus": 6
+            },
+            {
+              "label": "12 - ONCOLOGIA",
+              "count": 10,
+              "sus": 10
+            }
+          ]
+        },
+        {
+          "id": "2  - ESPEC - CLINICO",
+          "label": "ESPEC - CLINICO",
+          "count": 62,
+          "sus": 62,
+          "complementary": false,
+          "details": [
+            {
+              "label": "31 - AIDS",
+              "count": 2,
+              "sus": 2
+            },
+            {
+              "label": "32 - CARDIOLOGIA",
+              "count": 2,
+              "sus": 2
+            },
+            {
+              "label": "33 - CLINICA GERAL",
+              "count": 23,
+              "sus": 23
+            },
+            {
+              "label": "35 - DERMATOLOGIA",
+              "count": 2,
+              "sus": 2
+            },
+            {
+              "label": "36 - GERIATRIA",
+              "count": 2,
+              "sus": 2
+            },
+            {
+              "label": "37 - HANSENOLOGIA",
+              "count": 2,
+              "sus": 2
+            },
+            {
+              "label": "38 - HEMATOLOGIA",
+              "count": 7,
+              "sus": 7
+            },
+            {
+              "label": "40 - NEFROUROLOGIA",
+              "count": 2,
+              "sus": 2
+            },
+            {
+              "label": "41 - NEONATOLOGIA",
+              "count": 5,
+              "sus": 5
+            },
+            {
+              "label": "42 - NEUROLOGIA",
+              "count": 2,
+              "sus": 2
+            },
+            {
+              "label": "44 - ONCOLOGIA",
+              "count": 4,
+              "sus": 4
+            },
+            {
+              "label": "46 - PNEUMOLOGIA",
+              "count": 9,
+              "sus": 9
+            }
+          ]
+        },
+        {
+          "id": "3  - COMPLEMENTAR",
+          "label": "COMPLEMENTAR",
+          "count": 81,
+          "sus": 3,
+          "complementary": true,
+          "details": [
+            {
+              "label": "66 - UNIDADE ISOLAMENTO",
+              "count": 1,
+              "sus": 1
+            },
+            {
+              "label": "75 - UTI-A TIPO II",
+              "count": 12,
+              "sus": 0
+            },
+            {
+              "label": "81 - UTI NEONATAL - TIPO II",
+              "count": 20,
+              "sus": 0
+            },
+            {
+              "label": "92 - UNIDADE DE CUIDADOS INTERMEDIARIOS NEONATAL CONVENCIONAL",
+              "count": 36,
+              "sus": 0
+            },
+            {
+              "label": "93 - UNIDADE DE CUIDADOS INTERMEDIARIOS NEONATAL CANGURU",
+              "count": 10,
+              "sus": 0
+            },
+            {
+              "label": "95 - UCI-A",
+              "count": 2,
+              "sus": 2
+            }
+          ]
+        },
+        {
+          "id": "4  - OBSTETRICO",
+          "label": "OBSTETRICO",
+          "count": 107,
+          "sus": 107,
+          "complementary": false,
+          "details": [
+            {
+              "label": "10 - OBSTETRICIA CIRURGICA",
+              "count": 8,
+              "sus": 8
+            },
+            {
+              "label": "43 - OBSTETRICIA CLINICA",
+              "count": 99,
+              "sus": 99
+            }
+          ]
+        },
+        {
+          "id": "7  - HOSPITAL DIA",
+          "label": "HOSPITAL DIA",
+          "count": 7,
+          "sus": 7,
+          "complementary": false,
+          "details": [
+            {
+              "label": "07 - CIRURGICO/DIAGNOSTICO/TERAPEUTICO",
+              "count": 7,
+              "sus": 7
+            }
+          ]
+        }
+      ],
+      "total": 311,
+      "ordinary": 230,
+      "complementary": 81,
+      "sourceUrl": "https://apidadosabertos.saude.gov.br/assistencia-a-saude/cnes-leitos?co_ibge=230440&co_cnes=2499363&nu_comp=202607&limit=1000&offset=0",
+      "consultedAt": "2026-10-15T21:48:48.632758+00:00",
+      "location": {
+        "latitude": -3.72616025,
+        "longitude": -38.53353609368452,
+        "neighborhood": "CENTRO",
+        "street": "AV IMPERADOR",
+        "number": "545",
+        "registryUpdatedAt": "2026-07-15"
+      },
+      "monitoring": null,
+      "emergency": null
+    },
+    {
+      "cnes": "2516640",
+      "name": "HOSPITAL DISTRITAL MARIA JOSE BARROSO DE OLIVEIRA PARANGABA",
+      "types": [
+        {
+          "id": "1  - ESPEC - CIRURGICO",
+          "label": "ESPEC - CIRURGICO",
+          "count": 62,
+          "sus": 62,
+          "complementary": false,
+          "details": [
+            {
+              "label": "03 - CIRURGIA GERAL",
+              "count": 18,
+              "sus": 18
+            },
+            {
+              "label": "13 - ORTOPEDIATRAUMATOLOGIA",
+              "count": 44,
+              "sus": 44
+            }
+          ]
+        },
+        {
+          "id": "2  - ESPEC - CLINICO",
+          "label": "ESPEC - CLINICO",
+          "count": 14,
+          "sus": 14,
+          "complementary": false,
+          "details": [
+            {
+              "label": "33 - CLINICA GERAL",
+              "count": 14,
+              "sus": 14
+            }
+          ]
+        }
+      ],
+      "total": 76,
+      "ordinary": 76,
+      "complementary": 0,
+      "sourceUrl": "https://apidadosabertos.saude.gov.br/assistencia-a-saude/cnes-leitos?co_ibge=230440&co_cnes=2516640&nu_comp=202607&limit=1000&offset=0",
+      "consultedAt": "2026-10-15T21:49:02.387999+00:00",
+      "location": {
+        "latitude": -3.779486,
+        "longitude": -38.571179,
+        "neighborhood": "PARANGABA",
+        "street": "AV OSORIO DE PAIVA",
+        "number": "1127",
+        "registryUpdatedAt": "2025-09-03"
+      },
+      "monitoring": null,
+      "emergency": null
+    },
+    {
+      "cnes": "2516667",
+      "name": "HOSPITAL DISTRITAL EDMILSON BARROS DE OLIVEIRA MESSEJANA",
+      "types": [
+        {
+          "id": "1  - ESPEC - CIRURGICO",
+          "label": "ESPEC - CIRURGICO",
+          "count": 55,
+          "sus": 55,
+          "complementary": false,
+          "details": [
+            {
+              "label": "03 - CIRURGIA GERAL",
+              "count": 17,
+              "sus": 17
+            },
+            {
+              "label": "13 - ORTOPEDIATRAUMATOLOGIA",
+              "count": 38,
+              "sus": 38
+            }
+          ]
+        },
+        {
+          "id": "2  - ESPEC - CLINICO",
+          "label": "ESPEC - CLINICO",
+          "count": 8,
+          "sus": 8,
+          "complementary": false,
+          "details": [
+            {
+              "label": "33 - CLINICA GERAL",
+              "count": 8,
+              "sus": 8
+            }
+          ]
+        },
+        {
+          "id": "3  - COMPLEMENTAR",
+          "label": "COMPLEMENTAR",
+          "count": 6,
+          "sus": 6,
+          "complementary": true,
+          "details": [
+            {
+              "label": "95 - UCI-A",
+              "count": 6,
+              "sus": 6
+            }
+          ]
+        }
+      ],
+      "total": 69,
+      "ordinary": 63,
+      "complementary": 6,
+      "sourceUrl": "https://apidadosabertos.saude.gov.br/assistencia-a-saude/cnes-leitos?co_ibge=230440&co_cnes=2516667&nu_comp=202607&limit=1000&offset=0",
+      "consultedAt": "2026-10-15T21:49:04.624073+00:00",
+      "location": {
+        "latitude": -3.829315,
+        "longitude": -38.508244,
+        "neighborhood": "MESSEJANA",
+        "street": "AV JORNALISTA THOMAS COELHO",
+        "number": "1578",
+        "registryUpdatedAt": "2025-09-03"
+      },
+      "monitoring": null,
+      "emergency": null
+    },
+    {
+      "cnes": "2516683",
+      "name": "HOSPITAL DISTRITAL EVANDRO AYRES DE MOURA ANTONIO BEZERRA",
+      "types": [
+        {
+          "id": "1  - ESPEC - CIRURGICO",
+          "label": "ESPEC - CIRURGICO",
+          "count": 50,
+          "sus": 50,
+          "complementary": false,
+          "details": [
+            {
+              "label": "03 - CIRURGIA GERAL",
+              "count": 21,
+              "sus": 21
+            },
+            {
+              "label": "13 - ORTOPEDIATRAUMATOLOGIA",
+              "count": 29,
+              "sus": 29
+            }
+          ]
+        },
+        {
+          "id": "2  - ESPEC - CLINICO",
+          "label": "ESPEC - CLINICO",
+          "count": 12,
+          "sus": 12,
+          "complementary": false,
+          "details": [
+            {
+              "label": "33 - CLINICA GERAL",
+              "count": 12,
+              "sus": 12
+            }
+          ]
+        },
+        {
+          "id": "3  - COMPLEMENTAR",
+          "label": "COMPLEMENTAR",
+          "count": 13,
+          "sus": 13,
+          "complementary": true,
+          "details": [
+            {
+              "label": "75 - UTI-A TIPO II",
+              "count": 10,
+              "sus": 10
+            },
+            {
+              "label": "95 - UCI-A",
+              "count": 3,
+              "sus": 3
+            }
+          ]
+        }
+      ],
+      "total": 75,
+      "ordinary": 62,
+      "complementary": 13,
+      "sourceUrl": "https://apidadosabertos.saude.gov.br/assistencia-a-saude/cnes-leitos?co_ibge=230440&co_cnes=2516683&nu_comp=202607&limit=1000&offset=0",
+      "consultedAt": "2026-10-15T21:49:07.258327+00:00",
+      "location": {
+        "latitude": -3.736854,
+        "longitude": -38.589575,
+        "neighborhood": "ANTONIO BEZERRA",
+        "street": "RUA CANDIDO MAIA",
+        "number": "294",
+        "registryUpdatedAt": "2025-09-03"
+      },
+      "monitoring": null,
+      "emergency": null
+    },
+    {
+      "cnes": "2526638",
+      "name": "SOPAI HOSPITAL INFANTIL",
+      "types": [
+        {
+          "id": "2  - ESPEC - CLINICO",
+          "label": "ESPEC - CLINICO",
+          "count": 25,
+          "sus": 25,
+          "complementary": false,
+          "details": [
+            {
+              "label": "87 - SAUDE MENTAL",
+              "count": 25,
+              "sus": 25
+            }
+          ]
+        },
+        {
+          "id": "3  - COMPLEMENTAR",
+          "label": "COMPLEMENTAR",
+          "count": 20,
+          "sus": 10,
+          "complementary": true,
+          "details": [
+            {
+              "label": "78 - UTI PEDIATRICA - TIPO II",
+              "count": 20,
+              "sus": 10
+            }
+          ]
+        },
+        {
+          "id": "5  - PEDIATRICO",
+          "label": "PEDIATRICO",
+          "count": 353,
+          "sus": 350,
+          "complementary": false,
+          "details": [
+            {
+              "label": "45 - PEDIATRIA CLINICA",
+              "count": 333,
+              "sus": 330
+            },
+            {
+              "label": "68 - PEDIATRIA CIRURGICA",
+              "count": 20,
+              "sus": 20
+            }
+          ]
+        },
+        {
+          "id": "6  - OUTRAS ESPECIALIDADES",
+          "label": "OUTRAS ESPECIALIDADES",
+          "count": 40,
+          "sus": 40,
+          "complementary": false,
+          "details": [
+            {
+              "label": "34 - CRONICOS",
+              "count": 40,
+              "sus": 40
+            }
+          ]
+        }
+      ],
+      "total": 438,
+      "ordinary": 418,
+      "complementary": 20,
+      "sourceUrl": "https://apidadosabertos.saude.gov.br/assistencia-a-saude/cnes-leitos?co_ibge=230440&co_cnes=2526638&nu_comp=202607&limit=1000&offset=0",
+      "consultedAt": "2026-10-15T21:49:10.399885+00:00",
+      "location": {
+        "latitude": -3.712521,
+        "longitude": -38.568741,
+        "neighborhood": "CARLITO PAMPLONA",
+        "street": "AV FRANCISCO SA",
+        "number": "5036",
+        "registryUpdatedAt": "2025-09-03"
+      },
+      "monitoring": null,
+      "emergency": null
+    },
+    {
+      "cnes": "2527057",
+      "name": "HOSPITAL SAO RAIMUNDO",
+      "types": [
+        {
+          "id": "1  - ESPEC - CIRURGICO",
+          "label": "ESPEC - CIRURGICO",
+          "count": 46,
+          "sus": 23,
+          "complementary": false,
+          "details": [
+            {
+              "label": "02 - CARDIOLOGIA",
+              "count": 10,
+              "sus": 5
+            },
+            {
+              "label": "03 - CIRURGIA GERAL",
+              "count": 10,
+              "sus": 5
+            },
+            {
+              "label": "06 - GINECOLOGIA",
+              "count": 4,
+              "sus": 4
+            },
+            {
+              "label": "08 - NEFROLOGIAUROLOGIA",
+              "count": 8,
+              "sus": 4
+            },
+            {
+              "label": "09 - NEUROCIRURGIA",
+              "count": 4,
+              "sus": 1
+            },
+            {
+              "label": "13 - ORTOPEDIATRAUMATOLOGIA",
+              "count": 8,
+              "sus": 3
+            },
+            {
+              "label": "15 - PLASTICA",
+              "count": 2,
+              "sus": 1
+            }
+          ]
+        },
+        {
+          "id": "2  - ESPEC - CLINICO",
+          "label": "ESPEC - CLINICO",
+          "count": 17,
+          "sus": 5,
+          "complementary": false,
+          "details": [
+            {
+              "label": "32 - CARDIOLOGIA",
+              "count": 5,
+              "sus": 2
+            },
+            {
+              "label": "33 - CLINICA GERAL",
+              "count": 6,
+              "sus": 1
+            },
+            {
+              "label": "40 - NEFROUROLOGIA",
+              "count": 3,
+              "sus": 1
+            },
+            {
+              "label": "42 - NEUROLOGIA",
+              "count": 3,
+              "sus": 1
+            }
+          ]
+        },
+        {
+          "id": "3  - COMPLEMENTAR",
+          "label": "COMPLEMENTAR",
+          "count": 10,
+          "sus": 0,
+          "complementary": true,
+          "details": [
+            {
+              "label": "66 - UNIDADE ISOLAMENTO",
+              "count": 2,
+              "sus": 0
+            },
+            {
+              "label": "75 - UTI-A TIPO II",
+              "count": 8,
+              "sus": 0
+            }
+          ]
+        },
+        {
+          "id": "5  - PEDIATRICO",
+          "label": "PEDIATRICO",
+          "count": 7,
+          "sus": 0,
+          "complementary": false,
+          "details": [
+            {
+              "label": "45 - PEDIATRIA CLINICA",
+              "count": 7,
+              "sus": 0
+            }
+          ]
+        }
+      ],
+      "total": 80,
+      "ordinary": 70,
+      "complementary": 10,
+      "sourceUrl": "https://apidadosabertos.saude.gov.br/assistencia-a-saude/cnes-leitos?co_ibge=230440&co_cnes=2527057&nu_comp=202607&limit=1000&offset=0",
+      "consultedAt": "2026-10-15T21:49:14.057784+00:00",
+      "location": {
+        "latitude": -3.730547,
+        "longitude": -38.505696,
+        "neighborhood": "ALDEOTA",
+        "street": "RUA DR JOSE LOURENCO",
+        "number": "777",
+        "registryUpdatedAt": "2025-09-03"
+      },
+      "monitoring": null,
+      "emergency": null
+    },
+    {
+      "cnes": "2528843",
+      "name": "HOSPITAL DISTRITAL DR FERNANDES TAVORA",
+      "types": [
+        {
+          "id": "1  - ESPEC - CIRURGICO",
+          "label": "ESPEC - CIRURGICO",
+          "count": 69,
+          "sus": 65,
+          "complementary": false,
+          "details": [
+            {
+              "label": "02 - CARDIOLOGIA",
+              "count": 8,
+              "sus": 4
+            },
+            {
+              "label": "03 - CIRURGIA GERAL",
+              "count": 9,
+              "sus": 9
+            },
+            {
+              "label": "12 - ONCOLOGIA",
+              "count": 12,
+              "sus": 12
+            },
+            {
+              "label": "13 - ORTOPEDIATRAUMATOLOGIA",
+              "count": 40,
+              "sus": 40
+            }
+          ]
+        },
+        {
+          "id": "2  - ESPEC - CLINICO",
+          "label": "ESPEC - CLINICO",
+          "count": 132,
+          "sus": 132,
+          "complementary": false,
+          "details": [
+            {
+              "label": "33 - CLINICA GERAL",
+              "count": 130,
+              "sus": 130
+            },
+            {
+              "label": "42 - NEUROLOGIA",
+              "count": 2,
+              "sus": 2
+            }
+          ]
+        },
+        {
+          "id": "3  - COMPLEMENTAR",
+          "label": "COMPLEMENTAR",
+          "count": 20,
+          "sus": 10,
+          "complementary": true,
+          "details": [
+            {
+              "label": "75 - UTI-A TIPO II",
+              "count": 20,
+              "sus": 10
+            }
+          ]
+        }
+      ],
+      "total": 221,
+      "ordinary": 201,
+      "complementary": 20,
+      "sourceUrl": "https://apidadosabertos.saude.gov.br/assistencia-a-saude/cnes-leitos?co_ibge=230440&co_cnes=2528843&nu_comp=202607&limit=1000&offset=0",
+      "consultedAt": "2026-10-15T21:50:53.073660+00:00",
+      "location": {
+        "latitude": -3.712626,
+        "longitude": -38.572302,
+        "neighborhood": "ALVARO WEYNE",
+        "street": "AV FRANCISCO SA",
+        "number": "5445",
+        "registryUpdatedAt": "2025-09-03"
+      },
+      "monitoring": null,
+      "emergency": null
+    },
+    {
+      "cnes": "2529025",
+      "name": "SAMES SERV AMBUL DE MULTIP ESPEC DA SAUDE",
+      "types": [
+        {
+          "id": "7  - HOSPITAL DIA",
+          "label": "HOSPITAL DIA",
+          "count": 60,
+          "sus": 0,
+          "complementary": false,
+          "details": [
+            {
+              "label": "73 - SAUDE MENTAL",
+              "count": 60,
+              "sus": 0
+            }
+          ]
+        }
+      ],
+      "total": 60,
+      "ordinary": 60,
+      "complementary": 0,
+      "sourceUrl": "https://apidadosabertos.saude.gov.br/assistencia-a-saude/cnes-leitos?co_ibge=230440&co_cnes=2529025&nu_comp=202607&limit=1000&offset=0",
+      "consultedAt": "2026-10-15T21:50:57.126472+00:00",
+      "location": {
+        "latitude": -3.735293,
+        "longitude": -38.555768,
+        "neighborhood": "PAPICU",
+        "street": "AVENIDA SANTOS DUMONT",
+        "number": "5753",
+        "registryUpdatedAt": "2025-09-03"
+      },
+      "monitoring": null,
+      "emergency": null
+    },
+    {
+      "cnes": "2529068",
+      "name": "HOSPITAL DISTRITAL GONZAGA MOTA JOSE WALTER",
+      "types": [
+        {
+          "id": "1  - ESPEC - CIRURGICO",
+          "label": "ESPEC - CIRURGICO",
+          "count": 8,
+          "sus": 8,
+          "complementary": false,
+          "details": [
+            {
+              "label": "03 - CIRURGIA GERAL",
+              "count": 5,
+              "sus": 5
+            },
+            {
+              "label": "06 - GINECOLOGIA",
+              "count": 3,
+              "sus": 3
+            }
+          ]
+        },
+        {
+          "id": "2  - ESPEC - CLINICO",
+          "label": "ESPEC - CLINICO",
+          "count": 25,
+          "sus": 25,
+          "complementary": false,
+          "details": [
+            {
+              "label": "33 - CLINICA GERAL",
+              "count": 25,
+              "sus": 25
+            }
+          ]
+        },
+        {
+          "id": "3  - COMPLEMENTAR",
+          "label": "COMPLEMENTAR",
+          "count": 10,
+          "sus": 0,
+          "complementary": true,
+          "details": [
+            {
+              "label": "92 - UNIDADE DE CUIDADOS INTERMEDIARIOS NEONATAL CONVENCIONAL",
+              "count": 10,
+              "sus": 0
+            }
+          ]
+        },
+        {
+          "id": "4  - OBSTETRICO",
+          "label": "OBSTETRICO",
+          "count": 55,
+          "sus": 55,
+          "complementary": false,
+          "details": [
+            {
+              "label": "10 - OBSTETRICIA CIRURGICA",
+              "count": 50,
+              "sus": 50
+            },
+            {
+              "label": "43 - OBSTETRICIA CLINICA",
+              "count": 5,
+              "sus": 5
+            }
+          ]
+        },
+        {
+          "id": "5  - PEDIATRICO",
+          "label": "PEDIATRICO",
+          "count": 2,
+          "sus": 2,
+          "complementary": false,
+          "details": [
+            {
+              "label": "45 - PEDIATRIA CLINICA",
+              "count": 2,
+              "sus": 2
+            }
+          ]
+        },
+        {
+          "id": "6  - OUTRAS ESPECIALIDADES",
+          "label": "OUTRAS ESPECIALIDADES",
+          "count": 35,
+          "sus": 35,
+          "complementary": false,
+          "details": [
+            {
+              "label": "34 - CRONICOS",
+              "count": 25,
+              "sus": 25
+            },
+            {
+              "label": "47 - PSIQUIATRIA",
+              "count": 10,
+              "sus": 10
+            }
+          ]
+        }
+      ],
+      "total": 135,
+      "ordinary": 125,
+      "complementary": 10,
+      "sourceUrl": "https://apidadosabertos.saude.gov.br/assistencia-a-saude/cnes-leitos?co_ibge=230440&co_cnes=2529068&nu_comp=202607&limit=1000&offset=0",
+      "consultedAt": "2026-10-15T21:50:58.501484+00:00",
+      "location": {
+        "latitude": -3.8286918,
+        "longitude": -38.5590551,
+        "neighborhood": "JOSE WALTER",
+        "street": "AVENIDA C",
+        "number": "485",
+        "registryUpdatedAt": "2025-09-11"
+      },
+      "monitoring": null,
+      "emergency": null
+    },
+    {
+      "cnes": "2529149",
+      "name": "IJF INSTITUTO DR JOSE FROTA CENTRAL",
+      "types": [
+        {
+          "id": "1  - ESPEC - CIRURGICO",
+          "label": "ESPEC - CIRURGICO",
+          "count": 406,
+          "sus": 406,
+          "complementary": false,
+          "details": [
+            {
+              "label": "01 - BUCO MAXILO FACIAL",
+              "count": 23,
+              "sus": 23
+            },
+            {
+              "label": "02 - CARDIOLOGIA",
+              "count": 4,
+              "sus": 4
+            },
+            {
+              "label": "03 - CIRURGIA GERAL",
+              "count": 36,
+              "sus": 36
+            },
+            {
+              "label": "09 - NEUROCIRURGIA",
+              "count": 43,
+              "sus": 43
+            },
+            {
+              "label": "13 - ORTOPEDIATRAUMATOLOGIA",
+              "count": 255,
+              "sus": 255
+            },
+            {
+              "label": "15 - PLASTICA",
+              "count": 26,
+              "sus": 26
+            },
+            {
+              "label": "90 - QUEIMADO ADULTO",
+              "count": 15,
+              "sus": 15
+            },
+            {
+              "label": "91 - QUEIMADO PEDIATRICO",
+              "count": 4,
+              "sus": 4
+            }
+          ]
+        },
+        {
+          "id": "2  - ESPEC - CLINICO",
+          "label": "ESPEC - CLINICO",
+          "count": 93,
+          "sus": 93,
+          "complementary": false,
+          "details": [
+            {
+              "label": "32 - CARDIOLOGIA",
+              "count": 4,
+              "sus": 4
+            },
+            {
+              "label": "33 - CLINICA GERAL",
+              "count": 60,
+              "sus": 60
+            },
+            {
+              "label": "42 - NEUROLOGIA",
+              "count": 16,
+              "sus": 16
+            },
+            {
+              "label": "88 - QUEIMADO ADULTO",
+              "count": 10,
+              "sus": 10
+            },
+            {
+              "label": "89 - QUEIMADO PEDIATRICO",
+              "count": 3,
+              "sus": 3
+            }
+          ]
+        },
+        {
+          "id": "3  - COMPLEMENTAR",
+          "label": "COMPLEMENTAR",
+          "count": 84,
+          "sus": 67,
+          "complementary": true,
+          "details": [
+            {
+              "label": "75 - UTI-A TIPO II",
+              "count": 26,
+              "sus": 26
+            },
+            {
+              "label": "76 - UTI-A TIPO III",
+              "count": 44,
+              "sus": 30
+            },
+            {
+              "label": "78 - UTI PEDIATRICA - TIPO II",
+              "count": 10,
+              "sus": 7
+            },
+            {
+              "label": "83 - UTI-Q",
+              "count": 4,
+              "sus": 4
+            }
+          ]
+        },
+        {
+          "id": "5  - PEDIATRICO",
+          "label": "PEDIATRICO",
+          "count": 24,
+          "sus": 24,
+          "complementary": false,
+          "details": [
+            {
+              "label": "45 - PEDIATRIA CLINICA",
+              "count": 4,
+              "sus": 4
+            },
+            {
+              "label": "68 - PEDIATRIA CIRURGICA",
+              "count": 20,
+              "sus": 20
+            }
+          ]
+        }
+      ],
+      "total": 607,
+      "ordinary": 523,
+      "complementary": 84,
+      "sourceUrl": "https://apidadosabertos.saude.gov.br/assistencia-a-saude/cnes-leitos?co_ibge=230440&co_cnes=2529149&nu_comp=202607&limit=1000&offset=0",
+      "consultedAt": "2026-10-15T21:51:03.733643+00:00",
+      "location": {
+        "latitude": -3.7344229,
+        "longitude": -38.5315074,
+        "neighborhood": "CENTRO",
+        "street": "RUA BARAO DO RIO BRANCO",
+        "number": "1816",
+        "registryUpdatedAt": "2025-11-29"
+      },
+      "monitoring": null,
+      "emergency": null
+    },
+    {
+      "cnes": "2529386",
+      "name": "HOSPITAL MENINO JESUS",
+      "types": [
+        {
+          "id": "1  - ESPEC - CIRURGICO",
+          "label": "ESPEC - CIRURGICO",
+          "count": 18,
+          "sus": 0,
+          "complementary": false,
+          "details": [
+            {
+              "label": "01 - BUCO MAXILO FACIAL",
+              "count": 1,
+              "sus": 0
+            },
+            {
+              "label": "03 - CIRURGIA GERAL",
+              "count": 4,
+              "sus": 0
+            },
+            {
+              "label": "06 - GINECOLOGIA",
+              "count": 3,
+              "sus": 0
+            },
+            {
+              "label": "13 - ORTOPEDIATRAUMATOLOGIA",
+              "count": 10,
+              "sus": 0
+            }
+          ]
+        },
+        {
+          "id": "2  - ESPEC - CLINICO",
+          "label": "ESPEC - CLINICO",
+          "count": 88,
+          "sus": 88,
+          "complementary": false,
+          "details": [
+            {
+              "label": "33 - CLINICA GERAL",
+              "count": 88,
+              "sus": 88
+            }
+          ]
+        }
+      ],
+      "total": 106,
+      "ordinary": 106,
+      "complementary": 0,
+      "sourceUrl": "https://apidadosabertos.saude.gov.br/assistencia-a-saude/cnes-leitos?co_ibge=230440&co_cnes=2529386&nu_comp=202607&limit=1000&offset=0",
+      "consultedAt": "2026-10-15T21:51:13.376530+00:00",
+      "location": {
+        "latitude": -3.777553,
+        "longitude": -38.562205,
+        "neighborhood": "PARANGABA",
+        "street": "AV GERMANO FRANCK",
+        "number": "734",
+        "registryUpdatedAt": "2025-09-03"
+      },
+      "monitoring": null,
+      "emergency": null
+    },
+    {
+      "cnes": "2529394",
+      "name": "HOSPITAL PSIQUIATRICO SAO VICENTE DE PAULO",
+      "types": [
+        {
+          "id": "6  - OUTRAS ESPECIALIDADES",
+          "label": "OUTRAS ESPECIALIDADES",
+          "count": 130,
+          "sus": 130,
+          "complementary": false,
+          "details": [
+            {
+              "label": "47 - PSIQUIATRIA",
+              "count": 130,
+              "sus": 130
+            }
+          ]
+        }
+      ],
+      "total": 130,
+      "ordinary": 130,
+      "complementary": 0,
+      "sourceUrl": "https://apidadosabertos.saude.gov.br/assistencia-a-saude/cnes-leitos?co_ibge=230440&co_cnes=2529394&nu_comp=202607&limit=1000&offset=0",
+      "consultedAt": "2026-10-15T21:51:16.505154+00:00",
+      "location": {
+        "latitude": -3.767335,
+        "longitude": -38.560306,
+        "neighborhood": "PARANGABA",
+        "street": "AV JOAO PESSOA",
+        "number": "6600",
+        "registryUpdatedAt": "2025-09-30"
+      },
+      "monitoring": null,
+      "emergency": null
+    },
+    {
+      "cnes": "2529424",
+      "name": "THERA SAUDE MENTAL",
+      "types": [
+        {
+          "id": "6  - OUTRAS ESPECIALIDADES",
+          "label": "OUTRAS ESPECIALIDADES",
+          "count": 200,
+          "sus": 120,
+          "complementary": false,
+          "details": [
+            {
+              "label": "47 - PSIQUIATRIA",
+              "count": 200,
+              "sus": 120
+            }
+          ]
+        }
+      ],
+      "total": 200,
+      "ordinary": 200,
+      "complementary": 0,
+      "sourceUrl": "https://apidadosabertos.saude.gov.br/assistencia-a-saude/cnes-leitos?co_ibge=230440&co_cnes=2529424&nu_comp=202607&limit=1000&offset=0",
+      "consultedAt": "2026-10-15T21:51:17.947803+00:00",
+      "location": {
+        "latitude": -3.7407633,
+        "longitude": -38.5437604,
+        "neighborhood": "BENFICA",
+        "street": "AVENIDA CARAPINIMA",
+        "number": "2424",
+        "registryUpdatedAt": "2026-03-10"
+      },
+      "monitoring": null,
+      "emergency": null
+    },
+    {
+      "cnes": "2529475",
+      "name": "HOSPITAL DA CRIANCA DE FORTALEZA HCF",
+      "types": [
+        {
+          "id": "5  - PEDIATRICO",
+          "label": "PEDIATRICO",
+          "count": 85,
+          "sus": 85,
+          "complementary": false,
+          "details": [
+            {
+              "label": "45 - PEDIATRIA CLINICA",
+              "count": 60,
+              "sus": 60
+            },
+            {
+              "label": "68 - PEDIATRIA CIRURGICA",
+              "count": 25,
+              "sus": 25
+            }
+          ]
+        }
+      ],
+      "total": 85,
+      "ordinary": 85,
+      "complementary": 0,
+      "sourceUrl": "https://apidadosabertos.saude.gov.br/assistencia-a-saude/cnes-leitos?co_ibge=230440&co_cnes=2529475&nu_comp=202607&limit=1000&offset=0",
+      "consultedAt": "2026-10-15T21:51:19.335650+00:00",
+      "location": {
+        "latitude": -3.76186,
+        "longitude": -38.574367,
+        "neighborhood": "JOQUEI CLUBE",
+        "street": "RUA LINEU MACHADO",
+        "number": "155",
+        "registryUpdatedAt": "2025-09-03"
+      },
+      "monitoring": null,
+      "emergency": null
+    },
+    {
+      "cnes": "2561417",
+      "name": "HOSPITAL SAO JOSE DE DOENCAS INFECCIOSAS",
+      "types": [
+        {
+          "id": "1  - ESPEC - CIRURGICO",
+          "label": "ESPEC - CIRURGICO",
+          "count": 2,
+          "sus": 2,
+          "complementary": false,
+          "details": [
+            {
+              "label": "03 - CIRURGIA GERAL",
+              "count": 2,
+              "sus": 2
+            }
+          ]
+        },
+        {
+          "id": "2  - ESPEC - CLINICO",
+          "label": "ESPEC - CLINICO",
+          "count": 75,
+          "sus": 75,
+          "complementary": false,
+          "details": [
+            {
+              "label": "31 - AIDS",
+              "count": 32,
+              "sus": 32
+            },
+            {
+              "label": "33 - CLINICA GERAL",
+              "count": 43,
+              "sus": 43
+            }
+          ]
+        },
+        {
+          "id": "3  - COMPLEMENTAR",
+          "label": "COMPLEMENTAR",
+          "count": 22,
+          "sus": 12,
+          "complementary": true,
+          "details": [
+            {
+              "label": "66 - UNIDADE ISOLAMENTO",
+              "count": 4,
+              "sus": 4
+            },
+            {
+              "label": "75 - UTI-A TIPO II",
+              "count": 18,
+              "sus": 8
+            }
+          ]
+        },
+        {
+          "id": "6  - OUTRAS ESPECIALIDADES",
+          "label": "OUTRAS ESPECIALIDADES",
+          "count": 7,
+          "sus": 7,
+          "complementary": false,
+          "details": [
+            {
+              "label": "34 - CRONICOS",
+              "count": 3,
+              "sus": 3
+            },
+            {
+              "label": "49 - PNEUMOLOGIA SANITARIA",
+              "count": 4,
+              "sus": 4
+            }
+          ]
+        },
+        {
+          "id": "7  - HOSPITAL DIA",
+          "label": "HOSPITAL DIA",
+          "count": 20,
+          "sus": 20,
+          "complementary": false,
+          "details": [
+            {
+              "label": "69 - AIDS",
+              "count": 20,
+              "sus": 20
+            }
+          ]
+        }
+      ],
+      "total": 126,
+      "ordinary": 104,
+      "complementary": 22,
+      "sourceUrl": "https://apidadosabertos.saude.gov.br/assistencia-a-saude/cnes-leitos?co_ibge=230440&co_cnes=2561417&nu_comp=202607&limit=1000&offset=0",
+      "consultedAt": "2026-10-15T21:51:24.752366+00:00",
+      "location": {
+        "latitude": -3.744904,
+        "longitude": -38.55820748452475,
+        "neighborhood": "AMADEU FURTADO",
+        "street": "RUA NESTOR BARBOSA",
+        "number": "315",
+        "registryUpdatedAt": "2025-09-03"
+      },
+      "monitoring": {
+        "total": 106,
+        "occupied": 90,
+        "free": 16,
+        "clinics": [
+          {
+            "unidade": "HSJ - Hospital São José de Doenças Infecciosas",
+            "clinica": "UNIDADE TB",
+            "quantidadeOcupada": 15,
+            "quantidadeLivre": 1,
+            "total": 16
+          },
+          {
+            "unidade": "HSJ - Hospital São José de Doenças Infecciosas",
+            "clinica": "SEMI - INTENSIVA",
+            "quantidadeOcupada": 13,
+            "quantidadeLivre": 7,
+            "total": 20
+          },
+          {
+            "unidade": "HSJ - Hospital São José de Doenças Infecciosas",
+            "clinica": "UTI",
+            "quantidadeOcupada": 8,
+            "quantidadeLivre": 0,
+            "total": 8
+          },
+          {
+            "unidade": "HSJ - Hospital São José de Doenças Infecciosas",
+            "clinica": "INFECTOLOGIA CLÍNICA",
+            "quantidadeOcupada": 54,
+            "quantidadeLivre": 8,
+            "total": 62
+          }
+        ]
+      },
+      "emergency": null
+    },
+    {
+      "cnes": "2561484",
+      "name": "HOSPITAL DE OLHOS NEUSA ROCHA",
+      "types": [
+        {
+          "id": "1  - ESPEC - CIRURGICO",
+          "label": "ESPEC - CIRURGICO",
+          "count": 1,
+          "sus": 1,
+          "complementary": false,
+          "details": [
+            {
+              "label": "11 - OFTALMOLOGIA",
+              "count": 1,
+              "sus": 1
+            }
+          ]
+        }
+      ],
+      "total": 1,
+      "ordinary": 1,
+      "complementary": 0,
+      "sourceUrl": "https://apidadosabertos.saude.gov.br/assistencia-a-saude/cnes-leitos?co_ibge=230440&co_cnes=2561484&nu_comp=202607&limit=1000&offset=0",
+      "consultedAt": "2026-10-15T21:51:33.555098+00:00",
+      "location": {
+        "latitude": -3.733249,
+        "longitude": -38.549223,
+        "neighborhood": "SAO GERARDO",
+        "street": "RUA PROFESSOR NOGUEIRA",
+        "number": "71",
+        "registryUpdatedAt": "2025-09-03"
+      },
+      "monitoring": null,
+      "emergency": null
+    },
+    {
+      "cnes": "2561492",
+      "name": "HOSPITAL UNIVERSITARIO WALTER CANTIDIO",
+      "types": [
+        {
+          "id": "1  - ESPEC - CIRURGICO",
+          "label": "ESPEC - CIRURGICO",
+          "count": 84,
+          "sus": 84,
+          "complementary": false,
+          "details": [
+            {
+              "label": "01 - BUCO MAXILO FACIAL",
+              "count": 1,
+              "sus": 1
+            },
+            {
+              "label": "02 - CARDIOLOGIA",
+              "count": 8,
+              "sus": 8
+            },
+            {
+              "label": "03 - CIRURGIA GERAL",
+              "count": 17,
+              "sus": 17
+            },
+            {
+              "label": "05 - GASTROENTEROLOGIA",
+              "count": 8,
+              "sus": 8
+            },
+            {
+              "label": "08 - NEFROLOGIAUROLOGIA",
+              "count": 4,
+              "sus": 4
+            },
+            {
+              "label": "09 - NEUROCIRURGIA",
+              "count": 2,
+              "sus": 2
+            },
+            {
+              "label": "12 - ONCOLOGIA",
+              "count": 4,
+              "sus": 4
+            },
+            {
+              "label": "13 - ORTOPEDIATRAUMATOLOGIA",
+              "count": 8,
+              "sus": 8
+            },
+            {
+              "label": "14 - OTORRINOLARINGOLOGIA",
+              "count": 5,
+              "sus": 5
+            },
+            {
+              "label": "15 - PLASTICA",
+              "count": 2,
+              "sus": 2
+            },
+            {
+              "label": "16 - TORACICA",
+              "count": 1,
+              "sus": 1
+            },
+            {
+              "label": "67 - TRANSPLANTE",
+              "count": 24,
+              "sus": 24
+            }
+          ]
+        },
+        {
+          "id": "2  - ESPEC - CLINICO",
+          "label": "ESPEC - CLINICO",
+          "count": 58,
+          "sus": 58,
+          "complementary": false,
+          "details": [
+            {
+              "label": "32 - CARDIOLOGIA",
+              "count": 8,
+              "sus": 8
+            },
+            {
+              "label": "33 - CLINICA GERAL",
+              "count": 14,
+              "sus": 14
+            },
+            {
+              "label": "35 - DERMATOLOGIA",
+              "count": 1,
+              "sus": 1
+            },
+            {
+              "label": "36 - GERIATRIA",
+              "count": 4,
+              "sus": 4
+            },
+            {
+              "label": "38 - HEMATOLOGIA",
+              "count": 16,
+              "sus": 16
+            },
+            {
+              "label": "40 - NEFROUROLOGIA",
+              "count": 7,
+              "sus": 7
+            },
+            {
+              "label": "42 - NEUROLOGIA",
+              "count": 4,
+              "sus": 4
+            },
+            {
+              "label": "46 - PNEUMOLOGIA",
+              "count": 4,
+              "sus": 4
+            }
+          ]
+        },
+        {
+          "id": "3  - COMPLEMENTAR",
+          "label": "COMPLEMENTAR",
+          "count": 16,
+          "sus": 15,
+          "complementary": true,
+          "details": [
+            {
+              "label": "75 - UTI-A TIPO II",
+              "count": 8,
+              "sus": 7
+            },
+            {
+              "label": "76 - UTI-A TIPO III",
+              "count": 8,
+              "sus": 8
+            }
+          ]
+        },
+        {
+          "id": "5  - PEDIATRICO",
+          "label": "PEDIATRICO",
+          "count": 20,
+          "sus": 20,
+          "complementary": false,
+          "details": [
+            {
+              "label": "45 - PEDIATRIA CLINICA",
+              "count": 16,
+              "sus": 16
+            },
+            {
+              "label": "68 - PEDIATRIA CIRURGICA",
+              "count": 4,
+              "sus": 4
+            }
+          ]
+        },
+        {
+          "id": "6  - OUTRAS ESPECIALIDADES",
+          "label": "OUTRAS ESPECIALIDADES",
+          "count": 22,
+          "sus": 22,
+          "complementary": false,
+          "details": [
+            {
+              "label": "34 - CRONICOS",
+              "count": 20,
+              "sus": 20
+            },
+            {
+              "label": "47 - PSIQUIATRIA",
+              "count": 2,
+              "sus": 2
+            }
+          ]
+        },
+        {
+          "id": "7  - HOSPITAL DIA",
+          "label": "HOSPITAL DIA",
+          "count": 6,
+          "sus": 6,
+          "complementary": false,
+          "details": [
+            {
+              "label": "07 - CIRURGICO/DIAGNOSTICO/TERAPEUTICO",
+              "count": 3,
+              "sus": 3
+            },
+            {
+              "label": "71 - INTERCORRENCIA POS-TRANSPLANTE",
+              "count": 3,
+              "sus": 3
+            }
+          ]
+        }
+      ],
+      "total": 206,
+      "ordinary": 190,
+      "complementary": 16,
+      "sourceUrl": "https://apidadosabertos.saude.gov.br/assistencia-a-saude/cnes-leitos?co_ibge=230440&co_cnes=2561492&nu_comp=202607&limit=1000&offset=0",
+      "consultedAt": "2026-10-15T21:51:34.896871+00:00",
+      "location": {
+        "latitude": -3.749500640885792,
+        "longitude": -38.55100393295288,
+        "neighborhood": "RODOLFO TEOFILO",
+        "street": "PASTOR SAMUEL MUNGUBA",
+        "number": "1290",
+        "registryUpdatedAt": "2025-09-03"
+      },
+      "monitoring": null,
+      "emergency": null
+    },
+    {
+      "cnes": "2562472",
+      "name": "PRONTOCLINICA DE FORTALEZA",
+      "types": [
+        {
+          "id": "1  - ESPEC - CIRURGICO",
+          "label": "ESPEC - CIRURGICO",
+          "count": 28,
+          "sus": 0,
+          "complementary": false,
+          "details": [
+            {
+              "label": "03 - CIRURGIA GERAL",
+              "count": 7,
+              "sus": 0
+            },
+            {
+              "label": "11 - OFTALMOLOGIA",
+              "count": 7,
+              "sus": 0
+            },
+            {
+              "label": "14 - OTORRINOLARINGOLOGIA",
+              "count": 7,
+              "sus": 0
+            },
+            {
+              "label": "67 - TRANSPLANTE",
+              "count": 7,
+              "sus": 0
+            }
+          ]
+        }
+      ],
+      "total": 28,
+      "ordinary": 28,
+      "complementary": 0,
+      "sourceUrl": "https://apidadosabertos.saude.gov.br/assistencia-a-saude/cnes-leitos?co_ibge=230440&co_cnes=2562472&nu_comp=202607&limit=1000&offset=0",
+      "consultedAt": "2026-10-15T21:51:49.113151+00:00",
+      "location": {
+        "latitude": -3.751325,
+        "longitude": -38.548693,
+        "neighborhood": "DAMAS",
+        "street": "AV JOAO PESSOA",
+        "number": "4408",
+        "registryUpdatedAt": "2026-03-10"
+      },
+      "monitoring": null,
+      "emergency": null
+    },
+    {
+      "cnes": "2562480",
+      "name": "OFTALMED CENTRO DE OFTALMOLOGIA",
+      "types": [
+        {
+          "id": "1  - ESPEC - CIRURGICO",
+          "label": "ESPEC - CIRURGICO",
+          "count": 4,
+          "sus": 1,
+          "complementary": false,
+          "details": [
+            {
+              "label": "11 - OFTALMOLOGIA",
+              "count": 4,
+              "sus": 1
+            }
+          ]
+        }
+      ],
+      "total": 4,
+      "ordinary": 4,
+      "complementary": 0,
+      "sourceUrl": "https://apidadosabertos.saude.gov.br/assistencia-a-saude/cnes-leitos?co_ibge=230440&co_cnes=2562480&nu_comp=202607&limit=1000&offset=0",
+      "consultedAt": "2026-10-15T21:51:51.847018+00:00",
+      "location": {
+        "latitude": -3.735281,
+        "longitude": -38.511635,
+        "neighborhood": "ALDEOTA",
+        "street": "RUA CARLOS VASCONCELOS",
+        "number": "1516",
+        "registryUpdatedAt": "2025-09-03"
+      },
+      "monitoring": null,
+      "emergency": null
+    },
+    {
+      "cnes": "2562685",
+      "name": "CASA DE SAUDE NOSSA SENHORA DAS GRACAS",
+      "types": [
+        {
+          "id": "1  - ESPEC - CIRURGICO",
+          "label": "ESPEC - CIRURGICO",
+          "count": 2,
+          "sus": 0,
+          "complementary": false,
+          "details": [
+            {
+              "label": "06 - GINECOLOGIA",
+              "count": 2,
+              "sus": 0
+            }
+          ]
+        },
+        {
+          "id": "2  - ESPEC - CLINICO",
+          "label": "ESPEC - CLINICO",
+          "count": 4,
+          "sus": 0,
+          "complementary": false,
+          "details": [
+            {
+              "label": "33 - CLINICA GERAL",
+              "count": 4,
+              "sus": 0
+            }
+          ]
+        },
+        {
+          "id": "4  - OBSTETRICO",
+          "label": "OBSTETRICO",
+          "count": 30,
+          "sus": 0,
+          "complementary": false,
+          "details": [
+            {
+              "label": "10 - OBSTETRICIA CIRURGICA",
+              "count": 25,
+              "sus": 0
+            },
+            {
+              "label": "43 - OBSTETRICIA CLINICA",
+              "count": 5,
+              "sus": 0
+            }
+          ]
+        }
+      ],
+      "total": 36,
+      "ordinary": 36,
+      "complementary": 0,
+      "sourceUrl": "https://apidadosabertos.saude.gov.br/assistencia-a-saude/cnes-leitos?co_ibge=230440&co_cnes=2562685&nu_comp=202607&limit=1000&offset=0",
+      "consultedAt": "2026-10-15T21:51:53.213189+00:00",
+      "location": {
+        "latitude": -3.711147,
+        "longitude": -38.550654,
+        "neighborhood": "PIRAMBU",
+        "street": "AV NOSSA SENHORA DAS GRACAS",
+        "number": "245",
+        "registryUpdatedAt": "2025-09-03"
+      },
+      "monitoring": null,
+      "emergency": null
+    },
+    {
+      "cnes": "2563681",
+      "name": "HIAS HOSPITAL INFANTIL ALBERT SABIN",
+      "types": [
+        {
+          "id": "1  - ESPEC - CIRURGICO",
+          "label": "ESPEC - CIRURGICO",
+          "count": 46,
+          "sus": 46,
+          "complementary": false,
+          "details": [
+            {
+              "label": "02 - CARDIOLOGIA",
+              "count": 4,
+              "sus": 4
+            },
+            {
+              "label": "05 - GASTROENTEROLOGIA",
+              "count": 10,
+              "sus": 10
+            },
+            {
+              "label": "08 - NEFROLOGIAUROLOGIA",
+              "count": 6,
+              "sus": 6
+            },
+            {
+              "label": "09 - NEUROCIRURGIA",
+              "count": 12,
+              "sus": 12
+            },
+            {
+              "label": "12 - ONCOLOGIA",
+              "count": 4,
+              "sus": 4
+            },
+            {
+              "label": "13 - ORTOPEDIATRAUMATOLOGIA",
+              "count": 7,
+              "sus": 7
+            },
+            {
+              "label": "15 - PLASTICA",
+              "count": 2,
+              "sus": 2
+            },
+            {
+              "label": "67 - TRANSPLANTE",
+              "count": 1,
+              "sus": 1
+            }
+          ]
+        },
+        {
+          "id": "2  - ESPEC - CLINICO",
+          "label": "ESPEC - CLINICO",
+          "count": 90,
+          "sus": 90,
+          "complementary": false,
+          "details": [
+            {
+              "label": "32 - CARDIOLOGIA",
+              "count": 4,
+              "sus": 4
+            },
+            {
+              "label": "38 - HEMATOLOGIA",
+              "count": 4,
+              "sus": 4
+            },
+            {
+              "label": "40 - NEFROUROLOGIA",
+              "count": 13,
+              "sus": 13
+            },
+            {
+              "label": "42 - NEUROLOGIA",
+              "count": 10,
+              "sus": 10
+            },
+            {
+              "label": "44 - ONCOLOGIA",
+              "count": 40,
+              "sus": 40
+            },
+            {
+              "label": "46 - PNEUMOLOGIA",
+              "count": 19,
+              "sus": 19
+            }
+          ]
+        },
+        {
+          "id": "3  - COMPLEMENTAR",
+          "label": "COMPLEMENTAR",
+          "count": 98,
+          "sus": 97,
+          "complementary": true,
+          "details": [
+            {
+              "label": "66 - UNIDADE ISOLAMENTO",
+              "count": 16,
+              "sus": 16
+            },
+            {
+              "label": "78 - UTI PEDIATRICA - TIPO II",
+              "count": 47,
+              "sus": 47
+            },
+            {
+              "label": "81 - UTI NEONATAL - TIPO II",
+              "count": 12,
+              "sus": 12
+            },
+            {
+              "label": "92 - UNIDADE DE CUIDADOS INTERMEDIARIOS NEONATAL CONVENCIONAL",
+              "count": 23,
+              "sus": 22
+            }
+          ]
+        },
+        {
+          "id": "5  - PEDIATRICO",
+          "label": "PEDIATRICO",
+          "count": 126,
+          "sus": 126,
+          "complementary": false,
+          "details": [
+            {
+              "label": "45 - PEDIATRIA CLINICA",
+              "count": 109,
+              "sus": 109
+            },
+            {
+              "label": "68 - PEDIATRIA CIRURGICA",
+              "count": 17,
+              "sus": 17
+            }
+          ]
+        },
+        {
+          "id": "6  - OUTRAS ESPECIALIDADES",
+          "label": "OUTRAS ESPECIALIDADES",
+          "count": 11,
+          "sus": 11,
+          "complementary": false,
+          "details": [
+            {
+              "label": "34 - CRONICOS",
+              "count": 10,
+              "sus": 10
+            },
+            {
+              "label": "47 - PSIQUIATRIA",
+              "count": 1,
+              "sus": 1
+            }
+          ]
+        },
+        {
+          "id": "7  - HOSPITAL DIA",
+          "label": "HOSPITAL DIA",
+          "count": 54,
+          "sus": 54,
+          "complementary": false,
+          "details": [
+            {
+              "label": "07 - CIRURGICO/DIAGNOSTICO/TERAPEUTICO",
+              "count": 54,
+              "sus": 54
+            }
+          ]
+        }
+      ],
+      "total": 425,
+      "ordinary": 327,
+      "complementary": 98,
+      "sourceUrl": "https://apidadosabertos.saude.gov.br/assistencia-a-saude/cnes-leitos?co_ibge=230440&co_cnes=2563681&nu_comp=202607&limit=1000&offset=0",
+      "consultedAt": "2026-10-15T21:51:55.926565+00:00",
+      "location": {
+        "latitude": -3.76273495,
+        "longitude": -38.53180922847989,
+        "neighborhood": "VILA UNIAO",
+        "street": "RUA TERTULIANO SALES",
+        "number": "544",
+        "registryUpdatedAt": "2025-09-03"
+      },
+      "monitoring": null,
+      "emergency": null
+    },
+    {
+      "cnes": "2611686",
+      "name": "HOSPITAL CURA DARS",
+      "types": [
+        {
+          "id": "1  - ESPEC - CIRURGICO",
+          "label": "ESPEC - CIRURGICO",
+          "count": 56,
+          "sus": 28,
+          "complementary": false,
+          "details": [
+            {
+              "label": "01 - BUCO MAXILO FACIAL",
+              "count": 1,
+              "sus": 1
+            },
+            {
+              "label": "02 - CARDIOLOGIA",
+              "count": 2,
+              "sus": 1
+            },
+            {
+              "label": "03 - CIRURGIA GERAL",
+              "count": 12,
+              "sus": 2
+            },
+            {
+              "label": "04 - ENDOCRINOLOGIA",
+              "count": 1,
+              "sus": 1
+            },
+            {
+              "label": "05 - GASTROENTEROLOGIA",
+              "count": 2,
+              "sus": 1
+            },
+            {
+              "label": "06 - GINECOLOGIA",
+              "count": 5,
+              "sus": 1
+            },
+            {
+              "label": "08 - NEFROLOGIAUROLOGIA",
+              "count": 4,
+              "sus": 1
+            },
+            {
+              "label": "09 - NEUROCIRURGIA",
+              "count": 2,
+              "sus": 1
+            },
+            {
+              "label": "12 - ONCOLOGIA",
+              "count": 12,
+              "sus": 10
+            },
+            {
+              "label": "13 - ORTOPEDIATRAUMATOLOGIA",
+              "count": 8,
+              "sus": 4
+            },
+            {
+              "label": "14 - OTORRINOLARINGOLOGIA",
+              "count": 1,
+              "sus": 1
+            },
+            {
+              "label": "16 - TORACICA",
+              "count": 2,
+              "sus": 1
+            },
+            {
+              "label": "67 - TRANSPLANTE",
+              "count": 4,
+              "sus": 3
+            }
+          ]
+        },
+        {
+          "id": "2  - ESPEC - CLINICO",
+          "label": "ESPEC - CLINICO",
+          "count": 84,
+          "sus": 4,
+          "complementary": false,
+          "details": [
+            {
+              "label": "33 - CLINICA GERAL",
+              "count": 75,
+              "sus": 1
+            },
+            {
+              "label": "38 - HEMATOLOGIA",
+              "count": 6,
+              "sus": 1
+            },
+            {
+              "label": "40 - NEFROUROLOGIA",
+              "count": 1,
+              "sus": 1
+            },
+            {
+              "label": "44 - ONCOLOGIA",
+              "count": 2,
+              "sus": 1
+            }
+          ]
+        },
+        {
+          "id": "3  - COMPLEMENTAR",
+          "label": "COMPLEMENTAR",
+          "count": 62,
+          "sus": 28,
+          "complementary": true,
+          "details": [
+            {
+              "label": "75 - UTI-A TIPO II",
+              "count": 40,
+              "sus": 6
+            },
+            {
+              "label": "81 - UTI NEONATAL - TIPO II",
+              "count": 10,
+              "sus": 10
+            },
+            {
+              "label": "92 - UNIDADE DE CUIDADOS INTERMEDIARIOS NEONATAL CONVENCIONAL",
+              "count": 8,
+              "sus": 8
+            },
+            {
+              "label": "93 - UNIDADE DE CUIDADOS INTERMEDIARIOS NEONATAL CANGURU",
+              "count": 4,
+              "sus": 4
+            }
+          ]
+        },
+        {
+          "id": "4  - OBSTETRICO",
+          "label": "OBSTETRICO",
+          "count": 26,
+          "sus": 16,
+          "complementary": false,
+          "details": [
+            {
+              "label": "10 - OBSTETRICIA CIRURGICA",
+              "count": 18,
+              "sus": 10
+            },
+            {
+              "label": "43 - OBSTETRICIA CLINICA",
+              "count": 8,
+              "sus": 6
+            }
+          ]
+        },
+        {
+          "id": "5  - PEDIATRICO",
+          "label": "PEDIATRICO",
+          "count": 2,
+          "sus": 2,
+          "complementary": false,
+          "details": [
+            {
+              "label": "45 - PEDIATRIA CLINICA",
+              "count": 1,
+              "sus": 1
+            },
+            {
+              "label": "68 - PEDIATRIA CIRURGICA",
+              "count": 1,
+              "sus": 1
+            }
+          ]
+        },
+        {
+          "id": "6  - OUTRAS ESPECIALIDADES",
+          "label": "OUTRAS ESPECIALIDADES",
+          "count": 2,
+          "sus": 1,
+          "complementary": false,
+          "details": [
+            {
+              "label": "47 - PSIQUIATRIA",
+              "count": 2,
+              "sus": 1
+            }
+          ]
+        }
+      ],
+      "total": 232,
+      "ordinary": 170,
+      "complementary": 62,
+      "sourceUrl": "https://apidadosabertos.saude.gov.br/assistencia-a-saude/cnes-leitos?co_ibge=230440&co_cnes=2611686&nu_comp=202607&limit=1000&offset=0",
+      "consultedAt": "2026-10-15T21:52:07.257791+00:00",
+      "location": {
+        "latitude": -3.728336,
+        "longitude": -38.515511,
+        "neighborhood": "CENTRO",
+        "street": "RUA COSTA BARROS",
+        "number": "833",
+        "registryUpdatedAt": "2025-12-27"
+      },
+      "monitoring": null,
+      "emergency": null
+    },
+    {
+      "cnes": "2644975",
+      "name": "HOSPITAL BATISTA MEMORIAL",
+      "types": [
+        {
+          "id": "1  - ESPEC - CIRURGICO",
+          "label": "ESPEC - CIRURGICO",
+          "count": 54,
+          "sus": 0,
+          "complementary": false,
+          "details": [
+            {
+              "label": "01 - BUCO MAXILO FACIAL",
+              "count": 10,
+              "sus": 0
+            },
+            {
+              "label": "03 - CIRURGIA GERAL",
+              "count": 44,
+              "sus": 0
+            }
+          ]
+        },
+        {
+          "id": "2  - ESPEC - CLINICO",
+          "label": "ESPEC - CLINICO",
+          "count": 124,
+          "sus": 0,
+          "complementary": false,
+          "details": [
+            {
+              "label": "33 - CLINICA GERAL",
+              "count": 124,
+              "sus": 0
+            }
+          ]
+        }
+      ],
+      "total": 178,
+      "ordinary": 178,
+      "complementary": 0,
+      "sourceUrl": "https://apidadosabertos.saude.gov.br/assistencia-a-saude/cnes-leitos?co_ibge=230440&co_cnes=2644975&nu_comp=202607&limit=1000&offset=0",
+      "consultedAt": "2026-10-15T21:52:20.203933+00:00",
+      "location": {
+        "latitude": -3.742267,
+        "longitude": -38.494207,
+        "neighborhood": "ALDEOTA",
+        "street": "RUA PROFESSOR DIAS DA ROCHA",
+        "number": "1530",
+        "registryUpdatedAt": "2025-09-03"
+      },
+      "monitoring": null,
+      "emergency": null
+    },
+    {
+      "cnes": "2651351",
+      "name": "HOSPITAL DISTRITAL GONZAGA MOTA BARRA DO CEARA",
+      "types": [
+        {
+          "id": "1  - ESPEC - CIRURGICO",
+          "label": "ESPEC - CIRURGICO",
+          "count": 15,
+          "sus": 15,
+          "complementary": false,
+          "details": [
+            {
+              "label": "03 - CIRURGIA GERAL",
+              "count": 9,
+              "sus": 9
+            },
+            {
+              "label": "06 - GINECOLOGIA",
+              "count": 6,
+              "sus": 6
+            }
+          ]
+        },
+        {
+          "id": "2  - ESPEC - CLINICO",
+          "label": "ESPEC - CLINICO",
+          "count": 38,
+          "sus": 38,
+          "complementary": false,
+          "details": [
+            {
+              "label": "33 - CLINICA GERAL",
+              "count": 35,
+              "sus": 35
+            },
+            {
+              "label": "41 - NEONATOLOGIA",
+              "count": 2,
+              "sus": 2
+            },
+            {
+              "label": "46 - PNEUMOLOGIA",
+              "count": 1,
+              "sus": 1
+            }
+          ]
+        },
+        {
+          "id": "3  - COMPLEMENTAR",
+          "label": "COMPLEMENTAR",
+          "count": 10,
+          "sus": 10,
+          "complementary": true,
+          "details": [
+            {
+              "label": "66 - UNIDADE ISOLAMENTO",
+              "count": 1,
+              "sus": 1
+            },
+            {
+              "label": "92 - UNIDADE DE CUIDADOS INTERMEDIARIOS NEONATAL CONVENCIONAL",
+              "count": 9,
+              "sus": 9
+            }
+          ]
+        },
+        {
+          "id": "4  - OBSTETRICO",
+          "label": "OBSTETRICO",
+          "count": 29,
+          "sus": 29,
+          "complementary": false,
+          "details": [
+            {
+              "label": "10 - OBSTETRICIA CIRURGICA",
+              "count": 10,
+              "sus": 10
+            },
+            {
+              "label": "43 - OBSTETRICIA CLINICA",
+              "count": 19,
+              "sus": 19
+            }
+          ]
+        },
+        {
+          "id": "5  - PEDIATRICO",
+          "label": "PEDIATRICO",
+          "count": 5,
+          "sus": 5,
+          "complementary": false,
+          "details": [
+            {
+              "label": "45 - PEDIATRIA CLINICA",
+              "count": 5,
+              "sus": 5
+            }
+          ]
+        }
+      ],
+      "total": 97,
+      "ordinary": 87,
+      "complementary": 10,
+      "sourceUrl": "https://apidadosabertos.saude.gov.br/assistencia-a-saude/cnes-leitos?co_ibge=230440&co_cnes=2651351&nu_comp=202607&limit=1000&offset=0",
+      "consultedAt": "2026-10-15T21:52:22.854335+00:00",
+      "location": {
+        "latitude": -3.715099,
+        "longitude": -38.597421,
+        "neighborhood": "VILA VELHA",
+        "street": "AVENIDA DOM ALOISIO LORSCHEIDER",
+        "number": "1130",
+        "registryUpdatedAt": "2025-09-03"
+      },
+      "monitoring": null,
+      "emergency": null
+    },
+    {
+      "cnes": "2651394",
+      "name": "SANTA CASA DE MISERICORDIA DE FORTALEZA",
+      "types": [
+        {
+          "id": "1  - ESPEC - CIRURGICO",
+          "label": "ESPEC - CIRURGICO",
+          "count": 112,
+          "sus": 112,
+          "complementary": false,
+          "details": [
+            {
+              "label": "06 - GINECOLOGIA",
+              "count": 22,
+              "sus": 22
+            },
+            {
+              "label": "08 - NEFROLOGIAUROLOGIA",
+              "count": 20,
+              "sus": 20
+            },
+            {
+              "label": "12 - ONCOLOGIA",
+              "count": 40,
+              "sus": 40
+            },
+            {
+              "label": "13 - ORTOPEDIATRAUMATOLOGIA",
+              "count": 30,
+              "sus": 30
+            }
+          ]
+        },
+        {
+          "id": "2  - ESPEC - CLINICO",
+          "label": "ESPEC - CLINICO",
+          "count": 96,
+          "sus": 96,
+          "complementary": false,
+          "details": [
+            {
+              "label": "32 - CARDIOLOGIA",
+              "count": 6,
+              "sus": 6
+            },
+            {
+              "label": "33 - CLINICA GERAL",
+              "count": 54,
+              "sus": 54
+            },
+            {
+              "label": "40 - NEFROUROLOGIA",
+              "count": 6,
+              "sus": 6
+            },
+            {
+              "label": "42 - NEUROLOGIA",
+              "count": 6,
+              "sus": 6
+            },
+            {
+              "label": "44 - ONCOLOGIA",
+              "count": 6,
+              "sus": 6
+            },
+            {
+              "label": "46 - PNEUMOLOGIA",
+              "count": 6,
+              "sus": 6
+            },
+            {
+              "label": "87 - SAUDE MENTAL",
+              "count": 12,
+              "sus": 12
+            }
+          ]
+        },
+        {
+          "id": "3  - COMPLEMENTAR",
+          "label": "COMPLEMENTAR",
+          "count": 20,
+          "sus": 10,
+          "complementary": true,
+          "details": [
+            {
+              "label": "75 - UTI-A TIPO II",
+              "count": 20,
+              "sus": 10
+            }
+          ]
+        },
+        {
+          "id": "7  - HOSPITAL DIA",
+          "label": "HOSPITAL DIA",
+          "count": 12,
+          "sus": 12,
+          "complementary": false,
+          "details": [
+            {
+              "label": "07 - CIRURGICO/DIAGNOSTICO/TERAPEUTICO",
+              "count": 12,
+              "sus": 12
+            }
+          ]
+        }
+      ],
+      "total": 240,
+      "ordinary": 220,
+      "complementary": 20,
+      "sourceUrl": "https://apidadosabertos.saude.gov.br/assistencia-a-saude/cnes-leitos?co_ibge=230440&co_cnes=2651394&nu_comp=202607&limit=1000&offset=0",
+      "consultedAt": "2026-10-15T21:52:28.731729+00:00",
+      "location": {
+        "latitude": -3.722398,
+        "longitude": -38.527616,
+        "neighborhood": "CENTRO",
+        "street": "RUA BARAO DO RIO BRANCO",
+        "number": "20",
+        "registryUpdatedAt": "2026-04-15"
+      },
+      "monitoring": null,
+      "emergency": null
+    },
+    {
+      "cnes": "2723190",
+      "name": "CRIO CENTRO REGIONAL INTEGRADO DE ONCOLOGIA",
+      "types": [
+        {
+          "id": "2  - ESPEC - CLINICO",
+          "label": "ESPEC - CLINICO",
+          "count": 4,
+          "sus": 4,
+          "complementary": false,
+          "details": [
+            {
+              "label": "44 - ONCOLOGIA",
+              "count": 4,
+              "sus": 4
+            }
+          ]
+        }
+      ],
+      "total": 4,
+      "ordinary": 4,
+      "complementary": 0,
+      "sourceUrl": "https://apidadosabertos.saude.gov.br/assistencia-a-saude/cnes-leitos?co_ibge=230440&co_cnes=2723190&nu_comp=202607&limit=1000&offset=0",
+      "consultedAt": "2026-10-15T21:52:35.854881+00:00",
+      "location": {
+        "latitude": -3.71311,
+        "longitude": -38.572867,
+        "neighborhood": "ALVARO WEYNE",
+        "street": "RUA FRANCISCO CALACA",
+        "number": "1300",
+        "registryUpdatedAt": "2025-09-03"
+      },
+      "monitoring": null,
+      "emergency": null
+    },
+    {
+      "cnes": "2723212",
+      "name": "HOSPITAL DISTRITAL GONZAGA MOTA MESSEJANA",
+      "types": [
+        {
+          "id": "1  - ESPEC - CIRURGICO",
+          "label": "ESPEC - CIRURGICO",
+          "count": 1,
+          "sus": 1,
+          "complementary": false,
+          "details": [
+            {
+              "label": "03 - CIRURGIA GERAL",
+              "count": 1,
+              "sus": 1
+            }
+          ]
+        },
+        {
+          "id": "2  - ESPEC - CLINICO",
+          "label": "ESPEC - CLINICO",
+          "count": 24,
+          "sus": 24,
+          "complementary": false,
+          "details": [
+            {
+              "label": "33 - CLINICA GERAL",
+              "count": 24,
+              "sus": 24
+            }
+          ]
+        },
+        {
+          "id": "3  - COMPLEMENTAR",
+          "label": "COMPLEMENTAR",
+          "count": 27,
+          "sus": 27,
+          "complementary": true,
+          "details": [
+            {
+              "label": "81 - UTI NEONATAL - TIPO II",
+              "count": 10,
+              "sus": 10
+            },
+            {
+              "label": "92 - UNIDADE DE CUIDADOS INTERMEDIARIOS NEONATAL CONVENCIONAL",
+              "count": 13,
+              "sus": 13
+            },
+            {
+              "label": "93 - UNIDADE DE CUIDADOS INTERMEDIARIOS NEONATAL CANGURU",
+              "count": 4,
+              "sus": 4
+            }
+          ]
+        },
+        {
+          "id": "4  - OBSTETRICO",
+          "label": "OBSTETRICO",
+          "count": 30,
+          "sus": 30,
+          "complementary": false,
+          "details": [
+            {
+              "label": "10 - OBSTETRICIA CIRURGICA",
+              "count": 12,
+              "sus": 12
+            },
+            {
+              "label": "43 - OBSTETRICIA CLINICA",
+              "count": 18,
+              "sus": 18
+            }
+          ]
+        },
+        {
+          "id": "5  - PEDIATRICO",
+          "label": "PEDIATRICO",
+          "count": 5,
+          "sus": 5,
+          "complementary": false,
+          "details": [
+            {
+              "label": "45 - PEDIATRIA CLINICA",
+              "count": 5,
+              "sus": 5
+            }
+          ]
+        }
+      ],
+      "total": 87,
+      "ordinary": 60,
+      "complementary": 27,
+      "sourceUrl": "https://apidadosabertos.saude.gov.br/assistencia-a-saude/cnes-leitos?co_ibge=230440&co_cnes=2723212&nu_comp=202607&limit=1000&offset=0",
+      "consultedAt": "2026-10-15T21:52:37.176602+00:00",
+      "location": {
+        "latitude": -3.821641,
+        "longitude": -38.480413,
+        "neighborhood": "MESSEJANA",
+        "street": "AV WASHINGTON SOARES",
+        "number": "7700",
+        "registryUpdatedAt": "2025-09-03"
+      },
+      "monitoring": null,
+      "emergency": null
+    },
+    {
+      "cnes": "2723220",
+      "name": "HOSPITAL HAROLDO JUACABA",
+      "types": [
+        {
+          "id": "1  - ESPEC - CIRURGICO",
+          "label": "ESPEC - CIRURGICO",
+          "count": 94,
+          "sus": 54,
+          "complementary": false,
+          "details": [
+            {
+              "label": "12 - ONCOLOGIA",
+              "count": 94,
+              "sus": 54
+            }
+          ]
+        },
+        {
+          "id": "2  - ESPEC - CLINICO",
+          "label": "ESPEC - CLINICO",
+          "count": 16,
+          "sus": 12,
+          "complementary": false,
+          "details": [
+            {
+              "label": "33 - CLINICA GERAL",
+              "count": 5,
+              "sus": 4
+            },
+            {
+              "label": "38 - HEMATOLOGIA",
+              "count": 4,
+              "sus": 4
+            },
+            {
+              "label": "44 - ONCOLOGIA",
+              "count": 7,
+              "sus": 4
+            }
+          ]
+        },
+        {
+          "id": "3  - COMPLEMENTAR",
+          "label": "COMPLEMENTAR",
+          "count": 10,
+          "sus": 7,
+          "complementary": true,
+          "details": [
+            {
+              "label": "75 - UTI-A TIPO II",
+              "count": 10,
+              "sus": 7
+            }
+          ]
+        },
+        {
+          "id": "6  - OUTRAS ESPECIALIDADES",
+          "label": "OUTRAS ESPECIALIDADES",
+          "count": 3,
+          "sus": 3,
+          "complementary": false,
+          "details": [
+            {
+              "label": "34 - CRONICOS",
+              "count": 3,
+              "sus": 3
+            }
+          ]
+        },
+        {
+          "id": "7  - HOSPITAL DIA",
+          "label": "HOSPITAL DIA",
+          "count": 4,
+          "sus": 4,
+          "complementary": false,
+          "details": [
+            {
+              "label": "07 - CIRURGICO/DIAGNOSTICO/TERAPEUTICO",
+              "count": 4,
+              "sus": 4
+            }
+          ]
+        }
+      ],
+      "total": 127,
+      "ordinary": 117,
+      "complementary": 10,
+      "sourceUrl": "https://apidadosabertos.saude.gov.br/assistencia-a-saude/cnes-leitos?co_ibge=230440&co_cnes=2723220&nu_comp=202607&limit=1000&offset=0",
+      "consultedAt": "2026-10-15T21:52:41.661593+00:00",
+      "location": {
+        "latitude": -3.74717,
+        "longitude": -38.553492,
+        "neighborhood": "RODOLFO TEOFILO",
+        "street": "RUA PAPI JUNIOR",
+        "number": "1222",
+        "registryUpdatedAt": "2026-04-15"
+      },
+      "monitoring": null,
+      "emergency": null
+    },
+    {
+      "cnes": "2785900",
+      "name": "HOSPITAL GERAL DR WALDEMAR ALCANTARA",
+      "types": [
+        {
+          "id": "1  - ESPEC - CIRURGICO",
+          "label": "ESPEC - CIRURGICO",
+          "count": 21,
+          "sus": 21,
+          "complementary": false,
+          "details": [
+            {
+              "label": "03 - CIRURGIA GERAL",
+              "count": 21,
+              "sus": 21
+            }
+          ]
+        },
+        {
+          "id": "2  - ESPEC - CLINICO",
+          "label": "ESPEC - CLINICO",
+          "count": 187,
+          "sus": 187,
+          "complementary": false,
+          "details": [
+            {
+              "label": "33 - CLINICA GERAL",
+              "count": 154,
+              "sus": 154
+            },
+            {
+              "label": "42 - NEUROLOGIA",
+              "count": 33,
+              "sus": 33
+            }
+          ]
+        },
+        {
+          "id": "3  - COMPLEMENTAR",
+          "label": "COMPLEMENTAR",
+          "count": 53,
+          "sus": 53,
+          "complementary": true,
+          "details": [
+            {
+              "label": "75 - UTI-A TIPO II",
+              "count": 21,
+              "sus": 21
+            },
+            {
+              "label": "78 - UTI PEDIATRICA - TIPO II",
+              "count": 8,
+              "sus": 8
+            },
+            {
+              "label": "81 - UTI NEONATAL - TIPO II",
+              "count": 8,
+              "sus": 8
+            },
+            {
+              "label": "92 - UNIDADE DE CUIDADOS INTERMEDIARIOS NEONATAL CONVENCIONAL",
+              "count": 16,
+              "sus": 16
+            }
+          ]
+        },
+        {
+          "id": "5  - PEDIATRICO",
+          "label": "PEDIATRICO",
+          "count": 66,
+          "sus": 66,
+          "complementary": false,
+          "details": [
+            {
+              "label": "45 - PEDIATRIA CLINICA",
+              "count": 66,
+              "sus": 66
+            }
+          ]
+        },
+        {
+          "id": "6  - OUTRAS ESPECIALIDADES",
+          "label": "OUTRAS ESPECIALIDADES",
+          "count": 33,
+          "sus": 33,
+          "complementary": false,
+          "details": [
+            {
+              "label": "34 - CRONICOS",
+              "count": 33,
+              "sus": 33
+            }
+          ]
+        }
+      ],
+      "total": 360,
+      "ordinary": 307,
+      "complementary": 53,
+      "sourceUrl": "https://apidadosabertos.saude.gov.br/assistencia-a-saude/cnes-leitos?co_ibge=230440&co_cnes=2785900&nu_comp=202607&limit=1000&offset=0",
+      "consultedAt": "2026-10-15T21:52:45.720364+00:00",
+      "location": {
+        "latitude": -3.83221905,
+        "longitude": -38.479816950120195,
+        "neighborhood": "MESSEJANA",
+        "street": "RUA DR PERGENTINO MAIA",
+        "number": "1559",
+        "registryUpdatedAt": "2026-05-14"
+      },
+      "monitoring": {
+        "total": 360,
+        "occupied": 325,
+        "free": 35,
+        "clinics": [
+          {
+            "unidade": "HGWA - Hospital Geral Waldemar de Alcântara",
+            "clinica": "CLÍNICA MÉDICA",
+            "quantidadeOcupada": 149,
+            "quantidadeLivre": 4,
+            "total": 153
+          },
+          {
+            "unidade": "HGWA - Hospital Geral Waldemar de Alcântara",
+            "clinica": "UCE",
+            "quantidadeOcupada": 31,
+            "quantidadeLivre": 2,
+            "total": 33
+          },
+          {
+            "unidade": "HGWA - Hospital Geral Waldemar de Alcântara",
+            "clinica": "UCINCO",
+            "quantidadeOcupada": 13,
+            "quantidadeLivre": 3,
+            "total": 16
+          },
+          {
+            "unidade": "HGWA - Hospital Geral Waldemar de Alcântara",
+            "clinica": "PEDIATRIA",
+            "quantidadeOcupada": 45,
+            "quantidadeLivre": 13,
+            "total": 58
+          },
+          {
+            "unidade": "HGWA - Hospital Geral Waldemar de Alcântara",
+            "clinica": "UTI",
+            "quantidadeOcupada": 18,
+            "quantidadeLivre": 3,
+            "total": 21
+          },
+          {
+            "unidade": "HGWA - Hospital Geral Waldemar de Alcântara",
+            "clinica": "CLÍNICA CIRÚRGICA",
+            "quantidadeOcupada": 18,
+            "quantidadeLivre": 4,
+            "total": 22
+          },
+          {
+            "unidade": "HGWA - Hospital Geral Waldemar de Alcântara",
+            "clinica": "UTI PED",
+            "quantidadeOcupada": 5,
+            "quantidadeLivre": 3,
+            "total": 8
+          },
+          {
+            "unidade": "HGWA - Hospital Geral Waldemar de Alcântara",
+            "clinica": "UCE PED",
+            "quantidadeOcupada": 8,
+            "quantidadeLivre": 0,
+            "total": 8
+          },
+          {
+            "unidade": "HGWA - Hospital Geral Waldemar de Alcântara",
+            "clinica": "AVC",
+            "quantidadeOcupada": 30,
+            "quantidadeLivre": 3,
+            "total": 33
+          },
+          {
+            "unidade": "HGWA - Hospital Geral Waldemar de Alcântara",
+            "clinica": "UTI NEO",
+            "quantidadeOcupada": 8,
+            "quantidadeLivre": 0,
+            "total": 8
+          }
+        ]
+      },
+      "emergency": null
+    },
+    {
+      "cnes": "2785927",
+      "name": "PRONTOCARDIO PRONTO ATENDIMENTO CARDIOLOGICO",
+      "types": [
+        {
+          "id": "1  - ESPEC - CIRURGICO",
+          "label": "ESPEC - CIRURGICO",
+          "count": 3,
+          "sus": 0,
+          "complementary": false,
+          "details": [
+            {
+              "label": "02 - CARDIOLOGIA",
+              "count": 3,
+              "sus": 0
+            }
+          ]
+        },
+        {
+          "id": "2  - ESPEC - CLINICO",
+          "label": "ESPEC - CLINICO",
+          "count": 14,
+          "sus": 0,
+          "complementary": false,
+          "details": [
+            {
+              "label": "32 - CARDIOLOGIA",
+              "count": 14,
+              "sus": 0
+            }
+          ]
+        },
+        {
+          "id": "3  - COMPLEMENTAR",
+          "label": "COMPLEMENTAR",
+          "count": 8,
+          "sus": 6,
+          "complementary": true,
+          "details": [
+            {
+              "label": "75 - UTI-A TIPO II",
+              "count": 8,
+              "sus": 6
+            }
+          ]
+        }
+      ],
+      "total": 25,
+      "ordinary": 17,
+      "complementary": 8,
+      "sourceUrl": "https://apidadosabertos.saude.gov.br/assistencia-a-saude/cnes-leitos?co_ibge=230440&co_cnes=2785927&nu_comp=202607&limit=1000&offset=0",
+      "consultedAt": "2026-10-15T21:52:50.646268+00:00",
+      "location": {
+        "latitude": -3.728815,
+        "longitude": -38.50489,
+        "neighborhood": "MEIRELES",
+        "street": "AV BARAO DE STUDART",
+        "number": "560",
+        "registryUpdatedAt": "2025-09-03"
+      },
+      "monitoring": null,
+      "emergency": null
+    },
+    {
+      "cnes": "3001113",
+      "name": "HOSPITAL OTOCLINICA",
+      "types": [
+        {
+          "id": "1  - ESPEC - CIRURGICO",
+          "label": "ESPEC - CIRURGICO",
+          "count": 40,
+          "sus": 1,
+          "complementary": false,
+          "details": [
+            {
+              "label": "01 - BUCO MAXILO FACIAL",
+              "count": 2,
+              "sus": 0
+            },
+            {
+              "label": "02 - CARDIOLOGIA",
+              "count": 3,
+              "sus": 0
+            },
+            {
+              "label": "03 - CIRURGIA GERAL",
+              "count": 5,
+              "sus": 0
+            },
+            {
+              "label": "05 - GASTROENTEROLOGIA",
+              "count": 3,
+              "sus": 0
+            },
+            {
+              "label": "08 - NEFROLOGIAUROLOGIA",
+              "count": 5,
+              "sus": 0
+            },
+            {
+              "label": "09 - NEUROCIRURGIA",
+              "count": 5,
+              "sus": 0
+            },
+            {
+              "label": "12 - ONCOLOGIA",
+              "count": 4,
+              "sus": 0
+            },
+            {
+              "label": "13 - ORTOPEDIATRAUMATOLOGIA",
+              "count": 5,
+              "sus": 0
+            },
+            {
+              "label": "14 - OTORRINOLARINGOLOGIA",
+              "count": 5,
+              "sus": 0
+            },
+            {
+              "label": "67 - TRANSPLANTE",
+              "count": 3,
+              "sus": 1
+            }
+          ]
+        },
+        {
+          "id": "2  - ESPEC - CLINICO",
+          "label": "ESPEC - CLINICO",
+          "count": 68,
+          "sus": 0,
+          "complementary": false,
+          "details": [
+            {
+              "label": "32 - CARDIOLOGIA",
+              "count": 6,
+              "sus": 0
+            },
+            {
+              "label": "33 - CLINICA GERAL",
+              "count": 41,
+              "sus": 0
+            },
+            {
+              "label": "36 - GERIATRIA",
+              "count": 3,
+              "sus": 0
+            },
+            {
+              "label": "38 - HEMATOLOGIA",
+              "count": 3,
+              "sus": 0
+            },
+            {
+              "label": "40 - NEFROUROLOGIA",
+              "count": 3,
+              "sus": 0
+            },
+            {
+              "label": "42 - NEUROLOGIA",
+              "count": 6,
+              "sus": 0
+            },
+            {
+              "label": "44 - ONCOLOGIA",
+              "count": 3,
+              "sus": 0
+            },
+            {
+              "label": "46 - PNEUMOLOGIA",
+              "count": 3,
+              "sus": 0
+            }
+          ]
+        },
+        {
+          "id": "3  - COMPLEMENTAR",
+          "label": "COMPLEMENTAR",
+          "count": 50,
+          "sus": 2,
+          "complementary": true,
+          "details": [
+            {
+              "label": "75 - UTI-A TIPO II",
+              "count": 32,
+              "sus": 1
+            },
+            {
+              "label": "78 - UTI PEDIATRICA - TIPO II",
+              "count": 3,
+              "sus": 1
+            },
+            {
+              "label": "79 - UTI-PED TIPO III",
+              "count": 3,
+              "sus": 0
+            },
+            {
+              "label": "83 - UTI-Q",
+              "count": 2,
+              "sus": 0
+            },
+            {
+              "label": "85 - UCO TIPO II",
+              "count": 10,
+              "sus": 0
+            }
+          ]
+        },
+        {
+          "id": "5  - PEDIATRICO",
+          "label": "PEDIATRICO",
+          "count": 12,
+          "sus": 0,
+          "complementary": false,
+          "details": [
+            {
+              "label": "45 - PEDIATRIA CLINICA",
+              "count": 6,
+              "sus": 0
+            },
+            {
+              "label": "68 - PEDIATRIA CIRURGICA",
+              "count": 6,
+              "sus": 0
+            }
+          ]
+        },
+        {
+          "id": "7  - HOSPITAL DIA",
+          "label": "HOSPITAL DIA",
+          "count": 3,
+          "sus": 0,
+          "complementary": false,
+          "details": [
+            {
+              "label": "07 - CIRURGICO/DIAGNOSTICO/TERAPEUTICO",
+              "count": 2,
+              "sus": 0
+            },
+            {
+              "label": "71 - INTERCORRENCIA POS-TRANSPLANTE",
+              "count": 1,
+              "sus": 0
+            }
+          ]
+        }
+      ],
+      "total": 173,
+      "ordinary": 123,
+      "complementary": 50,
+      "sourceUrl": "https://apidadosabertos.saude.gov.br/assistencia-a-saude/cnes-leitos?co_ibge=230440&co_cnes=3001113&nu_comp=202607&limit=1000&offset=0",
+      "consultedAt": "2026-10-15T21:52:52.880379+00:00",
+      "location": {
+        "latitude": -3.742116,
+        "longitude": -38.51235,
+        "neighborhood": "ALDEOTA",
+        "street": "ANTONIO SALES",
+        "number": "990",
+        "registryUpdatedAt": "2026-09-22"
+      },
+      "monitoring": null,
+      "emergency": null
+    },
+    {
+      "cnes": "3002470",
+      "name": "CLINICA HIGIA SC LTDA",
+      "types": [
+        {
+          "id": "1  - ESPEC - CIRURGICO",
+          "label": "ESPEC - CIRURGICO",
+          "count": 32,
+          "sus": 0,
+          "complementary": false,
+          "details": [
+            {
+              "label": "06 - GINECOLOGIA",
+              "count": 16,
+              "sus": 0
+            },
+            {
+              "label": "15 - PLASTICA",
+              "count": 16,
+              "sus": 0
+            }
+          ]
+        },
+        {
+          "id": "4  - OBSTETRICO",
+          "label": "OBSTETRICO",
+          "count": 16,
+          "sus": 0,
+          "complementary": false,
+          "details": [
+            {
+              "label": "10 - OBSTETRICIA CIRURGICA",
+              "count": 16,
+              "sus": 0
+            }
+          ]
+        }
+      ],
+      "total": 48,
+      "ordinary": 48,
+      "complementary": 0,
+      "sourceUrl": "https://apidadosabertos.saude.gov.br/assistencia-a-saude/cnes-leitos?co_ibge=230440&co_cnes=3002470&nu_comp=202607&limit=1000&offset=0",
+      "consultedAt": "2026-10-15T21:53:06.188057+00:00",
+      "location": {
+        "latitude": -3.767063,
+        "longitude": -38.532433,
+        "neighborhood": "VILA UNIAO",
+        "street": "RUA JORGE ACURCIO",
+        "number": "807",
+        "registryUpdatedAt": "2025-09-03"
+      },
+      "monitoring": null,
+      "emergency": null
+    },
+    {
+      "cnes": "3012778",
+      "name": "HOSPITAL SAO MATEUS",
+      "types": [
+        {
+          "id": "1  - ESPEC - CIRURGICO",
+          "label": "ESPEC - CIRURGICO",
+          "count": 62,
+          "sus": 0,
+          "complementary": false,
+          "details": [
+            {
+              "label": "03 - CIRURGIA GERAL",
+              "count": 62,
+              "sus": 0
+            }
+          ]
+        },
+        {
+          "id": "2  - ESPEC - CLINICO",
+          "label": "ESPEC - CLINICO",
+          "count": 46,
+          "sus": 0,
+          "complementary": false,
+          "details": [
+            {
+              "label": "33 - CLINICA GERAL",
+              "count": 46,
+              "sus": 0
+            }
+          ]
+        },
+        {
+          "id": "3  - COMPLEMENTAR",
+          "label": "COMPLEMENTAR",
+          "count": 3,
+          "sus": 0,
+          "complementary": true,
+          "details": [
+            {
+              "label": "66 - UNIDADE ISOLAMENTO",
+              "count": 3,
+              "sus": 0
+            }
+          ]
+        }
+      ],
+      "total": 111,
+      "ordinary": 108,
+      "complementary": 3,
+      "sourceUrl": "https://apidadosabertos.saude.gov.br/assistencia-a-saude/cnes-leitos?co_ibge=230440&co_cnes=3012778&nu_comp=202607&limit=1000&offset=0",
+      "consultedAt": "2026-10-15T21:53:08.500689+00:00",
+      "location": {
+        "latitude": -3.74162,
+        "longitude": -38.480112,
+        "neighborhood": "PAPICU",
+        "street": "AV SANTOS DUMONT",
+        "number": "5633",
+        "registryUpdatedAt": "2026-09-29"
+      },
+      "monitoring": null,
+      "emergency": null
+    },
+    {
+      "cnes": "3030849",
+      "name": "IOF",
+      "types": [
+        {
+          "id": "1  - ESPEC - CIRURGICO",
+          "label": "ESPEC - CIRURGICO",
+          "count": 15,
+          "sus": 0,
+          "complementary": false,
+          "details": [
+            {
+              "label": "11 - OFTALMOLOGIA",
+              "count": 6,
+              "sus": 0
+            },
+            {
+              "label": "14 - OTORRINOLARINGOLOGIA",
+              "count": 9,
+              "sus": 0
+            }
+          ]
+        }
+      ],
+      "total": 15,
+      "ordinary": 15,
+      "complementary": 0,
+      "sourceUrl": "https://apidadosabertos.saude.gov.br/assistencia-a-saude/cnes-leitos?co_ibge=230440&co_cnes=3030849&nu_comp=202607&limit=1000&offset=0",
+      "consultedAt": "2026-10-15T21:53:10.712279+00:00",
+      "location": {
+        "latitude": -3.7488171,
+        "longitude": -38.5021539,
+        "neighborhood": "DIONISIO TORRES",
+        "street": "AV DESEMBARGADOR MOREIRA",
+        "number": "2649",
+        "registryUpdatedAt": "2026-02-14"
+      },
+      "monitoring": null,
+      "emergency": null
+    },
+    {
+      "cnes": "3047091",
+      "name": "HOSPITAL UNICLINIC",
+      "types": [
+        {
+          "id": "1  - ESPEC - CIRURGICO",
+          "label": "ESPEC - CIRURGICO",
+          "count": 91,
+          "sus": 0,
+          "complementary": false,
+          "details": [
+            {
+              "label": "01 - BUCO MAXILO FACIAL",
+              "count": 2,
+              "sus": 0
+            },
+            {
+              "label": "02 - CARDIOLOGIA",
+              "count": 2,
+              "sus": 0
+            },
+            {
+              "label": "03 - CIRURGIA GERAL",
+              "count": 20,
+              "sus": 0
+            },
+            {
+              "label": "04 - ENDOCRINOLOGIA",
+              "count": 1,
+              "sus": 0
+            },
+            {
+              "label": "05 - GASTROENTEROLOGIA",
+              "count": 10,
+              "sus": 0
+            },
+            {
+              "label": "06 - GINECOLOGIA",
+              "count": 1,
+              "sus": 0
+            },
+            {
+              "label": "08 - NEFROLOGIAUROLOGIA",
+              "count": 8,
+              "sus": 0
+            },
+            {
+              "label": "09 - NEUROCIRURGIA",
+              "count": 5,
+              "sus": 0
+            },
+            {
+              "label": "11 - OFTALMOLOGIA",
+              "count": 2,
+              "sus": 0
+            },
+            {
+              "label": "12 - ONCOLOGIA",
+              "count": 2,
+              "sus": 0
+            },
+            {
+              "label": "13 - ORTOPEDIATRAUMATOLOGIA",
+              "count": 30,
+              "sus": 0
+            },
+            {
+              "label": "14 - OTORRINOLARINGOLOGIA",
+              "count": 2,
+              "sus": 0
+            },
+            {
+              "label": "15 - PLASTICA",
+              "count": 4,
+              "sus": 0
+            },
+            {
+              "label": "16 - TORACICA",
+              "count": 2,
+              "sus": 0
+            }
+          ]
+        },
+        {
+          "id": "2  - ESPEC - CLINICO",
+          "label": "ESPEC - CLINICO",
+          "count": 36,
+          "sus": 0,
+          "complementary": false,
+          "details": [
+            {
+              "label": "32 - CARDIOLOGIA",
+              "count": 2,
+              "sus": 0
+            },
+            {
+              "label": "33 - CLINICA GERAL",
+              "count": 20,
+              "sus": 0
+            },
+            {
+              "label": "40 - NEFROUROLOGIA",
+              "count": 5,
+              "sus": 0
+            },
+            {
+              "label": "42 - NEUROLOGIA",
+              "count": 2,
+              "sus": 0
+            },
+            {
+              "label": "44 - ONCOLOGIA",
+              "count": 2,
+              "sus": 0
+            },
+            {
+              "label": "46 - PNEUMOLOGIA",
+              "count": 5,
+              "sus": 0
+            }
+          ]
+        },
+        {
+          "id": "3  - COMPLEMENTAR",
+          "label": "COMPLEMENTAR",
+          "count": 5,
+          "sus": 0,
+          "complementary": true,
+          "details": [
+            {
+              "label": "66 - UNIDADE ISOLAMENTO",
+              "count": 2,
+              "sus": 0
+            },
+            {
+              "label": "95 - UCI-A",
+              "count": 3,
+              "sus": 0
+            }
+          ]
+        },
+        {
+          "id": "6  - OUTRAS ESPECIALIDADES",
+          "label": "OUTRAS ESPECIALIDADES",
+          "count": 5,
+          "sus": 0,
+          "complementary": false,
+          "details": [
+            {
+              "label": "48 - REABILITACAO",
+              "count": 5,
+              "sus": 0
+            }
+          ]
+        }
+      ],
+      "total": 137,
+      "ordinary": 132,
+      "complementary": 5,
+      "sourceUrl": "https://apidadosabertos.saude.gov.br/assistencia-a-saude/cnes-leitos?co_ibge=230440&co_cnes=3047091&nu_comp=202607&limit=1000&offset=0",
+      "consultedAt": "2026-10-15T21:53:12.525375+00:00",
+      "location": {
+        "latitude": -3.739644,
+        "longitude": -38.524666,
+        "neighborhood": "FATIMA",
+        "street": "AV AGUANAMBI",
+        "number": "332",
+        "registryUpdatedAt": "2026-02-28"
+      },
+      "monitoring": null,
+      "emergency": null
+    },
+    {
+      "cnes": "3051803",
+      "name": "CLDO CCO HOSPITAL DE OLHOS",
+      "types": [
+        {
+          "id": "1  - ESPEC - CIRURGICO",
+          "label": "ESPEC - CIRURGICO",
+          "count": 2,
+          "sus": 2,
+          "complementary": false,
+          "details": [
+            {
+              "label": "11 - OFTALMOLOGIA",
+              "count": 2,
+              "sus": 2
+            }
+          ]
+        }
+      ],
+      "total": 2,
+      "ordinary": 2,
+      "complementary": 0,
+      "sourceUrl": "https://apidadosabertos.saude.gov.br/assistencia-a-saude/cnes-leitos?co_ibge=230440&co_cnes=3051803&nu_comp=202607&limit=1000&offset=0",
+      "consultedAt": "2026-10-15T21:53:23.951846+00:00",
+      "location": {
+        "latitude": -3.7331225,
+        "longitude": -38.5129673,
+        "neighborhood": "ALDEOTA",
+        "street": "RUA ILDEFONSO ALBANO",
+        "number": "1373",
+        "registryUpdatedAt": "2025-09-19"
+      },
+      "monitoring": null,
+      "emergency": null
+    },
+    {
+      "cnes": "3053687",
+      "name": "HOSPITAL E MATERNIDADE GASTROCLINICA",
+      "types": [
+        {
+          "id": "1  - ESPEC - CIRURGICO",
+          "label": "ESPEC - CIRURGICO",
+          "count": 47,
+          "sus": 0,
+          "complementary": false,
+          "details": [
+            {
+              "label": "03 - CIRURGIA GERAL",
+              "count": 21,
+              "sus": 0
+            },
+            {
+              "label": "05 - GASTROENTEROLOGIA",
+              "count": 10,
+              "sus": 0
+            },
+            {
+              "label": "06 - GINECOLOGIA",
+              "count": 5,
+              "sus": 0
+            },
+            {
+              "label": "08 - NEFROLOGIAUROLOGIA",
+              "count": 3,
+              "sus": 0
+            },
+            {
+              "label": "13 - ORTOPEDIATRAUMATOLOGIA",
+              "count": 5,
+              "sus": 0
+            },
+            {
+              "label": "15 - PLASTICA",
+              "count": 3,
+              "sus": 0
+            }
+          ]
+        },
+        {
+          "id": "3  - COMPLEMENTAR",
+          "label": "COMPLEMENTAR",
+          "count": 29,
+          "sus": 0,
+          "complementary": true,
+          "details": [
+            {
+              "label": "65 - UNIDADE INTERMEDIARIA NEONATAL",
+              "count": 4,
+              "sus": 0
+            },
+            {
+              "label": "75 - UTI-A TIPO II",
+              "count": 10,
+              "sus": 0
+            },
+            {
+              "label": "81 - UTI NEONATAL - TIPO II",
+              "count": 15,
+              "sus": 0
+            }
+          ]
+        },
+        {
+          "id": "4  - OBSTETRICO",
+          "label": "OBSTETRICO",
+          "count": 22,
+          "sus": 0,
+          "complementary": false,
+          "details": [
+            {
+              "label": "10 - OBSTETRICIA CIRURGICA",
+              "count": 20,
+              "sus": 0
+            },
+            {
+              "label": "43 - OBSTETRICIA CLINICA",
+              "count": 2,
+              "sus": 0
+            }
+          ]
+        }
+      ],
+      "total": 98,
+      "ordinary": 69,
+      "complementary": 29,
+      "sourceUrl": "https://apidadosabertos.saude.gov.br/assistencia-a-saude/cnes-leitos?co_ibge=230440&co_cnes=3053687&nu_comp=202607&limit=1000&offset=0",
+      "consultedAt": "2026-10-15T21:53:25.272854+00:00",
+      "location": {
+        "latitude": -3.736932,
+        "longitude": -38.494287,
+        "neighborhood": "ALDEOTA",
+        "street": "AV SANTOS DUMONT",
+        "number": "3371",
+        "registryUpdatedAt": "2025-09-03"
+      },
+      "monitoring": null,
+      "emergency": null
+    },
+    {
+      "cnes": "3055426",
+      "name": "HOSPITAL MONTE KLINIKUM",
+      "types": [
+        {
+          "id": "1  - ESPEC - CIRURGICO",
+          "label": "ESPEC - CIRURGICO",
+          "count": 48,
+          "sus": 2,
+          "complementary": false,
+          "details": [
+            {
+              "label": "03 - CIRURGIA GERAL",
+              "count": 44,
+              "sus": 0
+            },
+            {
+              "label": "67 - TRANSPLANTE",
+              "count": 4,
+              "sus": 2
+            }
+          ]
+        },
+        {
+          "id": "2  - ESPEC - CLINICO",
+          "label": "ESPEC - CLINICO",
+          "count": 15,
+          "sus": 0,
+          "complementary": false,
+          "details": [
+            {
+              "label": "33 - CLINICA GERAL",
+              "count": 15,
+              "sus": 0
+            }
+          ]
+        },
+        {
+          "id": "3  - COMPLEMENTAR",
+          "label": "COMPLEMENTAR",
+          "count": 32,
+          "sus": 2,
+          "complementary": true,
+          "details": [
+            {
+              "label": "66 - UNIDADE ISOLAMENTO",
+              "count": 1,
+              "sus": 0
+            },
+            {
+              "label": "75 - UTI-A TIPO II",
+              "count": 18,
+              "sus": 2
+            },
+            {
+              "label": "85 - UCO TIPO II",
+              "count": 8,
+              "sus": 0
+            },
+            {
+              "label": "95 - UCI-A",
+              "count": 5,
+              "sus": 0
+            }
+          ]
+        },
+        {
+          "id": "7  - HOSPITAL DIA",
+          "label": "HOSPITAL DIA",
+          "count": 2,
+          "sus": 0,
+          "complementary": false,
+          "details": [
+            {
+              "label": "07 - CIRURGICO/DIAGNOSTICO/TERAPEUTICO",
+              "count": 2,
+              "sus": 0
+            }
+          ]
+        }
+      ],
+      "total": 97,
+      "ordinary": 65,
+      "complementary": 32,
+      "sourceUrl": "https://apidadosabertos.saude.gov.br/assistencia-a-saude/cnes-leitos?co_ibge=230440&co_cnes=3055426&nu_comp=202607&limit=1000&offset=0",
+      "consultedAt": "2026-10-15T21:53:31.428799+00:00",
+      "location": {
+        "latitude": -3.73203,
+        "longitude": -38.492442,
+        "neighborhood": "MEIRELES",
+        "street": "RUA REPUBLICA DO LIBANO",
+        "number": "747",
+        "registryUpdatedAt": "2025-09-03"
+      },
+      "monitoring": null,
+      "emergency": null
+    },
+    {
+      "cnes": "3089584",
+      "name": "HOSPITAL E MATERNIDADE DUNAS",
+      "types": [
+        {
+          "id": "1  - ESPEC - CIRURGICO",
+          "label": "ESPEC - CIRURGICO",
+          "count": 20,
+          "sus": 0,
+          "complementary": false,
+          "details": [
+            {
+              "label": "03 - CIRURGIA GERAL",
+              "count": 4,
+              "sus": 0
+            },
+            {
+              "label": "06 - GINECOLOGIA",
+              "count": 2,
+              "sus": 0
+            },
+            {
+              "label": "11 - OFTALMOLOGIA",
+              "count": 2,
+              "sus": 0
+            },
+            {
+              "label": "14 - OTORRINOLARINGOLOGIA",
+              "count": 9,
+              "sus": 0
+            },
+            {
+              "label": "15 - PLASTICA",
+              "count": 2,
+              "sus": 0
+            },
+            {
+              "label": "16 - TORACICA",
+              "count": 1,
+              "sus": 0
+            }
+          ]
+        },
+        {
+          "id": "3  - COMPLEMENTAR",
+          "label": "COMPLEMENTAR",
+          "count": 6,
+          "sus": 0,
+          "complementary": true,
+          "details": [
+            {
+              "label": "75 - UTI-A TIPO II",
+              "count": 6,
+              "sus": 0
+            }
+          ]
+        },
+        {
+          "id": "4  - OBSTETRICO",
+          "label": "OBSTETRICO",
+          "count": 4,
+          "sus": 0,
+          "complementary": false,
+          "details": [
+            {
+              "label": "10 - OBSTETRICIA CIRURGICA",
+              "count": 4,
+              "sus": 0
+            }
+          ]
+        }
+      ],
+      "total": 30,
+      "ordinary": 24,
+      "complementary": 6,
+      "sourceUrl": "https://apidadosabertos.saude.gov.br/assistencia-a-saude/cnes-leitos?co_ibge=230440&co_cnes=3089584&nu_comp=202607&limit=1000&offset=0",
+      "consultedAt": "2026-10-15T21:53:35.981316+00:00",
+      "location": {
+        "latitude": -3.735671,
+        "longitude": -38.472994,
+        "neighborhood": "PAPICU",
+        "street": "AV ENGENHEIRO ALBERTO SA",
+        "number": "1140",
+        "registryUpdatedAt": "2025-09-03"
+      },
+      "monitoring": null,
+      "emergency": null
+    },
+    {
+      "cnes": "3095487",
+      "name": "OSTEO ORTOPEDIA E TRAUMATOLOGIA",
+      "types": [
+        {
+          "id": "1  - ESPEC - CIRURGICO",
+          "label": "ESPEC - CIRURGICO",
+          "count": 6,
+          "sus": 0,
+          "complementary": false,
+          "details": [
+            {
+              "label": "13 - ORTOPEDIATRAUMATOLOGIA",
+              "count": 3,
+              "sus": 0
+            },
+            {
+              "label": "15 - PLASTICA",
+              "count": 3,
+              "sus": 0
+            }
+          ]
+        }
+      ],
+      "total": 6,
+      "ordinary": 6,
+      "complementary": 0,
+      "sourceUrl": "https://apidadosabertos.saude.gov.br/assistencia-a-saude/cnes-leitos?co_ibge=230440&co_cnes=3095487&nu_comp=202607&limit=1000&offset=0",
+      "consultedAt": "2026-10-15T21:53:40.656880+00:00",
+      "location": {
+        "latitude": -3.750646,
+        "longitude": -38.497846,
+        "neighborhood": "DIONISIO TORRES",
+        "street": "AV PONTES VIEIRA",
+        "number": "2651",
+        "registryUpdatedAt": "2025-09-03"
+      },
+      "monitoring": null,
+      "emergency": null
+    },
+    {
+      "cnes": "3148904",
+      "name": "CLINICA DA VISAO",
+      "types": [
+        {
+          "id": "1  - ESPEC - CIRURGICO",
+          "label": "ESPEC - CIRURGICO",
+          "count": 1,
+          "sus": 0,
+          "complementary": false,
+          "details": [
+            {
+              "label": "11 - OFTALMOLOGIA",
+              "count": 1,
+              "sus": 0
+            }
+          ]
+        }
+      ],
+      "total": 1,
+      "ordinary": 1,
+      "complementary": 0,
+      "sourceUrl": "https://apidadosabertos.saude.gov.br/assistencia-a-saude/cnes-leitos?co_ibge=230440&co_cnes=3148904&nu_comp=202607&limit=1000&offset=0",
+      "consultedAt": "2026-10-15T21:53:42.485218+00:00",
+      "location": {
+        "latitude": -3.736323,
+        "longitude": -38.510511,
+        "neighborhood": "ALDEOTA",
+        "street": "RUA MONSENHOR BRUNO",
+        "number": "1595",
+        "registryUpdatedAt": "2025-09-03"
+      },
+      "monitoring": null,
+      "emergency": null
+    },
+    {
+      "cnes": "3160130",
+      "name": "CENTRO VISUAL VALTER JUSTA",
+      "types": [
+        {
+          "id": "1  - ESPEC - CIRURGICO",
+          "label": "ESPEC - CIRURGICO",
+          "count": 1,
+          "sus": 0,
+          "complementary": false,
+          "details": [
+            {
+              "label": "11 - OFTALMOLOGIA",
+              "count": 1,
+              "sus": 0
+            }
+          ]
+        }
+      ],
+      "total": 1,
+      "ordinary": 1,
+      "complementary": 0,
+      "sourceUrl": "https://apidadosabertos.saude.gov.br/assistencia-a-saude/cnes-leitos?co_ibge=230440&co_cnes=3160130&nu_comp=202607&limit=1000&offset=0",
+      "consultedAt": "2026-10-15T21:53:43.900280+00:00",
+      "location": {
+        "latitude": -3.73417,
+        "longitude": -38.51836,
+        "neighborhood": "CENTRO",
+        "street": "RUA NOGUEIRA ACIOLI",
+        "number": "1146",
+        "registryUpdatedAt": "2025-09-03"
+      },
+      "monitoring": null,
+      "emergency": null
+    },
+    {
+      "cnes": "3189546",
+      "name": "HOSPITAL SAO CARLOS",
+      "types": [
+        {
+          "id": "1  - ESPEC - CIRURGICO",
+          "label": "ESPEC - CIRURGICO",
+          "count": 24,
+          "sus": 7,
+          "complementary": false,
+          "details": [
+            {
+              "label": "02 - CARDIOLOGIA",
+              "count": 1,
+              "sus": 0
+            },
+            {
+              "label": "03 - CIRURGIA GERAL",
+              "count": 7,
+              "sus": 0
+            },
+            {
+              "label": "05 - GASTROENTEROLOGIA",
+              "count": 1,
+              "sus": 0
+            },
+            {
+              "label": "08 - NEFROLOGIAUROLOGIA",
+              "count": 1,
+              "sus": 0
+            },
+            {
+              "label": "09 - NEUROCIRURGIA",
+              "count": 1,
+              "sus": 0
+            },
+            {
+              "label": "12 - ONCOLOGIA",
+              "count": 1,
+              "sus": 0
+            },
+            {
+              "label": "13 - ORTOPEDIATRAUMATOLOGIA",
+              "count": 1,
+              "sus": 0
+            },
+            {
+              "label": "14 - OTORRINOLARINGOLOGIA",
+              "count": 1,
+              "sus": 0
+            },
+            {
+              "label": "15 - PLASTICA",
+              "count": 1,
+              "sus": 0
+            },
+            {
+              "label": "16 - TORACICA",
+              "count": 1,
+              "sus": 0
+            },
+            {
+              "label": "67 - TRANSPLANTE",
+              "count": 8,
+              "sus": 7
+            }
+          ]
+        },
+        {
+          "id": "2  - ESPEC - CLINICO",
+          "label": "ESPEC - CLINICO",
+          "count": 45,
+          "sus": 5,
+          "complementary": false,
+          "details": [
+            {
+              "label": "33 - CLINICA GERAL",
+              "count": 45,
+              "sus": 5
+            }
+          ]
+        },
+        {
+          "id": "3  - COMPLEMENTAR",
+          "label": "COMPLEMENTAR",
+          "count": 43,
+          "sus": 4,
+          "complementary": true,
+          "details": [
+            {
+              "label": "75 - UTI-A TIPO II",
+              "count": 38,
+              "sus": 4
+            },
+            {
+              "label": "78 - UTI PEDIATRICA - TIPO II",
+              "count": 5,
+              "sus": 0
+            }
+          ]
+        },
+        {
+          "id": "5  - PEDIATRICO",
+          "label": "PEDIATRICO",
+          "count": 5,
+          "sus": 0,
+          "complementary": false,
+          "details": [
+            {
+              "label": "45 - PEDIATRIA CLINICA",
+              "count": 3,
+              "sus": 0
+            },
+            {
+              "label": "68 - PEDIATRIA CIRURGICA",
+              "count": 2,
+              "sus": 0
+            }
+          ]
+        },
+        {
+          "id": "7  - HOSPITAL DIA",
+          "label": "HOSPITAL DIA",
+          "count": 2,
+          "sus": 2,
+          "complementary": false,
+          "details": [
+            {
+              "label": "71 - INTERCORRENCIA POS-TRANSPLANTE",
+              "count": 2,
+              "sus": 2
+            }
+          ]
+        }
+      ],
+      "total": 119,
+      "ordinary": 76,
+      "complementary": 43,
+      "sourceUrl": "https://apidadosabertos.saude.gov.br/assistencia-a-saude/cnes-leitos?co_ibge=230440&co_cnes=3189546&nu_comp=202607&limit=1000&offset=0",
+      "consultedAt": "2026-10-15T21:53:45.270807+00:00",
+      "location": {
+        "latitude": -3.750653,
+        "longitude": -38.498257,
+        "neighborhood": "DIONISIO TORRES",
+        "street": "AV PONTES VIEIRA",
+        "number": "2531",
+        "registryUpdatedAt": "2025-11-07"
+      },
+      "monitoring": null,
+      "emergency": null
+    },
+    {
+      "cnes": "3232891",
+      "name": "CENTRO AVANCADO DE RETINA E CATARATA",
+      "types": [
+        {
+          "id": "1  - ESPEC - CIRURGICO",
+          "label": "ESPEC - CIRURGICO",
+          "count": 4,
+          "sus": 4,
+          "complementary": false,
+          "details": [
+            {
+              "label": "11 - OFTALMOLOGIA",
+              "count": 4,
+              "sus": 4
+            }
+          ]
+        }
+      ],
+      "total": 4,
+      "ordinary": 4,
+      "complementary": 0,
+      "sourceUrl": "https://apidadosabertos.saude.gov.br/assistencia-a-saude/cnes-leitos?co_ibge=230440&co_cnes=3232891&nu_comp=202607&limit=1000&offset=0",
+      "consultedAt": "2026-10-15T21:53:53.900538+00:00",
+      "location": {
+        "latitude": -3.735345,
+        "longitude": -38.489164,
+        "neighborhood": "ALDEOTA",
+        "street": "AV DOM LUIS",
+        "number": "1233",
+        "registryUpdatedAt": "2025-09-03"
+      },
+      "monitoring": null,
+      "emergency": null
+    },
+    {
+      "cnes": "3242587",
+      "name": "HOSPITAL REGIONAL UNIMED",
+      "types": [
+        {
+          "id": "1  - ESPEC - CIRURGICO",
+          "label": "ESPEC - CIRURGICO",
+          "count": 118,
+          "sus": 2,
+          "complementary": false,
+          "details": [
+            {
+              "label": "02 - CARDIOLOGIA",
+              "count": 2,
+              "sus": 0
+            },
+            {
+              "label": "03 - CIRURGIA GERAL",
+              "count": 80,
+              "sus": 0
+            },
+            {
+              "label": "05 - GASTROENTEROLOGIA",
+              "count": 2,
+              "sus": 0
+            },
+            {
+              "label": "08 - NEFROLOGIAUROLOGIA",
+              "count": 2,
+              "sus": 0
+            },
+            {
+              "label": "09 - NEUROCIRURGIA",
+              "count": 4,
+              "sus": 0
+            },
+            {
+              "label": "12 - ONCOLOGIA",
+              "count": 12,
+              "sus": 0
+            },
+            {
+              "label": "13 - ORTOPEDIATRAUMATOLOGIA",
+              "count": 6,
+              "sus": 0
+            },
+            {
+              "label": "14 - OTORRINOLARINGOLOGIA",
+              "count": 2,
+              "sus": 0
+            },
+            {
+              "label": "15 - PLASTICA",
+              "count": 2,
+              "sus": 0
+            },
+            {
+              "label": "16 - TORACICA",
+              "count": 2,
+              "sus": 0
+            },
+            {
+              "label": "67 - TRANSPLANTE",
+              "count": 4,
+              "sus": 2
+            }
+          ]
+        },
+        {
+          "id": "2  - ESPEC - CLINICO",
+          "label": "ESPEC - CLINICO",
+          "count": 60,
+          "sus": 0,
+          "complementary": false,
+          "details": [
+            {
+              "label": "33 - CLINICA GERAL",
+              "count": 60,
+              "sus": 0
+            }
+          ]
+        },
+        {
+          "id": "3  - COMPLEMENTAR",
+          "label": "COMPLEMENTAR",
+          "count": 57,
+          "sus": 0,
+          "complementary": true,
+          "details": [
+            {
+              "label": "66 - UNIDADE ISOLAMENTO",
+              "count": 4,
+              "sus": 0
+            },
+            {
+              "label": "75 - UTI-A TIPO II",
+              "count": 10,
+              "sus": 0
+            },
+            {
+              "label": "76 - UTI-A TIPO III",
+              "count": 30,
+              "sus": 0
+            },
+            {
+              "label": "86 - UCO TIPO III",
+              "count": 13,
+              "sus": 0
+            }
+          ]
+        }
+      ],
+      "total": 235,
+      "ordinary": 178,
+      "complementary": 57,
+      "sourceUrl": "https://apidadosabertos.saude.gov.br/assistencia-a-saude/cnes-leitos?co_ibge=230440&co_cnes=3242587&nu_comp=202607&limit=1000&offset=0",
+      "consultedAt": "2026-10-15T21:53:55.256414+00:00",
+      "location": {
+        "latitude": -3.7562976,
+        "longitude": -38.5206666,
+        "neighborhood": "SAO JOAO DO TAUAPE",
+        "street": "AV VISCONDE DO RIO BRANCO",
+        "number": "4000",
+        "registryUpdatedAt": "2025-09-03"
+      },
+      "monitoring": null,
+      "emergency": null
+    },
+    {
+      "cnes": "3283437",
+      "name": "ICCA INSTITUTO DO CORACAO DA CRIANCA E DO ADOLESCENTE",
+      "types": [
+        {
+          "id": "3  - COMPLEMENTAR",
+          "label": "COMPLEMENTAR",
+          "count": 4,
+          "sus": 4,
+          "complementary": true,
+          "details": [
+            {
+              "label": "78 - UTI PEDIATRICA - TIPO II",
+              "count": 3,
+              "sus": 3
+            },
+            {
+              "label": "81 - UTI NEONATAL - TIPO II",
+              "count": 1,
+              "sus": 1
+            }
+          ]
+        },
+        {
+          "id": "5  - PEDIATRICO",
+          "label": "PEDIATRICO",
+          "count": 10,
+          "sus": 10,
+          "complementary": false,
+          "details": [
+            {
+              "label": "45 - PEDIATRIA CLINICA",
+              "count": 1,
+              "sus": 1
+            },
+            {
+              "label": "68 - PEDIATRIA CIRURGICA",
+              "count": 9,
+              "sus": 9
+            }
+          ]
+        }
+      ],
+      "total": 14,
+      "ordinary": 10,
+      "complementary": 4,
+      "sourceUrl": "https://apidadosabertos.saude.gov.br/assistencia-a-saude/cnes-leitos?co_ibge=230440&co_cnes=3283437&nu_comp=202607&limit=1000&offset=0",
+      "consultedAt": "2026-10-15T21:54:03.191635+00:00",
+      "location": {
+        "latitude": -3.788605,
+        "longitude": -38.481228,
+        "neighborhood": "PARQUE MANIBURA",
+        "street": "AV NUBIA BARROCOS",
+        "number": "125",
+        "registryUpdatedAt": "2025-09-03"
+      },
+      "monitoring": null,
+      "emergency": null
+    },
+    {
+      "cnes": "3295311",
+      "name": "CEMOF OFTLASER VISIO",
+      "types": [
+        {
+          "id": "1  - ESPEC - CIRURGICO",
+          "label": "ESPEC - CIRURGICO",
+          "count": 1,
+          "sus": 0,
+          "complementary": false,
+          "details": [
+            {
+              "label": "11 - OFTALMOLOGIA",
+              "count": 1,
+              "sus": 0
+            }
+          ]
+        }
+      ],
+      "total": 1,
+      "ordinary": 1,
+      "complementary": 0,
+      "sourceUrl": "https://apidadosabertos.saude.gov.br/assistencia-a-saude/cnes-leitos?co_ibge=230440&co_cnes=3295311&nu_comp=202607&limit=1000&offset=0",
+      "consultedAt": "2026-10-15T21:54:05.888178+00:00",
+      "location": {
+        "latitude": -3.7364566,
+        "longitude": -38.4931949,
+        "neighborhood": "ALDEOTA",
+        "street": "RUA MARCOS MACEDO",
+        "number": "1333",
+        "registryUpdatedAt": "2025-09-03"
+      },
+      "monitoring": null,
+      "emergency": null
+    },
+    {
+      "cnes": "3394514",
+      "name": "HOSPITAL GENESIS",
+      "types": [
+        {
+          "id": "1  - ESPEC - CIRURGICO",
+          "label": "ESPEC - CIRURGICO",
+          "count": 38,
+          "sus": 0,
+          "complementary": false,
+          "details": [
+            {
+              "label": "03 - CIRURGIA GERAL",
+              "count": 28,
+              "sus": 0
+            },
+            {
+              "label": "06 - GINECOLOGIA",
+              "count": 10,
+              "sus": 0
+            }
+          ]
+        },
+        {
+          "id": "2  - ESPEC - CLINICO",
+          "label": "ESPEC - CLINICO",
+          "count": 26,
+          "sus": 0,
+          "complementary": false,
+          "details": [
+            {
+              "label": "33 - CLINICA GERAL",
+              "count": 26,
+              "sus": 0
+            }
+          ]
+        },
+        {
+          "id": "3  - COMPLEMENTAR",
+          "label": "COMPLEMENTAR",
+          "count": 21,
+          "sus": 0,
+          "complementary": true,
+          "details": [
+            {
+              "label": "65 - UNIDADE INTERMEDIARIA NEONATAL",
+              "count": 10,
+              "sus": 0
+            },
+            {
+              "label": "66 - UNIDADE ISOLAMENTO",
+              "count": 1,
+              "sus": 0
+            },
+            {
+              "label": "80 - UTI NEONATAL - TIPO I",
+              "count": 10,
+              "sus": 0
+            }
+          ]
+        },
+        {
+          "id": "4  - OBSTETRICO",
+          "label": "OBSTETRICO",
+          "count": 54,
+          "sus": 0,
+          "complementary": false,
+          "details": [
+            {
+              "label": "10 - OBSTETRICIA CIRURGICA",
+              "count": 28,
+              "sus": 0
+            },
+            {
+              "label": "43 - OBSTETRICIA CLINICA",
+              "count": 26,
+              "sus": 0
+            }
+          ]
+        }
+      ],
+      "total": 139,
+      "ordinary": 118,
+      "complementary": 21,
+      "sourceUrl": "https://apidadosabertos.saude.gov.br/assistencia-a-saude/cnes-leitos?co_ibge=230440&co_cnes=3394514&nu_comp=202607&limit=1000&offset=0",
+      "consultedAt": "2026-10-15T21:54:07.260813+00:00",
+      "location": {
+        "latitude": -3.731504,
+        "longitude": -38.513297,
+        "neighborhood": "ALDEOTA",
+        "street": "AV SANTOS DUMONT",
+        "number": "1168",
+        "registryUpdatedAt": "2025-09-03"
+      },
+      "monitoring": null,
+      "emergency": null
+    },
+    {
+      "cnes": "3470776",
+      "name": "HOSPITAL DA CRIANCA",
+      "types": [
+        {
+          "id": "3  - COMPLEMENTAR",
+          "label": "COMPLEMENTAR",
+          "count": 1,
+          "sus": 0,
+          "complementary": true,
+          "details": [
+            {
+              "label": "66 - UNIDADE ISOLAMENTO",
+              "count": 1,
+              "sus": 0
+            }
+          ]
+        },
+        {
+          "id": "5  - PEDIATRICO",
+          "label": "PEDIATRICO",
+          "count": 51,
+          "sus": 0,
+          "complementary": false,
+          "details": [
+            {
+              "label": "45 - PEDIATRIA CLINICA",
+              "count": 48,
+              "sus": 0
+            },
+            {
+              "label": "68 - PEDIATRIA CIRURGICA",
+              "count": 3,
+              "sus": 0
+            }
+          ]
+        }
+      ],
+      "total": 52,
+      "ordinary": 51,
+      "complementary": 1,
+      "sourceUrl": "https://apidadosabertos.saude.gov.br/assistencia-a-saude/cnes-leitos?co_ibge=230440&co_cnes=3470776&nu_comp=202607&limit=1000&offset=0",
+      "consultedAt": "2026-10-15T21:54:11.777567+00:00",
+      "location": {
+        "latitude": -3.76683,
+        "longitude": -38.555585,
+        "neighborhood": "MONTESE",
+        "street": "RUA ELVIRA PINHO",
+        "number": "383",
+        "registryUpdatedAt": "2025-09-03"
+      },
+      "monitoring": null,
+      "emergency": null
+    },
+    {
+      "cnes": "3528618",
+      "name": "HOSPITAL UNIMED SUL",
+      "types": [
+        {
+          "id": "1  - ESPEC - CIRURGICO",
+          "label": "ESPEC - CIRURGICO",
+          "count": 53,
+          "sus": 5,
+          "complementary": false,
+          "details": [
+            {
+              "label": "01 - BUCO MAXILO FACIAL",
+              "count": 1,
+              "sus": 0
+            },
+            {
+              "label": "02 - CARDIOLOGIA",
+              "count": 2,
+              "sus": 0
+            },
+            {
+              "label": "03 - CIRURGIA GERAL",
+              "count": 16,
+              "sus": 0
+            },
+            {
+              "label": "05 - GASTROENTEROLOGIA",
+              "count": 2,
+              "sus": 0
+            },
+            {
+              "label": "06 - GINECOLOGIA",
+              "count": 10,
+              "sus": 0
+            },
+            {
+              "label": "08 - NEFROLOGIAUROLOGIA",
+              "count": 2,
+              "sus": 0
+            },
+            {
+              "label": "09 - NEUROCIRURGIA",
+              "count": 2,
+              "sus": 0
+            },
+            {
+              "label": "12 - ONCOLOGIA",
+              "count": 2,
+              "sus": 0
+            },
+            {
+              "label": "13 - ORTOPEDIATRAUMATOLOGIA",
+              "count": 2,
+              "sus": 0
+            },
+            {
+              "label": "14 - OTORRINOLARINGOLOGIA",
+              "count": 2,
+              "sus": 0
+            },
+            {
+              "label": "15 - PLASTICA",
+              "count": 2,
+              "sus": 0
+            },
+            {
+              "label": "16 - TORACICA",
+              "count": 2,
+              "sus": 0
+            },
+            {
+              "label": "67 - TRANSPLANTE",
+              "count": 8,
+              "sus": 5
+            }
+          ]
+        },
+        {
+          "id": "2  - ESPEC - CLINICO",
+          "label": "ESPEC - CLINICO",
+          "count": 24,
+          "sus": 0,
+          "complementary": false,
+          "details": [
+            {
+              "label": "33 - CLINICA GERAL",
+              "count": 4,
+              "sus": 0
+            },
+            {
+              "label": "41 - NEONATOLOGIA",
+              "count": 20,
+              "sus": 0
+            }
+          ]
+        },
+        {
+          "id": "3  - COMPLEMENTAR",
+          "label": "COMPLEMENTAR",
+          "count": 71,
+          "sus": 0,
+          "complementary": true,
+          "details": [
+            {
+              "label": "66 - UNIDADE ISOLAMENTO",
+              "count": 2,
+              "sus": 0
+            },
+            {
+              "label": "75 - UTI-A TIPO II",
+              "count": 45,
+              "sus": 0
+            },
+            {
+              "label": "78 - UTI PEDIATRICA - TIPO II",
+              "count": 10,
+              "sus": 0
+            },
+            {
+              "label": "80 - UTI NEONATAL - TIPO I",
+              "count": 10,
+              "sus": 0
+            },
+            {
+              "label": "92 - UNIDADE DE CUIDADOS INTERMEDIARIOS NEONATAL CONVENCIONAL",
+              "count": 4,
+              "sus": 0
+            }
+          ]
+        },
+        {
+          "id": "4  - OBSTETRICO",
+          "label": "OBSTETRICO",
+          "count": 16,
+          "sus": 0,
+          "complementary": false,
+          "details": [
+            {
+              "label": "10 - OBSTETRICIA CIRURGICA",
+              "count": 10,
+              "sus": 0
+            },
+            {
+              "label": "43 - OBSTETRICIA CLINICA",
+              "count": 6,
+              "sus": 0
+            }
+          ]
+        },
+        {
+          "id": "5  - PEDIATRICO",
+          "label": "PEDIATRICO",
+          "count": 38,
+          "sus": 0,
+          "complementary": false,
+          "details": [
+            {
+              "label": "45 - PEDIATRIA CLINICA",
+              "count": 30,
+              "sus": 0
+            },
+            {
+              "label": "68 - PEDIATRIA CIRURGICA",
+              "count": 8,
+              "sus": 0
+            }
+          ]
+        }
+      ],
+      "total": 202,
+      "ordinary": 131,
+      "complementary": 71,
+      "sourceUrl": "https://apidadosabertos.saude.gov.br/assistencia-a-saude/cnes-leitos?co_ibge=230440&co_cnes=3528618&nu_comp=202607&limit=1000&offset=0",
+      "consultedAt": "2026-10-15T21:54:14.056320+00:00",
+      "location": {
+        "latitude": -3.7702216080334225,
+        "longitude": -38.491201400756836,
+        "neighborhood": "ENGENHEIRO LUCIANO C",
+        "street": "ALMIRANTE MAXIMIANO DA FONSECA",
+        "number": "44",
+        "registryUpdatedAt": "2025-09-03"
+      },
+      "monitoring": null,
+      "emergency": null
+    },
+    {
+      "cnes": "4039033",
+      "name": "HOSPITAL SANTA MARIA",
+      "types": [
+        {
+          "id": "2  - ESPEC - CLINICO",
+          "label": "ESPEC - CLINICO",
+          "count": 32,
+          "sus": 0,
+          "complementary": false,
+          "details": [
+            {
+              "label": "33 - CLINICA GERAL",
+              "count": 32,
+              "sus": 0
+            }
+          ]
+        }
+      ],
+      "total": 32,
+      "ordinary": 32,
+      "complementary": 0,
+      "sourceUrl": "https://apidadosabertos.saude.gov.br/assistencia-a-saude/cnes-leitos?co_ibge=230440&co_cnes=4039033&nu_comp=202607&limit=1000&offset=0",
+      "consultedAt": "2026-10-15T21:54:25.962012+00:00",
+      "location": {
+        "latitude": -3.74969,
+        "longitude": -38.52994,
+        "neighborhood": "FATIMA",
+        "street": "RUA EUSEBIO DE SOUSA",
+        "number": "1560",
+        "registryUpdatedAt": "2026-09-29"
+      },
+      "monitoring": null,
+      "emergency": null
+    },
+    {
+      "cnes": "4963938",
+      "name": "HOSPITAL UNIVERSITARIO DO CEARA HUC",
+      "types": [
+        {
+          "id": "1  - ESPEC - CIRURGICO",
+          "label": "ESPEC - CIRURGICO",
+          "count": 262,
+          "sus": 217,
+          "complementary": false,
+          "details": [
+            {
+              "label": "02 - CARDIOLOGIA",
+              "count": 45,
+              "sus": 0
+            },
+            {
+              "label": "03 - CIRURGIA GERAL",
+              "count": 98,
+              "sus": 98
+            },
+            {
+              "label": "05 - GASTROENTEROLOGIA",
+              "count": 2,
+              "sus": 2
+            },
+            {
+              "label": "06 - GINECOLOGIA",
+              "count": 10,
+              "sus": 10
+            },
+            {
+              "label": "08 - NEFROLOGIAUROLOGIA",
+              "count": 40,
+              "sus": 40
+            },
+            {
+              "label": "12 - ONCOLOGIA",
+              "count": 30,
+              "sus": 30
+            },
+            {
+              "label": "13 - ORTOPEDIATRAUMATOLOGIA",
+              "count": 30,
+              "sus": 30
+            },
+            {
+              "label": "16 - TORACICA",
+              "count": 7,
+              "sus": 7
+            }
+          ]
+        },
+        {
+          "id": "2  - ESPEC - CLINICO",
+          "label": "ESPEC - CLINICO",
+          "count": 107,
+          "sus": 107,
+          "complementary": false,
+          "details": [
+            {
+              "label": "31 - AIDS",
+              "count": 2,
+              "sus": 2
+            },
+            {
+              "label": "32 - CARDIOLOGIA",
+              "count": 10,
+              "sus": 10
+            },
+            {
+              "label": "33 - CLINICA GERAL",
+              "count": 52,
+              "sus": 52
+            },
+            {
+              "label": "38 - HEMATOLOGIA",
+              "count": 16,
+              "sus": 16
+            },
+            {
+              "label": "44 - ONCOLOGIA",
+              "count": 14,
+              "sus": 14
+            },
+            {
+              "label": "46 - PNEUMOLOGIA",
+              "count": 13,
+              "sus": 13
+            }
+          ]
+        },
+        {
+          "id": "3  - COMPLEMENTAR",
+          "label": "COMPLEMENTAR",
+          "count": 176,
+          "sus": 95,
+          "complementary": true,
+          "details": [
+            {
+              "label": "75 - UTI-A TIPO II",
+              "count": 40,
+              "sus": 32
+            },
+            {
+              "label": "78 - UTI PEDIATRICA - TIPO II",
+              "count": 20,
+              "sus": 0
+            },
+            {
+              "label": "81 - UTI NEONATAL - TIPO II",
+              "count": 40,
+              "sus": 20
+            },
+            {
+              "label": "92 - UNIDADE DE CUIDADOS INTERMEDIARIOS NEONATAL CONVENCIONAL",
+              "count": 60,
+              "sus": 36
+            },
+            {
+              "label": "93 - UNIDADE DE CUIDADOS INTERMEDIARIOS NEONATAL CANGURU",
+              "count": 16,
+              "sus": 7
+            }
+          ]
+        },
+        {
+          "id": "4  - OBSTETRICO",
+          "label": "OBSTETRICO",
+          "count": 88,
+          "sus": 88,
+          "complementary": false,
+          "details": [
+            {
+              "label": "10 - OBSTETRICIA CIRURGICA",
+              "count": 8,
+              "sus": 8
+            },
+            {
+              "label": "43 - OBSTETRICIA CLINICA",
+              "count": 80,
+              "sus": 80
+            }
+          ]
+        },
+        {
+          "id": "5  - PEDIATRICO",
+          "label": "PEDIATRICO",
+          "count": 2,
+          "sus": 2,
+          "complementary": false,
+          "details": [
+            {
+              "label": "45 - PEDIATRIA CLINICA",
+              "count": 2,
+              "sus": 2
+            }
+          ]
+        },
+        {
+          "id": "6  - OUTRAS ESPECIALIDADES",
+          "label": "OUTRAS ESPECIALIDADES",
+          "count": 26,
+          "sus": 26,
+          "complementary": false,
+          "details": [
+            {
+              "label": "34 - CRONICOS",
+              "count": 26,
+              "sus": 26
+            }
+          ]
+        },
+        {
+          "id": "7  - HOSPITAL DIA",
+          "label": "HOSPITAL DIA",
+          "count": 7,
+          "sus": 7,
+          "complementary": false,
+          "details": [
+            {
+              "label": "07 - CIRURGICO/DIAGNOSTICO/TERAPEUTICO",
+              "count": 7,
+              "sus": 7
+            }
+          ]
+        }
+      ],
+      "total": 668,
+      "ordinary": 492,
+      "complementary": 176,
+      "sourceUrl": "https://apidadosabertos.saude.gov.br/assistencia-a-saude/cnes-leitos?co_ibge=230440&co_cnes=4963938&nu_comp=202607&limit=1000&offset=0",
+      "consultedAt": "2026-10-15T21:54:27.598341+00:00",
+      "location": {
+        "latitude": -3.8005822048536406,
+        "longitude": -38.55875015258789,
+        "neighborhood": "ITAPERI",
+        "street": "RUA BETEL",
+        "number": "S/N",
+        "registryUpdatedAt": "2026-04-16"
+      },
+      "monitoring": {
+        "total": 90,
+        "occupied": 86,
+        "free": 4,
+        "clinics": [
+          {
+            "unidade": "HUC - Hospital Universitário do Ceará",
+            "clinica": "CX VASCULAR",
+            "quantidadeOcupada": 29,
+            "quantidadeLivre": 1,
+            "total": 30
+          },
+          {
+            "unidade": "HUC - Hospital Universitário do Ceará",
+            "clinica": "HEMATOLOGIA",
+            "quantidadeOcupada": 16,
+            "quantidadeLivre": 0,
+            "total": 16
+          },
+          {
+            "unidade": "HUC - Hospital Universitário do Ceará",
+            "clinica": "ONCOLOGIA",
+            "quantidadeOcupada": 41,
+            "quantidadeLivre": 3,
+            "total": 44
+          }
+        ]
+      },
+      "emergency": null
+    },
+    {
+      "cnes": "5121957",
+      "name": "INSTITUTO LUCENA DE OFTALMOLOGIA OFTALMOAMIGO",
+      "types": [
+        {
+          "id": "1  - ESPEC - CIRURGICO",
+          "label": "ESPEC - CIRURGICO",
+          "count": 2,
+          "sus": 2,
+          "complementary": false,
+          "details": [
+            {
+              "label": "11 - OFTALMOLOGIA",
+              "count": 2,
+              "sus": 2
+            }
+          ]
+        }
+      ],
+      "total": 2,
+      "ordinary": 2,
+      "complementary": 0,
+      "sourceUrl": "https://apidadosabertos.saude.gov.br/assistencia-a-saude/cnes-leitos?co_ibge=230440&co_cnes=5121957&nu_comp=202607&limit=1000&offset=0",
+      "consultedAt": "2026-10-15T21:54:39.454690+00:00",
+      "location": {
+        "latitude": -3.795382,
+        "longitude": -38.491186,
+        "neighborhood": "CIDADE DOS FUNCIONAR",
+        "street": "AV OLIVEIRA PAIVA",
+        "number": "1599",
+        "registryUpdatedAt": "2025-09-03"
+      },
+      "monitoring": null,
+      "emergency": null
+    },
+    {
+      "cnes": "5383382",
+      "name": "CENTRO DE DESENVOLVIMENTO PSICOSSOCIAL LTDA",
+      "types": [
+        {
+          "id": "6  - OUTRAS ESPECIALIDADES",
+          "label": "OUTRAS ESPECIALIDADES",
+          "count": 15,
+          "sus": 0,
+          "complementary": false,
+          "details": [
+            {
+              "label": "47 - PSIQUIATRIA",
+              "count": 15,
+              "sus": 0
+            }
+          ]
+        },
+        {
+          "id": "7  - HOSPITAL DIA",
+          "label": "HOSPITAL DIA",
+          "count": 60,
+          "sus": 0,
+          "complementary": false,
+          "details": [
+            {
+              "label": "73 - SAUDE MENTAL",
+              "count": 60,
+              "sus": 0
+            }
+          ]
+        }
+      ],
+      "total": 75,
+      "ordinary": 75,
+      "complementary": 0,
+      "sourceUrl": "https://apidadosabertos.saude.gov.br/assistencia-a-saude/cnes-leitos?co_ibge=230440&co_cnes=5383382&nu_comp=202607&limit=1000&offset=0",
+      "consultedAt": "2026-10-15T21:54:40.850506+00:00",
+      "location": {
+        "latitude": -3.741568,
+        "longitude": -38.480151,
+        "neighborhood": "DE LOUDES",
+        "street": "RUA DR PEDRO SAMPAIO",
+        "number": "640",
+        "registryUpdatedAt": "2025-09-03"
+      },
+      "monitoring": null,
+      "emergency": null
+    },
+    {
+      "cnes": "6297056",
+      "name": "HCF HOSPITAL CENTRAL DE FORTALEZA",
+      "types": [
+        {
+          "id": "1  - ESPEC - CIRURGICO",
+          "label": "ESPEC - CIRURGICO",
+          "count": 17,
+          "sus": 0,
+          "complementary": false,
+          "details": [
+            {
+              "label": "03 - CIRURGIA GERAL",
+              "count": 6,
+              "sus": 0
+            },
+            {
+              "label": "13 - ORTOPEDIATRAUMATOLOGIA",
+              "count": 6,
+              "sus": 0
+            },
+            {
+              "label": "15 - PLASTICA",
+              "count": 5,
+              "sus": 0
+            }
+          ]
+        },
+        {
+          "id": "2  - ESPEC - CLINICO",
+          "label": "ESPEC - CLINICO",
+          "count": 17,
+          "sus": 0,
+          "complementary": false,
+          "details": [
+            {
+              "label": "33 - CLINICA GERAL",
+              "count": 8,
+              "sus": 0
+            },
+            {
+              "label": "36 - GERIATRIA",
+              "count": 9,
+              "sus": 0
+            }
+          ]
+        },
+        {
+          "id": "3  - COMPLEMENTAR",
+          "label": "COMPLEMENTAR",
+          "count": 9,
+          "sus": 0,
+          "complementary": true,
+          "details": [
+            {
+              "label": "75 - UTI-A TIPO II",
+              "count": 9,
+              "sus": 0
+            }
+          ]
+        }
+      ],
+      "total": 43,
+      "ordinary": 34,
+      "complementary": 9,
+      "sourceUrl": "https://apidadosabertos.saude.gov.br/assistencia-a-saude/cnes-leitos?co_ibge=230440&co_cnes=6297056&nu_comp=202607&limit=1000&offset=0",
+      "consultedAt": "2026-10-15T21:54:42.699962+00:00",
+      "location": {
+        "latitude": -3.733888,
+        "longitude": -38.534961,
+        "neighborhood": "CENTRO",
+        "street": "AV TRISTAO GONCALVES",
+        "number": "1367",
+        "registryUpdatedAt": "2025-10-14"
+      },
+      "monitoring": null,
+      "emergency": null
+    },
+    {
+      "cnes": "6538460",
+      "name": "HOSPITAL IVV INSTITUTO VOLTA VIDA",
+      "types": [
+        {
+          "id": "6  - OUTRAS ESPECIALIDADES",
+          "label": "OUTRAS ESPECIALIDADES",
+          "count": 377,
+          "sus": 0,
+          "complementary": false,
+          "details": [
+            {
+              "label": "47 - PSIQUIATRIA",
+              "count": 110,
+              "sus": 0
+            },
+            {
+              "label": "48 - REABILITACAO",
+              "count": 267,
+              "sus": 0
+            }
+          ]
+        }
+      ],
+      "total": 377,
+      "ordinary": 377,
+      "complementary": 0,
+      "sourceUrl": "https://apidadosabertos.saude.gov.br/assistencia-a-saude/cnes-leitos?co_ibge=230440&co_cnes=6538460&nu_comp=202607&limit=1000&offset=0",
+      "consultedAt": "2026-10-15T21:54:46.288570+00:00",
+      "location": {
+        "latitude": -3.827247,
+        "longitude": -38.456227,
+        "neighborhood": "LAGOA REDONDA",
+        "street": "RUA RAQUEL FLORENCIO",
+        "number": "401",
+        "registryUpdatedAt": "2025-09-03"
+      },
+      "monitoring": null,
+      "emergency": null
+    },
+    {
+      "cnes": "6558895",
+      "name": "PRONTOCARDIO SERVICOS MEDICOS HOSPITALARES LTDA",
+      "types": [
+        {
+          "id": "1  - ESPEC - CIRURGICO",
+          "label": "ESPEC - CIRURGICO",
+          "count": 7,
+          "sus": 4,
+          "complementary": false,
+          "details": [
+            {
+              "label": "02 - CARDIOLOGIA",
+              "count": 7,
+              "sus": 4
+            }
+          ]
+        },
+        {
+          "id": "2  - ESPEC - CLINICO",
+          "label": "ESPEC - CLINICO",
+          "count": 34,
+          "sus": 20,
+          "complementary": false,
+          "details": [
+            {
+              "label": "32 - CARDIOLOGIA",
+              "count": 34,
+              "sus": 20
+            }
+          ]
+        },
+        {
+          "id": "3  - COMPLEMENTAR",
+          "label": "COMPLEMENTAR",
+          "count": 10,
+          "sus": 8,
+          "complementary": true,
+          "details": [
+            {
+              "label": "75 - UTI-A TIPO II",
+              "count": 10,
+              "sus": 8
+            }
+          ]
+        }
+      ],
+      "total": 51,
+      "ordinary": 41,
+      "complementary": 10,
+      "sourceUrl": "https://apidadosabertos.saude.gov.br/assistencia-a-saude/cnes-leitos?co_ibge=230440&co_cnes=6558895&nu_comp=202607&limit=1000&offset=0",
+      "consultedAt": "2026-10-15T21:54:48.090875+00:00",
+      "location": {
+        "latitude": -3.728662,
+        "longitude": -38.505706,
+        "neighborhood": "MEIRELES",
+        "street": "RUA JOSE LOURENCO",
+        "number": "531",
+        "registryUpdatedAt": "2025-09-03"
+      },
+      "monitoring": null,
+      "emergency": null
+    },
+    {
+      "cnes": "6759122",
+      "name": "INSTITUTO CLAREAR",
+      "types": [
+        {
+          "id": "1  - ESPEC - CIRURGICO",
+          "label": "ESPEC - CIRURGICO",
+          "count": 5,
+          "sus": 5,
+          "complementary": false,
+          "details": [
+            {
+              "label": "11 - OFTALMOLOGIA",
+              "count": 5,
+              "sus": 5
+            }
+          ]
+        }
+      ],
+      "total": 5,
+      "ordinary": 5,
+      "complementary": 0,
+      "sourceUrl": "https://apidadosabertos.saude.gov.br/assistencia-a-saude/cnes-leitos?co_ibge=230440&co_cnes=6759122&nu_comp=202607&limit=1000&offset=0",
+      "consultedAt": "2026-10-15T21:54:50.383685+00:00",
+      "location": {
+        "latitude": -3.7518359,
+        "longitude": -38.5489376,
+        "neighborhood": "DAMAS",
+        "street": "RUA SAMUEL UCHOA",
+        "number": "1178",
+        "registryUpdatedAt": "2026-02-07"
+      },
+      "monitoring": null,
+      "emergency": null
+    },
+    {
+      "cnes": "7047428",
+      "name": "HOSPITAL E MATERNIDADE DRA ZILDA ARNS NEUMANN",
+      "types": [
+        {
+          "id": "1  - ESPEC - CIRURGICO",
+          "label": "ESPEC - CIRURGICO",
+          "count": 55,
+          "sus": 55,
+          "complementary": false,
+          "details": [
+            {
+              "label": "03 - CIRURGIA GERAL",
+              "count": 10,
+              "sus": 10
+            },
+            {
+              "label": "06 - GINECOLOGIA",
+              "count": 8,
+              "sus": 8
+            },
+            {
+              "label": "13 - ORTOPEDIATRAUMATOLOGIA",
+              "count": 34,
+              "sus": 34
+            },
+            {
+              "label": "15 - PLASTICA",
+              "count": 3,
+              "sus": 3
+            }
+          ]
+        },
+        {
+          "id": "2  - ESPEC - CLINICO",
+          "label": "ESPEC - CLINICO",
+          "count": 41,
+          "sus": 41,
+          "complementary": false,
+          "details": [
+            {
+              "label": "33 - CLINICA GERAL",
+              "count": 41,
+              "sus": 41
+            }
+          ]
+        },
+        {
+          "id": "3  - COMPLEMENTAR",
+          "label": "COMPLEMENTAR",
+          "count": 51,
+          "sus": 35,
+          "complementary": true,
+          "details": [
+            {
+              "label": "75 - UTI-A TIPO II",
+              "count": 10,
+              "sus": 10
+            },
+            {
+              "label": "81 - UTI NEONATAL - TIPO II",
+              "count": 20,
+              "sus": 10
+            },
+            {
+              "label": "92 - UNIDADE DE CUIDADOS INTERMEDIARIOS NEONATAL CONVENCIONAL",
+              "count": 15,
+              "sus": 15
+            },
+            {
+              "label": "93 - UNIDADE DE CUIDADOS INTERMEDIARIOS NEONATAL CANGURU",
+              "count": 6,
+              "sus": 0
+            }
+          ]
+        },
+        {
+          "id": "4  - OBSTETRICO",
+          "label": "OBSTETRICO",
+          "count": 39,
+          "sus": 39,
+          "complementary": false,
+          "details": [
+            {
+              "label": "10 - OBSTETRICIA CIRURGICA",
+              "count": 10,
+              "sus": 10
+            },
+            {
+              "label": "43 - OBSTETRICIA CLINICA",
+              "count": 29,
+              "sus": 29
+            }
+          ]
+        },
+        {
+          "id": "5  - PEDIATRICO",
+          "label": "PEDIATRICO",
+          "count": 3,
+          "sus": 3,
+          "complementary": false,
+          "details": [
+            {
+              "label": "45 - PEDIATRIA CLINICA",
+              "count": 3,
+              "sus": 3
+            }
+          ]
+        },
+        {
+          "id": "6  - OUTRAS ESPECIALIDADES",
+          "label": "OUTRAS ESPECIALIDADES",
+          "count": 1,
+          "sus": 1,
+          "complementary": false,
+          "details": [
+            {
+              "label": "49 - PNEUMOLOGIA SANITARIA",
+              "count": 1,
+              "sus": 1
+            }
+          ]
+        }
+      ],
+      "total": 190,
+      "ordinary": 139,
+      "complementary": 51,
+      "sourceUrl": "https://apidadosabertos.saude.gov.br/assistencia-a-saude/cnes-leitos?co_ibge=230440&co_cnes=7047428&nu_comp=202607&limit=1000&offset=0",
+      "consultedAt": "2026-10-15T21:54:51.781777+00:00",
+      "location": {
+        "latitude": -3.761016,
+        "longitude": -38.574213,
+        "neighborhood": "JOQUEI CLUBE",
+        "street": "AVENIDA LINEU MACHADO",
+        "number": "145",
+        "registryUpdatedAt": "2025-09-03"
+      },
+      "monitoring": null,
+      "emergency": null
+    },
+    {
+      "cnes": "9066373",
+      "name": "CLINICAS REUNIDAS",
+      "types": [
+        {
+          "id": "1  - ESPEC - CIRURGICO",
+          "label": "ESPEC - CIRURGICO",
+          "count": 20,
+          "sus": 0,
+          "complementary": false,
+          "details": [
+            {
+              "label": "01 - BUCO MAXILO FACIAL",
+              "count": 1,
+              "sus": 0
+            },
+            {
+              "label": "02 - CARDIOLOGIA",
+              "count": 2,
+              "sus": 0
+            },
+            {
+              "label": "03 - CIRURGIA GERAL",
+              "count": 4,
+              "sus": 0
+            },
+            {
+              "label": "04 - ENDOCRINOLOGIA",
+              "count": 1,
+              "sus": 0
+            },
+            {
+              "label": "05 - GASTROENTEROLOGIA",
+              "count": 1,
+              "sus": 0
+            },
+            {
+              "label": "08 - NEFROLOGIAUROLOGIA",
+              "count": 1,
+              "sus": 0
+            },
+            {
+              "label": "12 - ONCOLOGIA",
+              "count": 1,
+              "sus": 0
+            },
+            {
+              "label": "13 - ORTOPEDIATRAUMATOLOGIA",
+              "count": 5,
+              "sus": 0
+            },
+            {
+              "label": "14 - OTORRINOLARINGOLOGIA",
+              "count": 2,
+              "sus": 0
+            },
+            {
+              "label": "15 - PLASTICA",
+              "count": 1,
+              "sus": 0
+            },
+            {
+              "label": "16 - TORACICA",
+              "count": 1,
+              "sus": 0
+            }
+          ]
+        },
+        {
+          "id": "2  - ESPEC - CLINICO",
+          "label": "ESPEC - CLINICO",
+          "count": 30,
+          "sus": 0,
+          "complementary": false,
+          "details": [
+            {
+              "label": "31 - AIDS",
+              "count": 2,
+              "sus": 0
+            },
+            {
+              "label": "32 - CARDIOLOGIA",
+              "count": 1,
+              "sus": 0
+            },
+            {
+              "label": "33 - CLINICA GERAL",
+              "count": 8,
+              "sus": 0
+            },
+            {
+              "label": "35 - DERMATOLOGIA",
+              "count": 1,
+              "sus": 0
+            },
+            {
+              "label": "36 - GERIATRIA",
+              "count": 2,
+              "sus": 0
+            },
+            {
+              "label": "37 - HANSENOLOGIA",
+              "count": 2,
+              "sus": 0
+            },
+            {
+              "label": "38 - HEMATOLOGIA",
+              "count": 2,
+              "sus": 0
+            },
+            {
+              "label": "40 - NEFROUROLOGIA",
+              "count": 4,
+              "sus": 0
+            },
+            {
+              "label": "42 - NEUROLOGIA",
+              "count": 2,
+              "sus": 0
+            },
+            {
+              "label": "44 - ONCOLOGIA",
+              "count": 2,
+              "sus": 0
+            },
+            {
+              "label": "46 - PNEUMOLOGIA",
+              "count": 4,
+              "sus": 0
+            }
+          ]
+        },
+        {
+          "id": "3  - COMPLEMENTAR",
+          "label": "COMPLEMENTAR",
+          "count": 1,
+          "sus": 0,
+          "complementary": true,
+          "details": [
+            {
+              "label": "66 - UNIDADE ISOLAMENTO",
+              "count": 1,
+              "sus": 0
+            }
+          ]
+        },
+        {
+          "id": "6  - OUTRAS ESPECIALIDADES",
+          "label": "OUTRAS ESPECIALIDADES",
+          "count": 3,
+          "sus": 0,
+          "complementary": false,
+          "details": [
+            {
+              "label": "49 - PNEUMOLOGIA SANITARIA",
+              "count": 3,
+              "sus": 0
+            }
+          ]
+        }
+      ],
+      "total": 54,
+      "ordinary": 53,
+      "complementary": 1,
+      "sourceUrl": "https://apidadosabertos.saude.gov.br/assistencia-a-saude/cnes-leitos?co_ibge=230440&co_cnes=9066373&nu_comp=202607&limit=1000&offset=0",
+      "consultedAt": "2026-10-15T21:54:58.689049+00:00",
+      "location": {
+        "latitude": -3.739815,
+        "longitude": -38.525106,
+        "neighborhood": "FATIMA",
+        "street": "AV AGUANAMBI",
+        "number": "332",
+        "registryUpdatedAt": "2025-09-03"
+      },
+      "monitoring": null,
+      "emergency": null
+    },
+    {
+      "cnes": "9112014",
+      "name": "CAVIVER",
+      "types": [
+        {
+          "id": "1  - ESPEC - CIRURGICO",
+          "label": "ESPEC - CIRURGICO",
+          "count": 2,
+          "sus": 2,
+          "complementary": false,
+          "details": [
+            {
+              "label": "11 - OFTALMOLOGIA",
+              "count": 2,
+              "sus": 2
+            }
+          ]
+        }
+      ],
+      "total": 2,
+      "ordinary": 2,
+      "complementary": 0,
+      "sourceUrl": "https://apidadosabertos.saude.gov.br/assistencia-a-saude/cnes-leitos?co_ibge=230440&co_cnes=9112014&nu_comp=202607&limit=1000&offset=0",
+      "consultedAt": "2026-10-15T21:55:10.592073+00:00",
+      "location": {
+        "latitude": -3.727137,
+        "longitude": -38.512316,
+        "neighborhood": "MEIRELES",
+        "street": "RUA ANTONIO AUGUSTO",
+        "number": "761",
+        "registryUpdatedAt": "2026-08-13"
+      },
+      "monitoring": null,
+      "emergency": null
+    },
+    {
+      "cnes": "9297502",
+      "name": "HOSPITAL E MATERNIDADE EUGENIA PINHEIRO",
+      "types": [
+        {
+          "id": "1  - ESPEC - CIRURGICO",
+          "label": "ESPEC - CIRURGICO",
+          "count": 14,
+          "sus": 0,
+          "complementary": false,
+          "details": [
+            {
+              "label": "06 - GINECOLOGIA",
+              "count": 14,
+              "sus": 0
+            }
+          ]
+        },
+        {
+          "id": "3  - COMPLEMENTAR",
+          "label": "COMPLEMENTAR",
+          "count": 27,
+          "sus": 0,
+          "complementary": true,
+          "details": [
+            {
+              "label": "80 - UTI NEONATAL - TIPO I",
+              "count": 17,
+              "sus": 0
+            },
+            {
+              "label": "92 - UNIDADE DE CUIDADOS INTERMEDIARIOS NEONATAL CONVENCIONAL",
+              "count": 10,
+              "sus": 0
+            }
+          ]
+        },
+        {
+          "id": "4  - OBSTETRICO",
+          "label": "OBSTETRICO",
+          "count": 67,
+          "sus": 0,
+          "complementary": false,
+          "details": [
+            {
+              "label": "10 - OBSTETRICIA CIRURGICA",
+              "count": 39,
+              "sus": 0
+            },
+            {
+              "label": "43 - OBSTETRICIA CLINICA",
+              "count": 28,
+              "sus": 0
+            }
+          ]
+        }
+      ],
+      "total": 108,
+      "ordinary": 81,
+      "complementary": 27,
+      "sourceUrl": "https://apidadosabertos.saude.gov.br/assistencia-a-saude/cnes-leitos?co_ibge=230440&co_cnes=9297502&nu_comp=202607&limit=1000&offset=0",
+      "consultedAt": "2026-10-15T21:55:12.251491+00:00",
+      "location": {
+        "latitude": -3.735143,
+        "longitude": -38.520023,
+        "neighborhood": "CENTRO",
+        "street": "AV HERACLITO GRACA",
+        "number": "500",
+        "registryUpdatedAt": "2025-09-03"
+      },
+      "monitoring": null,
+      "emergency": null
+    },
+    {
+      "cnes": "9532684",
+      "name": "CENTRO OFTALMOLOGIA DE EXCELENCIA",
+      "types": [
+        {
+          "id": "1  - ESPEC - CIRURGICO",
+          "label": "ESPEC - CIRURGICO",
+          "count": 2,
+          "sus": 0,
+          "complementary": false,
+          "details": [
+            {
+              "label": "11 - OFTALMOLOGIA",
+              "count": 2,
+              "sus": 0
+            }
+          ]
+        }
+      ],
+      "total": 2,
+      "ordinary": 2,
+      "complementary": 0,
+      "sourceUrl": "https://apidadosabertos.saude.gov.br/assistencia-a-saude/cnes-leitos?co_ibge=230440&co_cnes=9532684&nu_comp=202607&limit=1000&offset=0",
+      "consultedAt": "2026-10-15T21:55:15.464389+00:00",
+      "location": {
+        "latitude": -3.73631,
+        "longitude": -38.509617,
+        "neighborhood": "ALDEOTA",
+        "street": "AV RUI BARBOSA",
+        "number": "1540",
+        "registryUpdatedAt": "2025-09-03"
+      },
+      "monitoring": null,
+      "emergency": null
+    },
+    {
+      "cnes": "9658815",
+      "name": "ICO",
+      "types": [
+        {
+          "id": "1  - ESPEC - CIRURGICO",
+          "label": "ESPEC - CIRURGICO",
+          "count": 1,
+          "sus": 1,
+          "complementary": false,
+          "details": [
+            {
+              "label": "11 - OFTALMOLOGIA",
+              "count": 1,
+              "sus": 1
+            }
+          ]
+        }
+      ],
+      "total": 1,
+      "ordinary": 1,
+      "complementary": 0,
+      "sourceUrl": "https://apidadosabertos.saude.gov.br/assistencia-a-saude/cnes-leitos?co_ibge=230440&co_cnes=9658815&nu_comp=202607&limit=1000&offset=0",
+      "consultedAt": "2026-10-15T21:55:16.872861+00:00",
+      "location": {
+        "latitude": -3.732426,
+        "longitude": -38.511244,
+        "neighborhood": "ALDEOTA",
+        "street": "RUA BARAO DE ARACATI",
+        "number": "1280",
+        "registryUpdatedAt": "2025-09-03"
+      },
+      "monitoring": null,
+      "emergency": null
+    },
+    {
+      "cnes": "9675787",
+      "name": "ACESO",
+      "types": [
+        {
+          "id": "1  - ESPEC - CIRURGICO",
+          "label": "ESPEC - CIRURGICO",
+          "count": 1,
+          "sus": 0,
+          "complementary": false,
+          "details": [
+            {
+              "label": "11 - OFTALMOLOGIA",
+              "count": 1,
+              "sus": 0
+            }
+          ]
+        }
+      ],
+      "total": 1,
+      "ordinary": 1,
+      "complementary": 0,
+      "sourceUrl": "https://apidadosabertos.saude.gov.br/assistencia-a-saude/cnes-leitos?co_ibge=230440&co_cnes=9675787&nu_comp=202607&limit=1000&offset=0",
+      "consultedAt": "2026-10-15T21:55:18.256411+00:00",
+      "location": {
+        "latitude": -3.795548,
+        "longitude": -38.492201,
+        "neighborhood": "CIDADE DOS FUNCIONAR",
+        "street": "AV OLIVEIRA PAIVA",
+        "number": "1595",
+        "registryUpdatedAt": "2025-09-03"
+      },
+      "monitoring": null,
+      "emergency": null
+    },
+    {
+      "cnes": "9717366",
+      "name": "CLINICA PSICOSER",
+      "types": [
+        {
+          "id": "6  - OUTRAS ESPECIALIDADES",
+          "label": "OUTRAS ESPECIALIDADES",
+          "count": 15,
+          "sus": 0,
+          "complementary": false,
+          "details": [
+            {
+              "label": "47 - PSIQUIATRIA",
+              "count": 15,
+              "sus": 0
+            }
+          ]
+        }
+      ],
+      "total": 15,
+      "ordinary": 15,
+      "complementary": 0,
+      "sourceUrl": "https://apidadosabertos.saude.gov.br/assistencia-a-saude/cnes-leitos?co_ibge=230440&co_cnes=9717366&nu_comp=202607&limit=1000&offset=0",
+      "consultedAt": "2026-10-15T21:55:19.587941+00:00",
+      "location": {
+        "latitude": -3.792477,
+        "longitude": -38.473226,
+        "neighborhood": "SAPIRANGA",
+        "street": "RUA MARCELINO LOPES",
+        "number": "789",
+        "registryUpdatedAt": "2025-09-03"
+      },
+      "monitoring": null,
+      "emergency": null
+    }
+  ]
+}

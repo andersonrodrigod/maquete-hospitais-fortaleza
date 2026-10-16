@@ -1,0 +1,8 @@
+{
+  "url": "https://apidadosabertos.saude.gov.br/assistencia-a-saude/hospitais-e-leitos?uf=CE&limit=1&offset=0",
+  "consultado_em_utc": "2026-10-15T21:49:33.861599+00:00",
+  "ok": false,
+  "http_status": 500,
+  "erro": "HTTP Error 500: INTERNAL SERVER ERROR",
+  "texto": "{\"message\": \"Internal Server Error\"}\n"
+}

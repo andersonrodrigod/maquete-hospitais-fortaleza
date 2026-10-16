@@ -1,0 +1,72 @@
+{
+  "url": "https://integrasus.saude.ce.gov.br/api/acomp-diaria-leitos-obstetricia-neonatal/unidade-filter",
+  "consultado_em_utc": "2026-10-15T22:19:03.866560+00:00",
+  "http_status": 200,
+  "content_type": "application/json;charset=UTF-8",
+  "dados": [
+    {
+      "leitosAtivos": 0,
+      "desc": " "
+    },
+    {
+      "leitosAtivos": 0,
+      "desc": "0"
+    },
+    {
+      "leitosAtivos": 0,
+      "desc": "G. BARRA"
+    },
+    {
+      "leitosAtivos": 0,
+      "desc": "G. JOSÉ WALTER"
+    },
+    {
+      "leitosAtivos": 0,
+      "desc": "G. MESSEJANA"
+    },
+    {
+      "leitosAtivos": 0,
+      "desc": "HGCC"
+    },
+    {
+      "leitosAtivos": 0,
+      "desc": "HGF"
+    },
+    {
+      "leitosAtivos": 0,
+      "desc": "HGWA"
+    },
+    {
+      "leitosAtivos": 0,
+      "desc": "HIAS"
+    },
+    {
+      "leitosAtivos": 0,
+      "desc": "HJMA"
+    },
+    {
+      "leitosAtivos": 0,
+      "desc": "H. MULHER"
+    },
+    {
+      "leitosAtivos": 0,
+      "desc": "HNSC"
+    },
+    {
+      "leitosAtivos": 0,
+      "desc": "HSC/CURA D'ARS"
+    },
+    {
+      "leitosAtivos": 0,
+      "desc": "MEAC"
+    },
+    {
+      "leitosAtivos": 0,
+      "desc": "MESSEJANA"
+    },
+    {
+      "leitosAtivos": 0
+    }
+  ],
+  "ok": true
+}

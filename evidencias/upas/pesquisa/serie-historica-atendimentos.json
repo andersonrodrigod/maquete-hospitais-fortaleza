@@ -1,0 +1,51 @@
+{
+  "url": "https://integrasus.saude.ce.gov.br/api/acompanhamento-casos-upas/serie-historica-atendimentos?dataInicio=2026-10-09&dataFim=2026-10-15&tipo=&upa=&cid=&classificacaoRisco=",
+  "consultado_em_utc": "2026-10-16T00:46:01.893330+00:00",
+  "http_status": 200,
+  "content_type": "application/json;charset=UTF-8",
+  "dados": [
+    {
+      "data": "09/10/2026",
+      "unidade": "Total unificado",
+      "quantidade": 71,
+      "mediaMovel": 71.0
+    },
+    {
+      "data": "10/10/2026",
+      "unidade": "Total unificado",
+      "quantidade": 62,
+      "mediaMovel": 66.5
+    },
+    {
+      "data": "11/10/2026",
+      "unidade": "Total unificado",
+      "quantidade": 62,
+      "mediaMovel": 65.0
+    },
+    {
+      "data": "12/10/2026",
+      "unidade": "Total unificado",
+      "quantidade": 46,
+      "mediaMovel": 60.25
+    },
+    {
+      "data": "13/10/2026",
+      "unidade": "Total unificado",
+      "quantidade": 61,
+      "mediaMovel": 60.4
+    },
+    {
+      "data": "14/10/2026",
+      "unidade": "Total unificado",
+      "quantidade": 64,
+      "mediaMovel": 61.0
+    },
+    {
+      "data": "15/10/2026",
+      "unidade": "Total unificado",
+      "quantidade": 47,
+      "mediaMovel": 59.0
+    }
+  ],
+  "ok": true
+}

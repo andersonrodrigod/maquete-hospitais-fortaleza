@@ -1,0 +1,145 @@
+{
+  "url": "https://integrasus.saude.ce.gov.br/api/acompanhamento-casos-upas/classificacao-risco?dataInicio=2026-10-09&dataFim=2026-10-15&tipo=&upa=UPA+AUTRAN+NUNES&cid=&classificacaoRisco=",
+  "consultado_em_utc": "2026-10-16T00:46:30.939540+00:00",
+  "http_status": 200,
+  "content_type": "application/json;charset=UTF-8",
+  "dados": [
+    {
+      "data": "2026-10-09",
+      "mes": 10,
+      "classificacaoRisco": "VERDE",
+      "quantidade": 16,
+      "ano": 2026,
+      "mesAux": "Outubro"
+    },
+    {
+      "data": "2026-10-10",
+      "mes": 10,
+      "classificacaoRisco": "VERDE",
+      "quantidade": 15,
+      "ano": 2026,
+      "mesAux": "Outubro"
+    },
+    {
+      "data": "2026-10-10",
+      "mes": 10,
+      "classificacaoRisco": "AMARELO",
+      "quantidade": 3,
+      "ano": 2026,
+      "mesAux": "Outubro"
+    },
+    {
+      "data": "2026-10-11",
+      "mes": 10,
+      "classificacaoRisco": "VERDE",
+      "quantidade": 6,
+      "ano": 2026,
+      "mesAux": "Outubro"
+    },
+    {
+      "data": "2026-10-11",
+      "mes": 10,
+      "classificacaoRisco": "AMARELO",
+      "quantidade": 1,
+      "ano": 2026,
+      "mesAux": "Outubro"
+    },
+    {
+      "data": "2026-10-11",
+      "mes": 10,
+      "classificacaoRisco": "LARANJA",
+      "quantidade": 4,
+      "ano": 2026,
+      "mesAux": "Outubro"
+    },
+    {
+      "data": "2026-10-12",
+      "mes": 10,
+      "classificacaoRisco": "VERDE",
+      "quantidade": 4,
+      "ano": 2026,
+      "mesAux": "Outubro"
+    },
+    {
+      "data": "2026-10-12",
+      "mes": 10,
+      "classificacaoRisco": "AMARELO",
+      "quantidade": 2,
+      "ano": 2026,
+      "mesAux": "Outubro"
+    },
+    {
+      "data": "2026-10-13",
+      "mes": 10,
+      "classificacaoRisco": "VERDE",
+      "quantidade": 6,
+      "ano": 2026,
+      "mesAux": "Outubro"
+    },
+    {
+      "data": "2026-10-13",
+      "mes": 10,
+      "classificacaoRisco": "AMARELO",
+      "quantidade": 4,
+      "ano": 2026,
+      "mesAux": "Outubro"
+    },
+    {
+      "data": "2026-10-14",
+      "mes": 10,
+      "classificacaoRisco": "VERDE",
+      "quantidade": 1,
+      "ano": 2026,
+      "mesAux": "Outubro"
+    },
+    {
+      "data": "2026-10-14",
+      "mes": 10,
+      "classificacaoRisco": "AMARELO",
+      "quantidade": 1,
+      "ano": 2026,
+      "mesAux": "Outubro"
+    },
+    {
+      "data": "2026-10-14",
+      "mes": 10,
+      "classificacaoRisco": "LARANJA",
+      "quantidade": 7,
+      "ano": 2026,
+      "mesAux": "Outubro"
+    },
+    {
+      "data": "2026-10-15",
+      "mes": 10,
+      "classificacaoRisco": "BRANCO",
+      "quantidade": 4,
+      "ano": 2026,
+      "mesAux": "Outubro"
+    },
+    {
+      "data": "2026-10-15",
+      "mes": 10,
+      "classificacaoRisco": "VERDE",
+      "quantidade": 6,
+      "ano": 2026,
+      "mesAux": "Outubro"
+    },
+    {
+      "data": "2026-10-15",
+      "mes": 10,
+      "classificacaoRisco": "AMARELO",
+      "quantidade": 4,
+      "ano": 2026,
+      "mesAux": "Outubro"
+    },
+    {
+      "data": "2026-10-15",
+      "mes": 10,
+      "classificacaoRisco": "LARANJA",
+      "quantidade": 6,
+      "ano": 2026,
+      "mesAux": "Outubro"
+    }
+  ],
+  "ok": true
+}

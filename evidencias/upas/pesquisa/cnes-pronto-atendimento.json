@@ -1,0 +1,132 @@
+[
+  {
+    "codigo_cnes": 4917812,
+    "nome_fantasia": "PRONTO ATENDIMENTO ALDEOTA",
+    "codigo_tipo_unidade": 73,
+    "codigo_municipio": 230440,
+    "latitude_estabelecimento_decimo_grau": -3.7390593,
+    "longitude_estabelecimento_decimo_grau": -38.4912174,
+    "bairro_estabelecimento": "ALDEOTA",
+    "data_atualizacao": "2025-09-03"
+  },
+  {
+    "codigo_cnes": 6985483,
+    "nome_fantasia": "UNIDADE PRONTO ATENDIMENTO PRAIA DO FUTURO",
+    "codigo_tipo_unidade": 73,
+    "codigo_municipio": 230440,
+    "latitude_estabelecimento_decimo_grau": -3.744774,
+    "longitude_estabelecimento_decimo_grau": -38.4543892,
+    "bairro_estabelecimento": "PRAIA DO FUTURO",
+    "data_atualizacao": "2025-09-03"
+  },
+  {
+    "codigo_cnes": 6999506,
+    "nome_fantasia": "UNIDADE PRONTO ATENDIMENTO AUTRAN NUNES",
+    "codigo_tipo_unidade": 73,
+    "codigo_municipio": 230440,
+    "latitude_estabelecimento_decimo_grau": -3.7561757259030304,
+    "longitude_estabelecimento_decimo_grau": -38.59428405761719,
+    "bairro_estabelecimento": "AUTRAN NUNES",
+    "data_atualizacao": "2025-09-03"
+  },
+  {
+    "codigo_cnes": 7006810,
+    "nome_fantasia": "UNIDADE PRONTO ATENDIMENTO MESSEJANA",
+    "codigo_tipo_unidade": 73,
+    "codigo_municipio": 230440,
+    "latitude_estabelecimento_decimo_grau": -3.83956,
+    "longitude_estabelecimento_decimo_grau": -38.48236,
+    "bairro_estabelecimento": "MESSEJANA",
+    "data_atualizacao": "2025-09-03"
+  },
+  {
+    "codigo_cnes": 7018800,
+    "nome_fantasia": "UNIDADE PRONTO ATENDIMENTO CANINDEZINHO",
+    "codigo_tipo_unidade": 73,
+    "codigo_municipio": 230440,
+    "latitude_estabelecimento_decimo_grau": -3.8587431,
+    "longitude_estabelecimento_decimo_grau": -38.4852657,
+    "bairro_estabelecimento": "PLANALTO VITORIO",
+    "data_atualizacao": "2025-09-03"
+  },
+  {
+    "codigo_cnes": 7274440,
+    "nome_fantasia": "UNIDADE PRONTO ATENDIMENTO JOSE WALTER",
+    "codigo_tipo_unidade": 73,
+    "codigo_municipio": 230440,
+    "latitude_estabelecimento_decimo_grau": -3.8248,
+    "longitude_estabelecimento_decimo_grau": -38.5423,
+    "bairro_estabelecimento": "JOSE WALTER",
+    "data_atualizacao": "2025-09-03"
+  },
+  {
+    "codigo_cnes": 7360851,
+    "nome_fantasia": "UNIDADE PRONTO ATENDIMENTO CONJUNTO CEARA",
+    "codigo_tipo_unidade": 73,
+    "codigo_municipio": 230440,
+    "latitude_estabelecimento_decimo_grau": -3.7086,
+    "longitude_estabelecimento_decimo_grau": -38.5999,
+    "bairro_estabelecimento": "CONJUNTO CEARA",
+    "data_atualizacao": "2025-09-03"
+  },
+  {
+    "codigo_cnes": 7429398,
+    "nome_fantasia": "UPA UNIDADE PRONTO ATENDIMENTO JANGURUSSU",
+    "codigo_tipo_unidade": 73,
+    "codigo_municipio": 230440,
+    "latitude_estabelecimento_decimo_grau": -3.83873,
+    "longitude_estabelecimento_decimo_grau": -38.52254,
+    "bairro_estabelecimento": "JANGURUSSU",
+    "data_atualizacao": "2026-05-29"
+  },
+  {
+    "codigo_cnes": 7434308,
+    "nome_fantasia": "UPA UNIDADE PRONTO ATENDIMENTO CRISTO REDENTOR",
+    "codigo_tipo_unidade": 73,
+    "codigo_municipio": 230440,
+    "latitude_estabelecimento_decimo_grau": -3.708471,
+    "longitude_estabelecimento_decimo_grau": -38.568289,
+    "bairro_estabelecimento": "JACARECANGA",
+    "data_atualizacao": "2025-09-03"
+  },
+  {
+    "codigo_cnes": 7514948,
+    "nome_fantasia": "UPA UNIDADE PRONTO ATENDIMENTO ITAPERI",
+    "codigo_tipo_unidade": 73,
+    "codigo_municipio": 230440,
+    "latitude_estabelecimento_decimo_grau": -3.795689,
+    "longitude_estabelecimento_decimo_grau": -38.554549,
+    "bairro_estabelecimento": "ITAPERI",
+    "data_atualizacao": "2025-09-03"
+  },
+  {
+    "codigo_cnes": 7980310,
+    "nome_fantasia": "UPA UNIDADE DE PRONTO ATENDIMENTO VILA VELHA",
+    "codigo_tipo_unidade": 73,
+    "codigo_municipio": 230440,
+    "latitude_estabelecimento_decimo_grau": -3.716926,
+    "longitude_estabelecimento_decimo_grau": -38.6043427,
+    "bairro_estabelecimento": "VILA VELHA",
+    "data_atualizacao": "2025-09-03"
+  },
+  {
+    "codigo_cnes": 7993218,
+    "nome_fantasia": "UPA UNIDADE DE PRONTO ATENDIMENTO BOM JARDIM",
+    "codigo_tipo_unidade": 73,
+    "codigo_municipio": 230440,
+    "latitude_estabelecimento_decimo_grau": -3.790888,
+    "longitude_estabelecimento_decimo_grau": -38.624872,
+    "bairro_estabelecimento": "BOM JARDIM",
+    "data_atualizacao": "2025-09-03"
+  },
+  {
+    "codigo_cnes": 9526293,
+    "nome_fantasia": "UPA UNIDADE DE PRONTO ATENDIMENTO EDSON QUEIROZ",
+    "codigo_tipo_unidade": 73,
+    "codigo_municipio": 230440,
+    "latitude_estabelecimento_decimo_grau": -3.771279,
+    "longitude_estabelecimento_decimo_grau": -38.474536,
+    "bairro_estabelecimento": "EDSON QUEIROZ",
+    "data_atualizacao": "2025-09-03"
+  }
+]

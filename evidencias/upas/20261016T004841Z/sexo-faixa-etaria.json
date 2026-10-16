@@ -1,0 +1,179 @@
+{
+  "url": "https://integrasus.saude.ce.gov.br/api/acompanhamento-casos-upas/sexo-faixa-etaria?dataInicio=2026-10-09&dataFim=2026-10-15&tipo=&upa=&cid=&classificacaoRisco=",
+  "consultado_em_utc": "2026-10-16T00:48:44.519331+00:00",
+  "http_status": 200,
+  "content_type": "application/json;charset=UTF-8",
+  "dados": [
+    {
+      "sexo": "Feminino",
+      "faixaEtaria": "80 ou mais",
+      "quantidade": 19
+    },
+    {
+      "sexo": "Masculino",
+      "faixaEtaria": "80 ou mais",
+      "quantidade": 18
+    },
+    {
+      "sexo": "Feminino",
+      "faixaEtaria": "75 a 79 anos",
+      "quantidade": 7
+    },
+    {
+      "sexo": "Masculino",
+      "faixaEtaria": "75 a 79 anos",
+      "quantidade": 9
+    },
+    {
+      "sexo": "Feminino",
+      "faixaEtaria": "70 a 74 anos",
+      "quantidade": 2
+    },
+    {
+      "sexo": "Masculino",
+      "faixaEtaria": "70 a 74 anos",
+      "quantidade": 16
+    },
+    {
+      "sexo": "Feminino",
+      "faixaEtaria": "65 a 69 anos",
+      "quantidade": 2
+    },
+    {
+      "sexo": "Masculino",
+      "faixaEtaria": "65 a 69 anos",
+      "quantidade": 2
+    },
+    {
+      "sexo": "Feminino",
+      "faixaEtaria": "60 a 64 anos",
+      "quantidade": 9
+    },
+    {
+      "sexo": "Masculino",
+      "faixaEtaria": "60 a 64 anos",
+      "quantidade": 8
+    },
+    {
+      "sexo": "Feminino",
+      "faixaEtaria": "55 a 59 anos",
+      "quantidade": 16
+    },
+    {
+      "sexo": "Masculino",
+      "faixaEtaria": "55 a 59 anos",
+      "quantidade": 3
+    },
+    {
+      "sexo": "Feminino",
+      "faixaEtaria": "50 a 54 anos",
+      "quantidade": 11
+    },
+    {
+      "sexo": "Masculino",
+      "faixaEtaria": "50 a 54 anos",
+      "quantidade": 24
+    },
+    {
+      "sexo": "Feminino",
+      "faixaEtaria": "45 a 49 anos",
+      "quantidade": 6
+    },
+    {
+      "sexo": "Masculino",
+      "faixaEtaria": "45 a 49 anos",
+      "quantidade": 8
+    },
+    {
+      "sexo": "Feminino",
+      "faixaEtaria": "40 a 44 anos",
+      "quantidade": 9
+    },
+    {
+      "sexo": "Masculino",
+      "faixaEtaria": "40 a 44 anos",
+      "quantidade": 6
+    },
+    {
+      "sexo": "Feminino",
+      "faixaEtaria": "35 a 39 anos",
+      "quantidade": 8
+    },
+    {
+      "sexo": "Masculino",
+      "faixaEtaria": "35 a 39 anos",
+      "quantidade": 11
+    },
+    {
+      "sexo": "Feminino",
+      "faixaEtaria": "30 a 34 anos",
+      "quantidade": 22
+    },
+    {
+      "sexo": "Masculino",
+      "faixaEtaria": "30 a 34 anos",
+      "quantidade": 18
+    },
+    {
+      "sexo": "Feminino",
+      "faixaEtaria": "25 a 29 anos",
+      "quantidade": 21
+    },
+    {
+      "sexo": "Masculino",
+      "faixaEtaria": "25 a 29 anos",
+      "quantidade": 20
+    },
+    {
+      "sexo": "Feminino",
+      "faixaEtaria": "20 a 24 anos",
+      "quantidade": 20
+    },
+    {
+      "sexo": "Masculino",
+      "faixaEtaria": "20 a 24 anos",
+      "quantidade": 36
+    },
+    {
+      "sexo": "Feminino",
+      "faixaEtaria": "15 a 19 anos",
+      "quantidade": 13
+    },
+    {
+      "sexo": "Masculino",
+      "faixaEtaria": "15 a 19 anos",
+      "quantidade": 11
+    },
+    {
+      "sexo": "Feminino",
+      "faixaEtaria": "10 a 14 anos",
+      "quantidade": 5
+    },
+    {
+      "sexo": "Masculino",
+      "faixaEtaria": "10 a 14 anos",
+      "quantidade": 2
+    },
+    {
+      "sexo": "Feminino",
+      "faixaEtaria": "05 a 09 anos",
+      "quantidade": 6
+    },
+    {
+      "sexo": "Masculino",
+      "faixaEtaria": "05 a 09 anos",
+      "quantidade": 3
+    },
+    {
+      "sexo": "Feminino",
+      "faixaEtaria": "00 a 04 anos",
+      "quantidade": 25
+    },
+    {
+      "sexo": "Masculino",
+      "faixaEtaria": "00 a 04 anos",
+      "quantidade": 17
+    }
+  ],
+  "ok": true
+}

@@ -1,0 +1,27 @@
+{
+  "url": "https://integrasus.saude.ce.gov.br/api/acompanhamento-casos-upas/filtro-unidade",
+  "consultado_em_utc": "2026-10-16T00:48:42.984737+00:00",
+  "http_status": 200,
+  "content_type": "application/json;charset=UTF-8",
+  "dados": [
+    {
+      "unidade": "UPA AUTRAN NUNES"
+    },
+    {
+      "unidade": "UPA CANINDEZINHO"
+    },
+    {
+      "unidade": "UPA CONJUNTO CEARÁ"
+    },
+    {
+      "unidade": "UPA JOSE WALTER"
+    },
+    {
+      "unidade": "UPA MESSEJANA"
+    },
+    {
+      "unidade": "UPA PRAIA DO FUTURO"
+    }
+  ],
+  "ok": true
+}

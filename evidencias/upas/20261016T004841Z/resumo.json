@@ -1,0 +1,586 @@
+{
+  "upas": [
+    {
+      "unidade": "UPA AUTRAN NUNES",
+      "ultima_data_informada": "2026-10-15",
+      "atendimentos_no_periodo": 89,
+      "serie_diaria": [
+        {
+          "data": "2026-10-09",
+          "quantidade": 15
+        },
+        {
+          "data": "2026-10-10",
+          "quantidade": 18
+        },
+        {
+          "data": "2026-10-11",
+          "quantidade": 11
+        },
+        {
+          "data": "2026-10-12",
+          "quantidade": 6
+        },
+        {
+          "data": "2026-10-13",
+          "quantidade": 10
+        },
+        {
+          "data": "2026-10-14",
+          "quantidade": 9
+        },
+        {
+          "data": "2026-10-15",
+          "quantidade": 20
+        }
+      ],
+      "transferencias_no_periodo": 1,
+      "obitos_no_periodo": null
+    },
+    {
+      "unidade": "UPA CANINDEZINHO",
+      "ultima_data_informada": "2026-10-15",
+      "atendimentos_no_periodo": 80,
+      "serie_diaria": [
+        {
+          "data": "2026-10-09",
+          "quantidade": 8
+        },
+        {
+          "data": "2026-10-10",
+          "quantidade": 16
+        },
+        {
+          "data": "2026-10-11",
+          "quantidade": 10
+        },
+        {
+          "data": "2026-10-12",
+          "quantidade": 11
+        },
+        {
+          "data": "2026-10-13",
+          "quantidade": 10
+        },
+        {
+          "data": "2026-10-14",
+          "quantidade": 14
+        },
+        {
+          "data": "2026-10-15",
+          "quantidade": 11
+        }
+      ],
+      "transferencias_no_periodo": 1,
+      "obitos_no_periodo": 1
+    },
+    {
+      "unidade": "UPA CONJUNTO CEARÁ",
+      "ultima_data_informada": "2026-10-15",
+      "atendimentos_no_periodo": 74,
+      "serie_diaria": [
+        {
+          "data": "2026-10-09",
+          "quantidade": 15
+        },
+        {
+          "data": "2026-10-10",
+          "quantidade": 11
+        },
+        {
+          "data": "2026-10-11",
+          "quantidade": 6
+        },
+        {
+          "data": "2026-10-12",
+          "quantidade": 8
+        },
+        {
+          "data": "2026-10-13",
+          "quantidade": 9
+        },
+        {
+          "data": "2026-10-14",
+          "quantidade": 15
+        },
+        {
+          "data": "2026-10-15",
+          "quantidade": 10
+        }
+      ],
+      "transferencias_no_periodo": 2,
+      "obitos_no_periodo": null
+    },
+    {
+      "unidade": "UPA JOSE WALTER",
+      "ultima_data_informada": "2026-10-14",
+      "atendimentos_no_periodo": 59,
+      "serie_diaria": [
+        {
+          "data": "2026-10-09",
+          "quantidade": 2
+        },
+        {
+          "data": "2026-10-10",
+          "quantidade": 4
+        },
+        {
+          "data": "2026-10-11",
+          "quantidade": 21
+        },
+        {
+          "data": "2026-10-12",
+          "quantidade": 13
+        },
+        {
+          "data": "2026-10-13",
+          "quantidade": 10
+        },
+        {
+          "data": "2026-10-14",
+          "quantidade": 9
+        }
+      ],
+      "transferencias_no_periodo": 2,
+      "obitos_no_periodo": null
+    },
+    {
+      "unidade": "UPA MESSEJANA",
+      "ultima_data_informada": "2026-10-15",
+      "atendimentos_no_periodo": 30,
+      "serie_diaria": [
+        {
+          "data": "2026-10-09",
+          "quantidade": 5
+        },
+        {
+          "data": "2026-10-10",
+          "quantidade": 6
+        },
+        {
+          "data": "2026-10-11",
+          "quantidade": 1
+        },
+        {
+          "data": "2026-10-12",
+          "quantidade": 2
+        },
+        {
+          "data": "2026-10-13",
+          "quantidade": 8
+        },
+        {
+          "data": "2026-10-14",
+          "quantidade": 5
+        },
+        {
+          "data": "2026-10-15",
+          "quantidade": 3
+        }
+      ],
+      "transferencias_no_periodo": null,
+      "obitos_no_periodo": 1
+    },
+    {
+      "unidade": "UPA PRAIA DO FUTURO",
+      "ultima_data_informada": "2026-10-15",
+      "atendimentos_no_periodo": 81,
+      "serie_diaria": [
+        {
+          "data": "2026-10-09",
+          "quantidade": 26
+        },
+        {
+          "data": "2026-10-10",
+          "quantidade": 7
+        },
+        {
+          "data": "2026-10-11",
+          "quantidade": 13
+        },
+        {
+          "data": "2026-10-12",
+          "quantidade": 6
+        },
+        {
+          "data": "2026-10-13",
+          "quantidade": 14
+        },
+        {
+          "data": "2026-10-14",
+          "quantidade": 12
+        },
+        {
+          "data": "2026-10-15",
+          "quantidade": 3
+        }
+      ],
+      "transferencias_no_periodo": 1,
+      "obitos_no_periodo": null
+    }
+  ],
+  "atendimentos_no_periodo": 413,
+  "registros_classificacao_risco": 422,
+  "classificacao_risco": [
+    {
+      "data": "2026-10-09",
+      "mes": 10,
+      "classificacaoRisco": "BRANCO",
+      "quantidade": 1,
+      "ano": 2026,
+      "mesAux": "Outubro"
+    },
+    {
+      "data": "2026-10-09",
+      "mes": 10,
+      "classificacaoRisco": "VERDE",
+      "quantidade": 38,
+      "ano": 2026,
+      "mesAux": "Outubro"
+    },
+    {
+      "data": "2026-10-09",
+      "mes": 10,
+      "classificacaoRisco": "AMARELO",
+      "quantidade": 21,
+      "ano": 2026,
+      "mesAux": "Outubro"
+    },
+    {
+      "data": "2026-10-09",
+      "mes": 10,
+      "classificacaoRisco": "LARANJA",
+      "quantidade": 14,
+      "ano": 2026,
+      "mesAux": "Outubro"
+    },
+    {
+      "data": "2026-10-10",
+      "mes": 10,
+      "classificacaoRisco": "BRANCO",
+      "quantidade": 1,
+      "ano": 2026,
+      "mesAux": "Outubro"
+    },
+    {
+      "data": "2026-10-10",
+      "mes": 10,
+      "classificacaoRisco": "VERDE",
+      "quantidade": 37,
+      "ano": 2026,
+      "mesAux": "Outubro"
+    },
+    {
+      "data": "2026-10-10",
+      "mes": 10,
+      "classificacaoRisco": "AMARELO",
+      "quantidade": 11,
+      "ano": 2026,
+      "mesAux": "Outubro"
+    },
+    {
+      "data": "2026-10-10",
+      "mes": 10,
+      "classificacaoRisco": "LARANJA",
+      "quantidade": 14,
+      "ano": 2026,
+      "mesAux": "Outubro"
+    },
+    {
+      "data": "2026-10-11",
+      "mes": 10,
+      "classificacaoRisco": "BRANCO",
+      "quantidade": 4,
+      "ano": 2026,
+      "mesAux": "Outubro"
+    },
+    {
+      "data": "2026-10-11",
+      "mes": 10,
+      "classificacaoRisco": "VERDE",
+      "quantidade": 35,
+      "ano": 2026,
+      "mesAux": "Outubro"
+    },
+    {
+      "data": "2026-10-11",
+      "mes": 10,
+      "classificacaoRisco": "AMARELO",
+      "quantidade": 11,
+      "ano": 2026,
+      "mesAux": "Outubro"
+    },
+    {
+      "data": "2026-10-11",
+      "mes": 10,
+      "classificacaoRisco": "LARANJA",
+      "quantidade": 11,
+      "ano": 2026,
+      "mesAux": "Outubro"
+    },
+    {
+      "data": "2026-10-11",
+      "mes": 10,
+      "classificacaoRisco": "VERMELHO",
+      "quantidade": 2,
+      "ano": 2026,
+      "mesAux": "Outubro"
+    },
+    {
+      "data": "2026-10-12",
+      "mes": 10,
+      "classificacaoRisco": "BRANCO",
+      "quantidade": 3,
+      "ano": 2026,
+      "mesAux": "Outubro"
+    },
+    {
+      "data": "2026-10-12",
+      "mes": 10,
+      "classificacaoRisco": "VERDE",
+      "quantidade": 24,
+      "ano": 2026,
+      "mesAux": "Outubro"
+    },
+    {
+      "data": "2026-10-12",
+      "mes": 10,
+      "classificacaoRisco": "AMARELO",
+      "quantidade": 10,
+      "ano": 2026,
+      "mesAux": "Outubro"
+    },
+    {
+      "data": "2026-10-12",
+      "mes": 10,
+      "classificacaoRisco": "LARANJA",
+      "quantidade": 10,
+      "ano": 2026,
+      "mesAux": "Outubro"
+    },
+    {
+      "data": "2026-10-12",
+      "mes": 10,
+      "classificacaoRisco": "VERMELHO",
+      "quantidade": 2,
+      "ano": 2026,
+      "mesAux": "Outubro"
+    },
+    {
+      "data": "2026-10-13",
+      "mes": 10,
+      "classificacaoRisco": "BRANCO",
+      "quantidade": 2,
+      "ano": 2026,
+      "mesAux": "Outubro"
+    },
+    {
+      "data": "2026-10-13",
+      "mes": 10,
+      "classificacaoRisco": "VERDE",
+      "quantidade": 30,
+      "ano": 2026,
+      "mesAux": "Outubro"
+    },
+    {
+      "data": "2026-10-13",
+      "mes": 10,
+      "classificacaoRisco": "AMARELO",
+      "quantidade": 18,
+      "ano": 2026,
+      "mesAux": "Outubro"
+    },
+    {
+      "data": "2026-10-13",
+      "mes": 10,
+      "classificacaoRisco": "LARANJA",
+      "quantidade": 9,
+      "ano": 2026,
+      "mesAux": "Outubro"
+    },
+    {
+      "data": "2026-10-13",
+      "mes": 10,
+      "classificacaoRisco": "VERMELHO",
+      "quantidade": 2,
+      "ano": 2026,
+      "mesAux": "Outubro"
+    },
+    {
+      "data": "2026-10-14",
+      "mes": 10,
+      "classificacaoRisco": "BRANCO",
+      "quantidade": 2,
+      "ano": 2026,
+      "mesAux": "Outubro"
+    },
+    {
+      "data": "2026-10-14",
+      "mes": 10,
+      "classificacaoRisco": "VERDE",
+      "quantidade": 37,
+      "ano": 2026,
+      "mesAux": "Outubro"
+    },
+    {
+      "data": "2026-10-14",
+      "mes": 10,
+      "classificacaoRisco": "AMARELO",
+      "quantidade": 16,
+      "ano": 2026,
+      "mesAux": "Outubro"
+    },
+    {
+      "data": "2026-10-14",
+      "mes": 10,
+      "classificacaoRisco": "LARANJA",
+      "quantidade": 10,
+      "ano": 2026,
+      "mesAux": "Outubro"
+    },
+    {
+      "data": "2026-10-15",
+      "mes": 10,
+      "classificacaoRisco": "BRANCO",
+      "quantidade": 5,
+      "ano": 2026,
+      "mesAux": "Outubro"
+    },
+    {
+      "data": "2026-10-15",
+      "mes": 10,
+      "classificacaoRisco": "VERDE",
+      "quantidade": 19,
+      "ano": 2026,
+      "mesAux": "Outubro"
+    },
+    {
+      "data": "2026-10-15",
+      "mes": 10,
+      "classificacaoRisco": "AMARELO",
+      "quantidade": 14,
+      "ano": 2026,
+      "mesAux": "Outubro"
+    },
+    {
+      "data": "2026-10-15",
+      "mes": 10,
+      "classificacaoRisco": "LARANJA",
+      "quantidade": 7,
+      "ano": 2026,
+      "mesAux": "Outubro"
+    },
+    {
+      "data": "2026-10-15",
+      "mes": 10,
+      "classificacaoRisco": "VERMELHO",
+      "quantidade": 2,
+      "ano": 2026,
+      "mesAux": "Outubro"
+    }
+  ],
+  "classificacao_confere_com_atendimentos": false,
+  "concluido": true,
+  "coletado_em_utc": "2026-10-16T00:48:46.655295+00:00",
+  "pagina": "https://integrasus.saude.ce.gov.br/#/indicadores/indicadores-coronavirus/acompanhamento-casos-upas",
+  "inicio": "2026-10-09",
+  "fim": "2026-10-15",
+  "escopo": "Atendimentos por síndrome gripal; não é toda a demanda das UPAs nem pessoas aguardando agora.",
+  "job_atualizado_em_informado": "2026-10-16T00:02:03.000+0000",
+  "requisicoes": [
+    {
+      "url": "https://integrasus.saude.ce.gov.br/api/acompanhamento-casos-upas/filtro-data",
+      "consultado_em_utc": "2026-10-16T00:48:42.714923+00:00",
+      "http_status": 200,
+      "ok": true
+    },
+    {
+      "url": "https://integrasus.saude.ce.gov.br/api/acompanhamento-casos-upas/filtro-unidade",
+      "consultado_em_utc": "2026-10-16T00:48:42.984737+00:00",
+      "http_status": 200,
+      "ok": true
+    },
+    {
+      "url": "https://integrasus.saude.ce.gov.br/api/acompanhamento-casos-upas/unidade-ultima-atualizacao",
+      "consultado_em_utc": "2026-10-16T00:48:43.400939+00:00",
+      "http_status": 200,
+      "ok": true
+    },
+    {
+      "url": "https://integrasus.saude.ce.gov.br/api/acompanhamento-casos-upas/atendimentos?dataInicio=2026-10-09&dataFim=2026-10-15&tipo=&upa=&cid=&classificacaoRisco=",
+      "consultado_em_utc": "2026-10-16T00:48:43.749978+00:00",
+      "http_status": 200,
+      "ok": true
+    },
+    {
+      "url": "https://integrasus.saude.ce.gov.br/api/acompanhamento-casos-upas/unidade?dataInicio=2026-10-09&dataFim=2026-10-15&tipo=&upa=&cid=&classificacaoRisco=",
+      "consultado_em_utc": "2026-10-16T00:48:44.035324+00:00",
+      "http_status": 200,
+      "ok": true
+    },
+    {
+      "url": "https://integrasus.saude.ce.gov.br/api/acompanhamento-casos-upas/classificacao-risco?dataInicio=2026-10-09&dataFim=2026-10-15&tipo=&upa=&cid=&classificacaoRisco=",
+      "consultado_em_utc": "2026-10-16T00:48:44.264237+00:00",
+      "http_status": 200,
+      "ok": true
+    },
+    {
+      "url": "https://integrasus.saude.ce.gov.br/api/acompanhamento-casos-upas/sexo-faixa-etaria?dataInicio=2026-10-09&dataFim=2026-10-15&tipo=&upa=&cid=&classificacaoRisco=",
+      "consultado_em_utc": "2026-10-16T00:48:44.519331+00:00",
+      "http_status": 200,
+      "ok": true
+    },
+    {
+      "url": "https://integrasus.saude.ce.gov.br/api/acompanhamento-casos-upas/serie-historica-atendimentos?dataInicio=2026-10-09&dataFim=2026-10-15&tipo=&upa=UPA+AUTRAN+NUNES&cid=&classificacaoRisco=",
+      "consultado_em_utc": "2026-10-16T00:48:44.790205+00:00",
+      "http_status": 200,
+      "ok": true
+    },
+    {
+      "url": "https://integrasus.saude.ce.gov.br/api/acompanhamento-casos-upas/atendimentos?dataInicio=2026-10-09&dataFim=2026-10-15&tipo=&upa=UPA+AUTRAN+NUNES&cid=&classificacaoRisco=",
+      "consultado_em_utc": "2026-10-16T00:48:45.063428+00:00",
+      "http_status": 200,
+      "ok": true
+    },
+    {
+      "url": "https://integrasus.saude.ce.gov.br/api/acompanhamento-casos-upas/atendimentos?dataInicio=2026-10-09&dataFim=2026-10-15&tipo=&upa=UPA+CANINDEZINHO&cid=&classificacaoRisco=",
+      "consultado_em_utc": "2026-10-16T00:48:45.335247+00:00",
+      "http_status": 200,
+      "ok": true
+    },
+    {
+      "url": "https://integrasus.saude.ce.gov.br/api/acompanhamento-casos-upas/atendimentos?dataInicio=2026-10-09&dataFim=2026-10-15&tipo=&upa=UPA+CONJUNTO+CEAR%C3%81&cid=&classificacaoRisco=",
+      "consultado_em_utc": "2026-10-16T00:48:45.600554+00:00",
+      "http_status": 200,
+      "ok": true
+    },
+    {
+      "url": "https://integrasus.saude.ce.gov.br/api/acompanhamento-casos-upas/atendimentos?dataInicio=2026-10-09&dataFim=2026-10-15&tipo=&upa=UPA+JOSE+WALTER&cid=&classificacaoRisco=",
+      "consultado_em_utc": "2026-10-16T00:48:45.861919+00:00",
+      "http_status": 200,
+      "ok": true
+    },
+    {
+      "url": "https://integrasus.saude.ce.gov.br/api/acompanhamento-casos-upas/atendimentos?dataInicio=2026-10-09&dataFim=2026-10-15&tipo=&upa=UPA+MESSEJANA&cid=&classificacaoRisco=",
+      "consultado_em_utc": "2026-10-16T00:48:46.144517+00:00",
+      "http_status": 200,
+      "ok": true
+    },
+    {
+      "url": "https://integrasus.saude.ce.gov.br/api/acompanhamento-casos-upas/atendimentos?dataInicio=2026-10-09&dataFim=2026-10-15&tipo=&upa=UPA+PRAIA+DO+FUTURO&cid=&classificacaoRisco=",
+      "consultado_em_utc": "2026-10-16T00:48:46.371687+00:00",
+      "http_status": 200,
+      "ok": true
+    }
+  ],
+  "limitacoes": [
+    "Presença no filtro não é prova de atendimento no dia; última data por unidade é informada separadamente.",
+    "O último dia pode estar incompleto. Data de processamento não é atualização individual nem cadência garantida.",
+    "A rota de comparação retorna várias UPAs mesmo com filtro; as séries foram separadas localmente por unidade.",
+    "Médias móveis da comparação não foram reaproveitadas. Somas e cartões de cada UPA foram conciliados.",
+    "Classificação de risco pode divergir da contagem de atendimentos. Não tratamos as duas como o mesmo denominador.",
+    "Ausência de linha de transferência/óbito é null, não um zero confirmado.",
+    "Não informa ocupação de leitos, fila ao vivo, espera estimada, profissionais em plantão ou pessoas identificadas.",
+    "Rotas públicas sem contrato versionado identificado. Nenhuma atualização automática ou mudança no site foi feita."
+  ]
+}

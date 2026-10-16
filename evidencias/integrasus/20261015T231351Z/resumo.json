@@ -1,0 +1,472 @@
+{
+  "coleta_iniciada_em_utc": "2026-10-15T23:13:51.831288+00:00",
+  "coleta_finalizada_em_utc": "2026-10-15T23:14:01.542615+00:00",
+  "paineis": [
+    {
+      "id": 273,
+      "titulo": "Leitos Rede SESA - Perspectiva Central Hospitalar",
+      "pagina": "https://integrasus.saude.ce.gov.br/#/indicadores/indicadores-regulacao/perspectiva-central-hospitalar",
+      "atualizacao_job_informada": "2026-10-15T23:05:13.000+0000",
+      "metodologia": null
+    },
+    {
+      "id": 32,
+      "titulo": "Pacientes em Atendimento na Emergência - HGF",
+      "pagina": "https://integrasus.saude.ce.gov.br/#/indicadores/indicadores-hospitalares/pacientes-em-atendimento-emergencia-hgf",
+      "atualizacao_job_informada": "2026-10-15T23:03:43.000+0000",
+      "metodologia": "**1. Introdução**<br>\nResponsável por exibir os pacientes que estão alocados no leito de emergência em tempo real no Hospital Geral de Fortaleza - HGF. No painel, podemos visualizar essas informações por clínicas, diagnósticos e município de origem do paciente.\n\n**2. Atualização**<br>\nDiariamente a cada 15 minutos.\n\n**3. Opção de filtro**<br>\n_3.1 Leito Extra_<br>\nQuando selecionado, o painel exibirá apenas os pacientes em leitos extras na emergência do HGF."
+    },
+    {
+      "id": 230,
+      "titulo": "Pacientes em atendimento na emergência - HM",
+      "pagina": "https://integrasus.saude.ce.gov.br/#/indicadores/indicadores-hospitalares/pacientes-em-atendimento-emergencia-hm",
+      "atualizacao_job_informada": "2026-10-15T23:03:43.000+0000",
+      "metodologia": "**1. Introdução**<br>\nResponsável por exibir os pacientes que estão alocados no leito de emergência em tempo real no Hospital Carlos Alberto Studart Gomes Messejana. No painel, podemos visualizar essas informações por clínicas, diagnósticos e município de origem do paciente.\n\n**2. Atualização**<br>\nDiariamente a cada 15 minutos.\n\n**3. Opção de filtro**<br>\n_3.1 Leito Extra_<br>\nQuando selecionado, o painel exibirá apenas os pacientes em leitos extras na emergência do HM."
+    },
+    {
+      "id": 178,
+      "titulo": "Acompanhamento Diário de Leitos - Obstetrícia/Neonatal",
+      "pagina": "https://integrasus.saude.ce.gov.br/#/indicadores/indicadores-regulacao/acomp-diario-leitos-obstetricia-neonatal",
+      "atualizacao_job_informada": "2026-10-15T17:38:31.000+0000",
+      "metodologia": "**1. Introdução**\n\n\nEste painel foi desenvolvido para ser o veículo oficial de comunicação sobre a situação dos leitos da Rede Materno Infantil no município de Fortaleza, constituída pelas seguintes unidades:\n\n●\tHospital Geral Dr César Cals - HGCC\n\n●\tHospital e Maternidade José Martiniano de Alencar - HJMA\n\n●\tHospital Infantil Albert Sabin - HIAS\n\n●\tHospital Geral Dr Waldemar de Alcântara - HGWA\n\n●\tHospital Geral de Fortaleza - HGF\n\n●\tMaternidade Escola Assis Chateaubriand - MEAC\n\n●\tHospital e Maternidade Dra Zilda Arns Neumann - H. MULHER\n\n●\tHospital Distrital Gonzaga Mota - BARRA DO CEARÁ\n\n●\tHospital Distrital Gonzaga Mota - MESSEJANA\n\n●\tHospital Nossa Senhora da Conceição - HNSC\n\n●\tHospital São Camilo / Cura d'Ars\n \n**2. Integração dos dados**\n\nOs dados são extraídos de planilha online, alimentada diariamente pelas próprias unidades, nos períodos manhã e noite, conforme solicitação do Ofício nº 1329/2021 - SEVIR e pactuação em audiência com Ministério Público do Ceará realizada no dia 25/11/2021.\n\n**3. Atualizações**\n\nO processo de atualização do painel ocorre todos os dias a cada hora.\n\n**4. Opções de filtro**\n\n*4.1 Unidade*\n\nCom essa opção de filtro é possível selecionar todas ou apenas uma unidade específica.\n\n*4.2 Clínica*\n\nCom essa opção de filtro é possível selecionar todas ou apenas uma clínica específica.\n\n*4.3 Turno*\n\nCom essa opção de filtro é possível selecionar o turno da análise apresentada.\n\n*4.4 Data*\n\nCom essa opção de filtro é possível selecionar o dia da análise apresentada. O filtro permite análises a partir do dia 10 de dezembro de 2021.\n\n*4.5 Data do início e Data Final*\n\nCom essa opção de filtro é possível delimitar o período da análise apresentada. O filtro permite análises a partir do dia 10 de dezembro de 2021.\n\n**5. Conceitos básicos**\n\nEsta página apresenta uma visão geral da linha do tempo e leitos das unidades supracitadas, a qual está dividida em COVID-19 e NÃO COVID-19.\n\n*5.1 Fórmula de cálculo*\n\na) Taxa de ocupação: (leitos ativos - leitos vagos) / leitos ativos.\n\nb) Leitos existentes, ativos e vagos: dados informados pela unidade.\n\nc) Leitos extras: leitos ativos - leitos existentes.\n\n"
+    }
+  ],
+  "leitos_consultados_em_utc": "2026-10-15T23:13:53.477435+00:00",
+  "leitos_url": "https://integrasus.saude.ce.gov.br/api/perspectiva-central-hospitalar/informacoes-hospitalares",
+  "hospitais_fortaleza": [
+    {
+      "nome": "HELV - Hospital Estadual Leonardo da Vinci",
+      "cnes": "0086673",
+      "clinicas": [
+        {
+          "unidade": "HELV - Hospital Estadual Leonardo da Vinci",
+          "clinica": "UTI",
+          "quantidadeOcupada": 39,
+          "quantidadeLivre": 0,
+          "total": 39
+        },
+        {
+          "unidade": "HELV - Hospital Estadual Leonardo da Vinci",
+          "clinica": "CLÍNICA CIRÚRGICA",
+          "quantidadeOcupada": 45,
+          "quantidadeLivre": 5,
+          "total": 50
+        },
+        {
+          "unidade": "HELV - Hospital Estadual Leonardo da Vinci",
+          "clinica": "CLÍNICA MÉDICA",
+          "quantidadeOcupada": 62,
+          "quantidadeLivre": 0,
+          "total": 62
+        }
+      ],
+      "ocupados_no_recorte": 146,
+      "livres_no_recorte": 5,
+      "total_no_recorte": 151,
+      "taxa_ocupacao_recorte_pct": 96.69
+    },
+    {
+      "nome": "HGF - Hospital Geral de Fortaleza",
+      "cnes": "2497654",
+      "clinicas": [
+        {
+          "unidade": "HGF - Hospital Geral de Fortaleza",
+          "clinica": "UTI NEO",
+          "quantidadeOcupada": 20,
+          "quantidadeLivre": 0,
+          "total": 20
+        },
+        {
+          "unidade": "HGF - Hospital Geral de Fortaleza",
+          "clinica": "PEDIATRIA",
+          "quantidadeOcupada": 4,
+          "quantidadeLivre": 1,
+          "total": 5
+        },
+        {
+          "unidade": "HGF - Hospital Geral de Fortaleza",
+          "clinica": "UROLOGIA",
+          "quantidadeOcupada": 15,
+          "quantidadeLivre": 0,
+          "total": 15
+        },
+        {
+          "unidade": "HGF - Hospital Geral de Fortaleza",
+          "clinica": "NEUROLOGIA",
+          "quantidadeOcupada": 12,
+          "quantidadeLivre": 0,
+          "total": 12
+        },
+        {
+          "unidade": "HGF - Hospital Geral de Fortaleza",
+          "clinica": "ESTABILIZAÇÃO",
+          "quantidadeOcupada": 19,
+          "quantidadeLivre": 0,
+          "total": 19
+        },
+        {
+          "unidade": "HGF - Hospital Geral de Fortaleza",
+          "clinica": "UTI",
+          "quantidadeOcupada": 37,
+          "quantidadeLivre": 1,
+          "total": 38
+        },
+        {
+          "unidade": "HGF - Hospital Geral de Fortaleza",
+          "clinica": "UNIDADE AVC ISQUÊMICO",
+          "quantidadeOcupada": 18,
+          "quantidadeLivre": 2,
+          "total": 20
+        },
+        {
+          "unidade": "HGF - Hospital Geral de Fortaleza",
+          "clinica": "OBSTETRÍCIA",
+          "quantidadeOcupada": 29,
+          "quantidadeLivre": 1,
+          "total": 30
+        },
+        {
+          "unidade": "HGF - Hospital Geral de Fortaleza",
+          "clinica": "UCE",
+          "quantidadeOcupada": 30,
+          "quantidadeLivre": 0,
+          "total": 30
+        },
+        {
+          "unidade": "HGF - Hospital Geral de Fortaleza",
+          "clinica": "SALA CRÍTICA",
+          "quantidadeOcupada": 8,
+          "quantidadeLivre": 0,
+          "total": 8
+        },
+        {
+          "unidade": "HGF - Hospital Geral de Fortaleza",
+          "clinica": "CLÍNICA CIRÚRGICA",
+          "quantidadeOcupada": 30,
+          "quantidadeLivre": 0,
+          "total": 30
+        },
+        {
+          "unidade": "HGF - Hospital Geral de Fortaleza",
+          "clinica": "VASCULAR",
+          "quantidadeOcupada": 23,
+          "quantidadeLivre": 0,
+          "total": 23
+        },
+        {
+          "unidade": "HGF - Hospital Geral de Fortaleza",
+          "clinica": "CLÍNICA MÉDICA",
+          "quantidadeOcupada": 26,
+          "quantidadeLivre": 0,
+          "total": 26
+        },
+        {
+          "unidade": "HGF - Hospital Geral de Fortaleza",
+          "clinica": "ENF. EMERGÊNCIA",
+          "quantidadeOcupada": 37,
+          "quantidadeLivre": 0,
+          "total": 37
+        }
+      ],
+      "ocupados_no_recorte": 308,
+      "livres_no_recorte": 5,
+      "total_no_recorte": 313,
+      "taxa_ocupacao_recorte_pct": 98.4
+    },
+    {
+      "nome": "HGWA - Hospital Geral Waldemar de Alcântara",
+      "cnes": "2785900",
+      "clinicas": [
+        {
+          "unidade": "HGWA - Hospital Geral Waldemar de Alcântara",
+          "clinica": "CLÍNICA MÉDICA",
+          "quantidadeOcupada": 148,
+          "quantidadeLivre": 5,
+          "total": 153
+        },
+        {
+          "unidade": "HGWA - Hospital Geral Waldemar de Alcântara",
+          "clinica": "UCE",
+          "quantidadeOcupada": 31,
+          "quantidadeLivre": 2,
+          "total": 33
+        },
+        {
+          "unidade": "HGWA - Hospital Geral Waldemar de Alcântara",
+          "clinica": "UCINCO",
+          "quantidadeOcupada": 13,
+          "quantidadeLivre": 3,
+          "total": 16
+        },
+        {
+          "unidade": "HGWA - Hospital Geral Waldemar de Alcântara",
+          "clinica": "PEDIATRIA",
+          "quantidadeOcupada": 46,
+          "quantidadeLivre": 12,
+          "total": 58
+        },
+        {
+          "unidade": "HGWA - Hospital Geral Waldemar de Alcântara",
+          "clinica": "UTI",
+          "quantidadeOcupada": 18,
+          "quantidadeLivre": 3,
+          "total": 21
+        },
+        {
+          "unidade": "HGWA - Hospital Geral Waldemar de Alcântara",
+          "clinica": "CLÍNICA CIRÚRGICA",
+          "quantidadeOcupada": 18,
+          "quantidadeLivre": 4,
+          "total": 22
+        },
+        {
+          "unidade": "HGWA - Hospital Geral Waldemar de Alcântara",
+          "clinica": "UTI PED",
+          "quantidadeOcupada": 5,
+          "quantidadeLivre": 3,
+          "total": 8
+        },
+        {
+          "unidade": "HGWA - Hospital Geral Waldemar de Alcântara",
+          "clinica": "UCE PED",
+          "quantidadeOcupada": 8,
+          "quantidadeLivre": 0,
+          "total": 8
+        },
+        {
+          "unidade": "HGWA - Hospital Geral Waldemar de Alcântara",
+          "clinica": "AVC",
+          "quantidadeOcupada": 27,
+          "quantidadeLivre": 6,
+          "total": 33
+        },
+        {
+          "unidade": "HGWA - Hospital Geral Waldemar de Alcântara",
+          "clinica": "UTI NEO",
+          "quantidadeOcupada": 7,
+          "quantidadeLivre": 1,
+          "total": 8
+        }
+      ],
+      "ocupados_no_recorte": 321,
+      "livres_no_recorte": 39,
+      "total_no_recorte": 360,
+      "taxa_ocupacao_recorte_pct": 89.17
+    },
+    {
+      "nome": "HM - Hospital de Messejana Dr. Carlos Alberto Studart Gomes",
+      "cnes": "2479214",
+      "clinicas": [
+        {
+          "unidade": "HM - Hospital de Messejana Dr. Carlos Alberto Studart Gomes",
+          "clinica": "UTI EMERGÊNCIA (RISCO)",
+          "quantidadeOcupada": 15,
+          "quantidadeLivre": 0,
+          "total": 15
+        },
+        {
+          "unidade": "HM - Hospital de Messejana Dr. Carlos Alberto Studart Gomes",
+          "clinica": "UTI CORONARIANA",
+          "quantidadeOcupada": 8,
+          "quantidadeLivre": 0,
+          "total": 8
+        },
+        {
+          "unidade": "HM - Hospital de Messejana Dr. Carlos Alberto Studart Gomes",
+          "clinica": "SEMI-INTENSIVA",
+          "quantidadeOcupada": 14,
+          "quantidadeLivre": 0,
+          "total": 14
+        },
+        {
+          "unidade": "HM - Hospital de Messejana Dr. Carlos Alberto Studart Gomes",
+          "clinica": "UTI PNEUMO",
+          "quantidadeOcupada": 8,
+          "quantidadeLivre": 0,
+          "total": 8
+        },
+        {
+          "unidade": "HM - Hospital de Messejana Dr. Carlos Alberto Studart Gomes",
+          "clinica": "UTI CARDIO/PNEUMO",
+          "quantidadeOcupada": 6,
+          "quantidadeLivre": 1,
+          "total": 7
+        },
+        {
+          "unidade": "HM - Hospital de Messejana Dr. Carlos Alberto Studart Gomes",
+          "clinica": "ESTABILIZAÇÃO",
+          "quantidadeOcupada": 12,
+          "quantidadeLivre": 0,
+          "total": 12
+        },
+        {
+          "unidade": "HM - Hospital de Messejana Dr. Carlos Alberto Studart Gomes",
+          "clinica": "ENFERMARIA EMERGÊNCIA",
+          "quantidadeOcupada": 23,
+          "quantidadeLivre": 0,
+          "total": 23
+        }
+      ],
+      "ocupados_no_recorte": 86,
+      "livres_no_recorte": 1,
+      "total_no_recorte": 87,
+      "taxa_ocupacao_recorte_pct": 98.85
+    },
+    {
+      "nome": "HSJ - Hospital São José de Doenças Infecciosas",
+      "cnes": "2561417",
+      "clinicas": [
+        {
+          "unidade": "HSJ - Hospital São José de Doenças Infecciosas",
+          "clinica": "UNIDADE TB",
+          "quantidadeOcupada": 15,
+          "quantidadeLivre": 1,
+          "total": 16
+        },
+        {
+          "unidade": "HSJ - Hospital São José de Doenças Infecciosas",
+          "clinica": "SEMI - INTENSIVA",
+          "quantidadeOcupada": 13,
+          "quantidadeLivre": 7,
+          "total": 20
+        },
+        {
+          "unidade": "HSJ - Hospital São José de Doenças Infecciosas",
+          "clinica": "UTI",
+          "quantidadeOcupada": 8,
+          "quantidadeLivre": 0,
+          "total": 8
+        },
+        {
+          "unidade": "HSJ - Hospital São José de Doenças Infecciosas",
+          "clinica": "INFECTOLOGIA CLÍNICA",
+          "quantidadeOcupada": 54,
+          "quantidadeLivre": 8,
+          "total": 62
+        }
+      ],
+      "ocupados_no_recorte": 90,
+      "livres_no_recorte": 16,
+      "total_no_recorte": 106,
+      "taxa_ocupacao_recorte_pct": 84.91
+    },
+    {
+      "nome": "HSM - Hospital de Saúde Mental Professor Frota Pinto",
+      "cnes": "2480026",
+      "clinicas": [
+        {
+          "unidade": "HSM - Hospital de Saúde Mental Professor Frota Pinto",
+          "clinica": "PSIQUIATRIA (FEMININA)",
+          "quantidadeOcupada": 80,
+          "quantidadeLivre": 0,
+          "total": 80
+        },
+        {
+          "unidade": "HSM - Hospital de Saúde Mental Professor Frota Pinto",
+          "clinica": "UNIDADE CLÍNICA",
+          "quantidadeOcupada": 5,
+          "quantidadeLivre": 3,
+          "total": 8
+        },
+        {
+          "unidade": "HSM - Hospital de Saúde Mental Professor Frota Pinto",
+          "clinica": "PSIQUIATRIA (MASCULINA)",
+          "quantidadeOcupada": 80,
+          "quantidadeLivre": 0,
+          "total": 80
+        }
+      ],
+      "ocupados_no_recorte": 165,
+      "livres_no_recorte": 3,
+      "total_no_recorte": 168,
+      "taxa_ocupacao_recorte_pct": 98.21
+    },
+    {
+      "nome": "HUC - Hospital Universitário do Ceará",
+      "cnes": "4963938",
+      "clinicas": [
+        {
+          "unidade": "HUC - Hospital Universitário do Ceará",
+          "clinica": "CX VASCULAR",
+          "quantidadeOcupada": 30,
+          "quantidadeLivre": 0,
+          "total": 30
+        },
+        {
+          "unidade": "HUC - Hospital Universitário do Ceará",
+          "clinica": "HEMATOLOGIA",
+          "quantidadeOcupada": 16,
+          "quantidadeLivre": 0,
+          "total": 16
+        },
+        {
+          "unidade": "HUC - Hospital Universitário do Ceará",
+          "clinica": "ONCOLOGIA",
+          "quantidadeOcupada": 41,
+          "quantidadeLivre": 3,
+          "total": 44
+        }
+      ],
+      "ocupados_no_recorte": 87,
+      "livres_no_recorte": 3,
+      "total_no_recorte": 90,
+      "taxa_ocupacao_recorte_pct": 96.67
+    }
+  ],
+  "emergencias": [
+    {
+      "hospital": "HGF",
+      "disponivel": true,
+      "pacientes_acima_24h": 2,
+      "pacientes_ate_24h": 19,
+      "total_derivado_das_faixas": 21,
+      "percentual_acima_24h": 9.52,
+      "consultado_em_utc": "2026-10-15T23:13:53.732198+00:00",
+      "url": "https://integrasus.saude.ce.gov.br/api/real-time-paciente-tempo-perm-maior-24/search/tempo-permanencia?isExtra=false&idClinica=&idMunicipio=&codCid=&hospital=HGF",
+      "filtro": "isExtra=false; demais filtros vazios (padrão do painel)"
+    },
+    {
+      "hospital": "HM",
+      "disponivel": true,
+      "pacientes_acima_24h": 0,
+      "pacientes_ate_24h": 7,
+      "total_derivado_das_faixas": 7,
+      "percentual_acima_24h": 0.0,
+      "consultado_em_utc": "2026-10-15T23:13:53.983677+00:00",
+      "url": "https://integrasus.saude.ce.gov.br/api/hm-real-time-paciente-tempo-perm-maior-24/search/tempo-permanencia?isExtra=false&idClinica=&idMunicipio=&codCid=",
+      "filtro": "isExtra=false; demais filtros vazios (padrão do painel)"
+    }
+  ],
+  "maternidades": {
+    "rotulos_do_filtro": [
+      "G. BARRA",
+      "G. JOSÉ WALTER",
+      "G. MESSEJANA",
+      "H. MULHER",
+      "HGCC",
+      "HGF",
+      "HGWA",
+      "HIAS",
+      "HJMA",
+      "HNSC",
+      "HSC/CURA D'ARS",
+      "MEAC",
+      "MESSEJANA"
+    ],
+    "intervalo_da_base": [
+      {
+        "dataMin": "10/12/2021",
+        "dataMax": "15/10/2026",
+        "leitosAtivos": 0
+      }
+    ],
+    "observacao": "Presença no filtro não comprova que cada unidade informou dados no último dia. Rotulagens ambíguas não foram unificadas automaticamente."
+  },
+  "limitacoes": [
+    "Totais de leitos cobrem somente as clínicas retornadas pela fonte, não necessariamente o hospital inteiro.",
+    "Horário do job indica atualização do processamento; a API não fornece atualização individual de cada leito.",
+    "Leitos livres são o estado informado pela fonte, não garantia de vaga acessível ou decisão de regulação.",
+    "Cadência de 15 minutos para emergência é informada na metodologia; esta execução não comprova disponibilidade contínua.",
+    "Rotas públicas do portal não têm contrato versionado identificado; mudanças exigem revisão do coletor."
+  ]
+}

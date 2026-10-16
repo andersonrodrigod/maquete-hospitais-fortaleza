@@ -1,0 +1,255 @@
+{
+  "url": "https://integrasus.saude.ce.gov.br/api/acompanhamento-casos-upas/serie-historica-atendimentos?dataInicio=2026-10-09&dataFim=2026-10-15&tipo=&upa=UPA+AUTRAN+NUNES&cid=&classificacaoRisco=",
+  "consultado_em_utc": "2026-10-16T00:48:44.790205+00:00",
+  "http_status": 200,
+  "content_type": "application/json;charset=UTF-8",
+  "dados": [
+    {
+      "data": "09/10/2026",
+      "unidade": "UPA AUTRAN NUNES",
+      "quantidade": 15,
+      "mediaMovel": 15.0
+    },
+    {
+      "data": "09/10/2026",
+      "unidade": "UPA CANINDEZINHO",
+      "quantidade": 8,
+      "mediaMovel": 11.5
+    },
+    {
+      "data": "09/10/2026",
+      "unidade": "UPA CONJUNTO CEARÁ",
+      "quantidade": 15,
+      "mediaMovel": 12.67
+    },
+    {
+      "data": "09/10/2026",
+      "unidade": "UPA JOSE WALTER",
+      "quantidade": 2,
+      "mediaMovel": 10.0
+    },
+    {
+      "data": "09/10/2026",
+      "unidade": "UPA MESSEJANA",
+      "quantidade": 5,
+      "mediaMovel": 9.0
+    },
+    {
+      "data": "09/10/2026",
+      "unidade": "UPA PRAIA DO FUTURO",
+      "quantidade": 26,
+      "mediaMovel": 11.84
+    },
+    {
+      "data": "10/10/2026",
+      "unidade": "UPA AUTRAN NUNES",
+      "quantidade": 18,
+      "mediaMovel": 12.72
+    },
+    {
+      "data": "10/10/2026",
+      "unidade": "UPA CANINDEZINHO",
+      "quantidade": 16,
+      "mediaMovel": 12.86
+    },
+    {
+      "data": "10/10/2026",
+      "unidade": "UPA CONJUNTO CEARÁ",
+      "quantidade": 11,
+      "mediaMovel": 13.29
+    },
+    {
+      "data": "10/10/2026",
+      "unidade": "UPA JOSE WALTER",
+      "quantidade": 4,
+      "mediaMovel": 11.72
+    },
+    {
+      "data": "10/10/2026",
+      "unidade": "UPA MESSEJANA",
+      "quantidade": 6,
+      "mediaMovel": 12.29
+    },
+    {
+      "data": "10/10/2026",
+      "unidade": "UPA PRAIA DO FUTURO",
+      "quantidade": 7,
+      "mediaMovel": 12.58
+    },
+    {
+      "data": "11/10/2026",
+      "unidade": "UPA AUTRAN NUNES",
+      "quantidade": 11,
+      "mediaMovel": 10.43
+    },
+    {
+      "data": "11/10/2026",
+      "unidade": "UPA CANINDEZINHO",
+      "quantidade": 10,
+      "mediaMovel": 9.29
+    },
+    {
+      "data": "11/10/2026",
+      "unidade": "UPA CONJUNTO CEARÁ",
+      "quantidade": 6,
+      "mediaMovel": 7.86
+    },
+    {
+      "data": "11/10/2026",
+      "unidade": "UPA JOSE WALTER",
+      "quantidade": 21,
+      "mediaMovel": 9.29
+    },
+    {
+      "data": "11/10/2026",
+      "unidade": "UPA MESSEJANA",
+      "quantidade": 1,
+      "mediaMovel": 8.86
+    },
+    {
+      "data": "11/10/2026",
+      "unidade": "UPA PRAIA DO FUTURO",
+      "quantidade": 13,
+      "mediaMovel": 9.86
+    },
+    {
+      "data": "12/10/2026",
+      "unidade": "UPA AUTRAN NUNES",
+      "quantidade": 6,
+      "mediaMovel": 9.72
+    },
+    {
+      "data": "12/10/2026",
+      "unidade": "UPA CANINDEZINHO",
+      "quantidade": 11,
+      "mediaMovel": 9.72
+    },
+    {
+      "data": "12/10/2026",
+      "unidade": "UPA CONJUNTO CEARÁ",
+      "quantidade": 8,
+      "mediaMovel": 9.43
+    },
+    {
+      "data": "12/10/2026",
+      "unidade": "UPA JOSE WALTER",
+      "quantidade": 13,
+      "mediaMovel": 10.43
+    },
+    {
+      "data": "12/10/2026",
+      "unidade": "UPA MESSEJANA",
+      "quantidade": 2,
+      "mediaMovel": 7.72
+    },
+    {
+      "data": "12/10/2026",
+      "unidade": "UPA PRAIA DO FUTURO",
+      "quantidade": 6,
+      "mediaMovel": 8.43
+    },
+    {
+      "data": "13/10/2026",
+      "unidade": "UPA AUTRAN NUNES",
+      "quantidade": 10,
+      "mediaMovel": 8.0
+    },
+    {
+      "data": "13/10/2026",
+      "unidade": "UPA CANINDEZINHO",
+      "quantidade": 10,
+      "mediaMovel": 8.58
+    },
+    {
+      "data": "13/10/2026",
+      "unidade": "UPA CONJUNTO CEARÁ",
+      "quantidade": 9,
+      "mediaMovel": 8.29
+    },
+    {
+      "data": "13/10/2026",
+      "unidade": "UPA JOSE WALTER",
+      "quantidade": 10,
+      "mediaMovel": 8.58
+    },
+    {
+      "data": "13/10/2026",
+      "unidade": "UPA MESSEJANA",
+      "quantidade": 8,
+      "mediaMovel": 7.86
+    },
+    {
+      "data": "13/10/2026",
+      "unidade": "UPA PRAIA DO FUTURO",
+      "quantidade": 14,
+      "mediaMovel": 9.58
+    },
+    {
+      "data": "14/10/2026",
+      "unidade": "UPA AUTRAN NUNES",
+      "quantidade": 9,
+      "mediaMovel": 10.0
+    },
+    {
+      "data": "14/10/2026",
+      "unidade": "UPA CANINDEZINHO",
+      "quantidade": 14,
+      "mediaMovel": 10.58
+    },
+    {
+      "data": "14/10/2026",
+      "unidade": "UPA CONJUNTO CEARÁ",
+      "quantidade": 15,
+      "mediaMovel": 11.29
+    },
+    {
+      "data": "14/10/2026",
+      "unidade": "UPA JOSE WALTER",
+      "quantidade": 9,
+      "mediaMovel": 11.29
+    },
+    {
+      "data": "14/10/2026",
+      "unidade": "UPA MESSEJANA",
+      "quantidade": 5,
+      "mediaMovel": 10.58
+    },
+    {
+      "data": "14/10/2026",
+      "unidade": "UPA PRAIA DO FUTURO",
+      "quantidade": 12,
+      "mediaMovel": 11.15
+    },
+    {
+      "data": "15/10/2026",
+      "unidade": "UPA AUTRAN NUNES",
+      "quantidade": 20,
+      "mediaMovel": 12.0
+    },
+    {
+      "data": "15/10/2026",
+      "unidade": "UPA CANINDEZINHO",
+      "quantidade": 11,
+      "mediaMovel": 12.29
+    },
+    {
+      "data": "15/10/2026",
+      "unidade": "UPA CONJUNTO CEARÁ",
+      "quantidade": 10,
+      "mediaMovel": 11.72
+    },
+    {
+      "data": "15/10/2026",
+      "unidade": "UPA MESSEJANA",
+      "quantidade": 3,
+      "mediaMovel": 10.0
+    },
+    {
+      "data": "15/10/2026",
+      "unidade": "UPA PRAIA DO FUTURO",
+      "quantidade": 3,
+      "mediaMovel": 9.15
+    }
+  ],
+  "ok": true
+}
